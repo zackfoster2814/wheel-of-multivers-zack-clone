@@ -1,0 +1,38 @@
+[
+  {
+    "name": "test",
+    "race": "Vampire"
+  },
+  {
+    "name": "test",
+    "race": "Human"
+  },
+  {
+    "name": "test",
+    "race": "Skeleton"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reptile"
+  },
+  {
+    "name": "GUEST",
+    "race": "Dwarf"
+  },
+  {
+    "name": "test user 1",
+    "race": "Primordial Being"
+  },
+  {
+    "name": "user 3",
+    "race": "Moon-touched"
+  },
+  {
+    "name": "test user 1",
+    "race": "Reptile"
+  },
+  {
+    "name": "test user 2",
+    "race": "Dragon"
+  }
+]
