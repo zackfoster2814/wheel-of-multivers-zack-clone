@@ -1,4 +1,5 @@
 import { _decorator, Component, Node, tween, Vec3, RichText, Graphics, UITransform, Color, Vec2, Label, EditBox, native } from 'cc';
+import { raceSections, allianceSections, rizzLevelSelections, goblinHordeSelections, humanSkinSelections } from '../Data/WheelData/WheelData';
 const { ccclass, property } = _decorator;
 
 @ccclass('RaceWheelComponent')
@@ -7,7 +8,13 @@ export class RaceWheelComponent extends Component {
     wheel: Node | null = null;  // Vòng quay
 
     @property(RichText)
-    resultText: RichText | null = null; // Nhãn hiển thị kết quả
+    resultName: RichText | null = null; // Nhãn hiển thị kết quả
+    @property(RichText)
+    resultSubrace: RichText | null = null; // Nhãn hiển thị kết quả
+    @property(RichText)
+    resultAlliance: RichText | null = null; // Nhãn hiển thị kết quả
+    @property(RichText)
+    resultRizz: RichText | null = null; // Nhãn hiển thị kết quả
     
     @property(EditBox)
     nameInput: EditBox | null = null; // Ô nhập tên nhân vật
@@ -15,42 +22,40 @@ export class RaceWheelComponent extends Component {
     isRolling: boolean = false;
     characterList: { name: string, race: string }[] = []; // Danh sách lưu nhân vật
 
-    private sections = [
-        { name: 'Goblin', weight: 5, color: "#FF0000" },      // Đỏ
-        { name: 'Gnome', weight: 5, color: "#FFA500" },       // Cam
-        { name: 'Human', weight: 5, color: "#FFFF00" },       // Vàng
-        { name: 'Dwarf', weight: 5, color: "#008000" },       // Xanh lá
-        { name: 'Merfolk', weight: 4, color: "#00FFFF" },     // Xanh dương nhạt
-        { name: 'Skeleton', weight: 4, color: "#800080" },    // Tím
-        { name: 'Troll', weight: 5, color: "#FFC0CB" },       // Hồng
-        { name: 'Reptile', weight: 5, color: "#A52A2A" },     // Nâu
-        { name: 'Orc', weight: 4.5, color: "#0000FF" },       // Xanh dương
-        { name: 'Dryad', weight: 4, color: "#2E8B57" },       // Xanh lục đậm
-        { name: 'Elf', weight: 4, color: "#4682B4" },         // Xanh thép
-        { name: 'Spirit', weight: 3.5, color: "#9400D3" },    // Tím đậm
-        { name: 'Werebeast', weight: 3.5, color: "#FF69B4" }, // Hồng đậm
-        { name: 'Vampire', weight: 3.5, color: "#C71585" },   // Hồng mận
-        { name: 'Hybrid', weight: 3, color: "#8B4513" },      // Nâu đất
-        { name: 'Cyborg', weight: 4, color: "#708090" },      // Xám xanh
-        { name: 'Giant', weight: 4, color: "#B22222" },       // Đỏ nâu
-        { name: 'Dragon', weight: 4, color: "#FF4500" },      // Cam đỏ
-        { name: 'Moon-touched', weight: 3.5, color: "#FFD700" }, // Vàng kim
-        { name: 'Angel', weight: 3.5, color: "#E6E6FA" },     // Tím nhạt
-        { name: 'Demi-God', weight: 2.5, color: "#D2691E" },  // Nâu sẫm
-        { name: 'Primordial Being', weight: 3, color: "#DC143C" }, // Đỏ tươi
-        { name: 'Reincarnator', weight: 3.5, color: "#ADFF2F" }, // Xanh lá sáng
-        { name: 'Mythical Beasts', weight: 3, color: "#6495ED" }, // Xanh dương sáng
-        { name: 'Demon', weight: 2.5, color: "#4B0082" },     // Chàm
-        { name: 'God', weight: 2.5, color: "#FFFFFF" }        // Trắng
-    ];
+    private raceSections = raceSections;
+    private allianceSections = allianceSections;
+    private rizzLevelSelections = rizzLevelSelections;
+    private goblinHordeSelections = goblinHordeSelections;
+    private humanSkinSelections = humanSkinSelections;
+    private sections = [];
+    private wheelNow: number = 0;
+
+    private race: string;
+    private subrace: string;
+    private alliance: string;
+    private rizz: string;
+    private rizzPoint: number;
 
     start() {
         this.drawWheel();
     }
 
-    drawWheel() {
+    drawWheel() {   
         if (!this.wheel) return;
-    
+
+        this.wheel.removeAllChildren();
+
+        if (this.wheelNow == 0) {
+            this.sections = this.raceSections;
+        } else if (this.wheelNow === 1) {
+            this.sections = this.allianceSections;
+        } else if (this.wheelNow === 10001) {
+            this.sections = this.goblinHordeSelections;
+        } else if (this.wheelNow === 10002) {
+            this.sections = this.humanSkinSelections;
+        } else if (this.wheelNow ===     10008) {
+            this.sections = this.rizzLevelSelections;
+        }
         const graphics = this.wheel.getComponent(Graphics) || this.wheel.addComponent(Graphics);
         graphics.clear();
     
@@ -130,7 +135,7 @@ export class RaceWheelComponent extends Component {
         if (this.isRolling){
             return;
         }
-        if (!this.wheel || !this.resultText) return;
+        if (!this.wheel || !this.resultName) return;
         this.isRolling = true;
         const randomAngle = Math.random() * 360;
         const extraRotations = 5;
@@ -154,24 +159,81 @@ export class RaceWheelComponent extends Component {
             const angleStep = (section.weight / totalWeight) * 360;
             cumulativeAngle += angleStep;
             if (randomAngle <= cumulativeAngle) {
-                const rolledRace = section.name;
-                this.resultText.string = `<color=#FF4500>${rolledRace}</color>`;
+                let rolledResult = section.name;
+                let resultId = section.id;
 
-                 const enteredName = this.nameInput?.string || "GUEST";
-                 if (enteredName) {
-                     this.saveCharacter(enteredName, rolledRace);
-                     this.nameInput.string = ""; 
-                 }
- 
-                 this.resetWheel();
-                 this.isRolling = false;
-                 break;
+                switch (this.wheelNow) {
+                    case 0:
+                        this.resultName.string = `<color=#FF4500>${rolledResult}</color>`;
+                        this.race = rolledResult;
+
+                        this.wheelNow = 10008;
+                        this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        this.drawWheel();
+
+                        // if (resultId === '01') {
+                        //     this.wheelNow = 10001;
+                        //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        //     this.drawWheel();
+                        // } else if (resultId === '03') {
+                        //     this.wheelNow = 10002;
+                        //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        //     this.drawWheel();
+                        // } else if (resultId === '11') {
+                        //     this.wheelNow = 10008;
+                        //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        //     this.drawWheel();
+                        // } else  {
+                        //     this.wheelNow = 1;
+                        //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        //     this.drawWheel();
+                        // }
+                        break;
+                    case 1:
+                        this.resultAlliance.string = `<color=#FF4500>${rolledResult}</color>`;
+                        this.alliance = rolledResult;
+                        this.wheelNow = 2;
+                        this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        this.drawWheel();
+                        const enteredName = this.nameInput?.string || "GUEST";
+                        if (enteredName) {
+                            this.saveCharacter(enteredName, this.race, this.alliance, this.subrace, this.rizzPoint);
+                            this.nameInput.string = ""; 
+                            this.resetWheel();
+                        }
+                        break;
+                    case 10001:
+                        this.resultSubrace.string = `<color=#FF4500>${rolledResult}</color>`;
+                        this.subrace = rolledResult;
+                        this.wheelNow = 1;
+                        this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        this.drawWheel();
+                    case 10002:
+                        this.resultSubrace.string = `<color=#FF4500>${rolledResult}</color>`;
+                        this.subrace = rolledResult;
+                        this.wheelNow = 1;
+                        this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        this.drawWheel();
+                    case 10008:
+                        this.resultRizz.string = `<color=#FF4500>${rolledResult}</color>`;
+                        this.rizz = rolledResult;
+                        this.rizzPoint = section.point;
+                        this.wheelNow = 1;
+                        this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        this.drawWheel();
+                    default: 
+                        break;
+                }
+    
+     
+                this.isRolling = false;
+                break;
             }
         }
     }
 
-    saveCharacter(name: string, race: string) {
-        const character = { name, race };
+    saveCharacter(name: string, race: string, alliance: string, subrace: any, rizz?: number) {
+        const character = { name, race, alliance, subrace, rizz };
     
         console.log("Saved Character:", character);
     
@@ -198,8 +260,22 @@ export class RaceWheelComponent extends Component {
         if (this.wheel) {
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
         }
-        if (this.resultText) {
-            this.resultText.string = "";
+        this.wheelNow = 0;
+        this.drawWheel();
+        if (this.resultName) {
+            this.resultName.string = "";
+        }
+        if (this.resultAlliance) {
+            this.resultAlliance.string = "";
+        }
+
+        
+        if (this.resultSubrace) {
+            this.resultSubrace.string = "";
+        }
+
+        if (this.resultRizz) {
+            this.resultRizz.string = "";
         }
     }
 }

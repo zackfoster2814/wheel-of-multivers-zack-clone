@@ -1,38 +1,438 @@
 [
   {
-    "name": "test",
-    "race": "Vampire"
-  },
-  {
-    "name": "test",
-    "race": "Human"
-  },
-  {
-    "name": "test",
-    "race": "Skeleton"
+    "name": "GUEST",
+    "race": "Goblin",
+    "alliance": "Sun"
   },
   {
     "name": "GUEST",
-    "race": "Reptile"
+    "race": "God",
+    "alliance": "Sun"
   },
   {
     "name": "GUEST",
-    "race": "Dwarf"
+    "race": "Werebeast",
+    "alliance": "Sun",
+    "rizz": 4
   },
   {
-    "name": "test user 1",
-    "race": "Primordial Being"
+    "name": "GUEST",
+    "race": "Troll",
+    "alliance": "Sun"
   },
   {
-    "name": "user 3",
-    "race": "Moon-touched"
+    "name": "GUEST",
+    "race": "Hybrid",
+    "alliance": "Sun"
   },
   {
-    "name": "test user 1",
-    "race": "Reptile"
+    "name": "GUEST",
+    "race": "Dragon",
+    "alliance": "Moon"
   },
   {
-    "name": "test user 2",
-    "race": "Dragon"
+    "name": "GUEST",
+    "race": "Merfolk",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Cyborg",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Werebeast",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Gnome",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Demon",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "God",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Gnome",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Troll",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Dragon",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Spirit",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reincarnator",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Dryad",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Vampire",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Merfolk",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Mythical Beasts",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Spirit",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Moon-touched",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Mythical Beasts",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Werebeast",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reptile",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Orc",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Primordial Being",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Orc",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Goblin",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Cyborg",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Merfolk",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reptile",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Orc",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reincarnator",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "God",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Moon-touched",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reptile",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Troll",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Primordial Being",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Skeleton",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Moon-touched",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Angel",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Angel",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Moon-touched",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reptile",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reptile",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Orc",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Angel",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Skeleton",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Merfolk",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Moon-touched",
+    "alliance": "Moon",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Werebeast",
+    "alliance": "Moon",
+    "subrace": "500"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reptile",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Elf",
+    "alliance": "Moon",
+    "subrace": "Yellow"
+  },
+  {
+    "name": "GUEST",
+    "race": "Merfolk",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Demi-God",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Dwarf",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Troll",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Elf",
+    "alliance": "Moon"
+  },
+  {
+    "name": "GUEST",
+    "race": "Dragon",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Reincarnator",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Orc",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Goblin",
+    "alliance": "Moon",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Dragon",
+    "alliance": "Moon",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Spirit",
+    "alliance": "Sun",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Cyborg",
+    "alliance": "Sun",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Spirit",
+    "alliance": "Sun",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "God",
+    "alliance": "Moon",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Werebeast",
+    "alliance": "Sun",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Merfolk",
+    "alliance": "Moon",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Elf",
+    "alliance": "Sun",
+    "subrace": "Smooth"
+  },
+  {
+    "name": "GUEST",
+    "race": "Troll",
+    "alliance": "Sun",
+    "subrace": "Smooth",
+    "rizz": 5
+  },
+  {
+    "name": "GUEST",
+    "race": "Demi-God",
+    "alliance": "Moon",
+    "subrace": "Knows some pick-up lines",
+    "rizz": 4
+  },
+  {
+    "name": "GUEST",
+    "race": "Cyborg",
+    "alliance": "Sun",
+    "subrace": "Incel",
+    "rizz": 1
+  },
+  {
+    "name": "GUEST",
+    "race": "Demon",
+    "alliance": "Sun",
+    "subrace": "Smooth",
+    "rizz": 5
+  },
+  {
+    "name": "GUEST",
+    "race": "Orc",
+    "alliance": "Sun",
+    "rizz": 3
+  },
+  {
+    "name": "GUEST",
+    "race": "Dryad",
+    "alliance": "Sun",
+    "rizz": 3
   }
 ]
