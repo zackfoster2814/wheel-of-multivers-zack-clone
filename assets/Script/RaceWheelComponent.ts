@@ -1,5 +1,29 @@
 import { _decorator, Component, Node, tween, Vec3, RichText, Graphics, UITransform, Color, Vec2, Label, EditBox, native } from 'cc';
-import { raceSections, allianceSections, rizzLevelSelections, goblinHordeSelections, humanSkinSelections } from '../Data/WheelData/WheelData';
+import { raceSections,
+    allianceSections,
+    elfSelections,
+    rizzLevelSelections,
+    goblinHordeSelections,
+    cyborgGoblinHordeSelections,
+    humanSkinSelections,
+    mythicalBeastSelections,
+    dragonSelections,
+    cyberFusionSelections,
+    primordialBeingSelections,
+    spiritSelections,
+    werebeastSelections,
+    tsukiBlessingSelections,
+    demiGodGiftsSelections,
+    greekGodGiftsSelections,
+    ancientGodGiftsSelections,
+    demonSinsSelections,
+    hybridTypesSelections,
+    godsSelections,
+    followerCountsSelections,
+    vampireBodyCountSelections,
+    dwarfTypesSelections,
+    angelRanksSelections,
+    reincarnatorsSelections  } from '../Data/WheelData/WheelData';
 const { ccclass, property } = _decorator;
 
 @ccclass('RaceWheelComponent')
@@ -27,6 +51,27 @@ export class RaceWheelComponent extends Component {
     private rizzLevelSelections = rizzLevelSelections;
     private goblinHordeSelections = goblinHordeSelections;
     private humanSkinSelections = humanSkinSelections;
+    private elfSelections = elfSelections;
+    private cyborgGoblinHordeSelections = cyborgGoblinHordeSelections;
+    private mythicalBeastSelections = mythicalBeastSelections;
+    private dragonSelections = dragonSelections;
+    private cyberFusionSelections = cyberFusionSelections;
+    private primordialBeingSelections = primordialBeingSelections;
+    private spiritSelections = spiritSelections;
+    private werebeastSelections = werebeastSelections;
+    private tsukiBlessingSelections = tsukiBlessingSelections;
+    private demiGodGiftsSelections = demiGodGiftsSelections;
+    private greekGodGiftsSelections = greekGodGiftsSelections;
+    private ancientGodGiftsSelections = ancientGodGiftsSelections;
+    private demonSinsSelections = demonSinsSelections;
+    private hybridTypesSelections = hybridTypesSelections;
+    private godsSelections = godsSelections;
+    private followerCountsSelections = followerCountsSelections;
+    private vampireBodyCountSelections = vampireBodyCountSelections;
+    private dwarfTypesSelections = dwarfTypesSelections;
+    private angelRanksSelections = angelRanksSelections;
+    private reincarnatorsSelection = reincarnatorsSelections;
+    
     private sections = [];
     private wheelNow: number = 0;
 
@@ -53,8 +98,14 @@ export class RaceWheelComponent extends Component {
             this.sections = this.goblinHordeSelections;
         } else if (this.wheelNow === 10002) {
             this.sections = this.humanSkinSelections;
-        } else if (this.wheelNow ===     10008) {
+        } else if (this.wheelNow === 10006) {
+            this.sections = this.dragonSelections;
+        } else if (this.wheelNow === 10007) {
+            this.sections = this.elfSelections;
+        } else if (this.wheelNow === 10008) {
             this.sections = this.rizzLevelSelections;
+        } else if (this.wheelNow === 10016) {
+            this.sections = this.cyberFusionSelections;
         }
         const graphics = this.wheel.getComponent(Graphics) || this.wheel.addComponent(Graphics);
         graphics.clear();
@@ -95,8 +146,8 @@ export class RaceWheelComponent extends Component {
         const textNode = new Node();
         const label = textNode.addComponent(Label);
         label.string = text;
-        label.fontSize = 150; 
-        label.lineHeight = 100;
+        label.fontSize = 180; 
+        label.lineHeight = 150;
         label.color = new Color(0, 0, 0); // Màu đen
     
         textNode.setPosition(x, y);
@@ -167,9 +218,9 @@ export class RaceWheelComponent extends Component {
                         this.resultName.string = `<color=#FF4500>${rolledResult}</color>`;
                         this.race = rolledResult;
 
-                        this.wheelNow = 10008;
-                        this.wheel.eulerAngles = new Vec3(0, 0, 0);
-                        this.drawWheel();
+                        // this.wheelNow = 1;
+                        // this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        // this.drawWheel();
 
                         // if (resultId === '01') {
                         //     this.wheelNow = 10001;
@@ -184,43 +235,70 @@ export class RaceWheelComponent extends Component {
                         //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
                         //     this.drawWheel();
                         // } else  {
-                        //     this.wheelNow = 1;
-                        //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
-                        //     this.drawWheel();
+                            this.wheelNow = 1;
+                            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                            this.drawWheel();
                         // }
                         break;
                     case 1:
                         this.resultAlliance.string = `<color=#FF4500>${rolledResult}</color>`;
                         this.alliance = rolledResult;
-                        this.wheelNow = 2;
+                        this.wheelNow = 10001;
                         this.wheel.eulerAngles = new Vec3(0, 0, 0);
                         this.drawWheel();
                         const enteredName = this.nameInput?.string || "GUEST";
                         if (enteredName) {
                             this.saveCharacter(enteredName, this.race, this.alliance, this.subrace, this.rizzPoint);
                             this.nameInput.string = ""; 
-                            this.resetWheel();
+                            // this.resetWheel();
                         }
                         break;
                     case 10001:
                         this.resultSubrace.string = `<color=#FF4500>${rolledResult}</color>`;
                         this.subrace = rolledResult;
-                        this.wheelNow = 1;
+                        // this.wheelNow = 1;
+                        this.wheelNow = 10002;
                         this.wheel.eulerAngles = new Vec3(0, 0, 0);
                         this.drawWheel();
+                        break;
                     case 10002:
-                        this.resultSubrace.string = `<color=#FF4500>${rolledResult}</color>`;
-                        this.subrace = rolledResult;
-                        this.wheelNow = 1;
+                        // this.resultSubrace.string = `<color=#FF4500>${rolledResult}</color>`;
+                        // this.subrace = rolledResult;
+                        this.wheelNow = 10006;
                         this.wheel.eulerAngles = new Vec3(0, 0, 0);
                         this.drawWheel();
+                        break;
+                    case 10006:
+                        // this.resultRizz.string = `<color=#FF4500>${rolledResult}</color>`;
+                        // this.rizz = rolledResult;
+                        // this.rizzPoint = section.point;
+                        this.wheelNow = 10007;
+                        this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                        this.drawWheel();
+                        break;
+                    case 10007:
+                            // this.resultRizz.string = `<color=#FF4500>${rolledResult}</color>`;
+                            // this.rizz = rolledResult;
+                            // this.rizzPoint = section.point;
+                            this.wheelNow = 10008;
+                            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                            this.drawWheel();
+                            break;
                     case 10008:
-                        this.resultRizz.string = `<color=#FF4500>${rolledResult}</color>`;
-                        this.rizz = rolledResult;
-                        this.rizzPoint = section.point;
-                        this.wheelNow = 1;
+                        // this.resultRizz.string = `<color=#FF4500>${rolledResult}</color>`;
+                        // this.rizz = rolledResult;
+                        // this.rizzPoint = section.point;
+                        this.wheelNow = 10016;
                         this.wheel.eulerAngles = new Vec3(0, 0, 0);
                         this.drawWheel();
+                        break;
+                    case 10016:
+                        // this.resultRizz.string = `<color=#FF4500>${rolledResult}</color>`;
+                        // this.rizz = rolledResult;
+                        // this.rizzPoint = section.point;
+                        this.wheelNow = 0;
+                        this.drawWheel();
+                        this.resetWheel();
                     default: 
                         break;
                 }
