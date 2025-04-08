@@ -32,16 +32,16 @@ export class RaceWheelComponent extends Component {
     wheel: Node | null = null;  // Vòng quay
 
     @property(RichText)
-    resultName: RichText | null = null; // Nhãn hiển thị kết quả
+    resultName: RichText | null = null; 
     @property(RichText)
-    resultSubrace: RichText | null = null; // Nhãn hiển thị kết quả
+    resultSubrace: RichText | null = null;
     @property(RichText)
-    resultAlliance: RichText | null = null; // Nhãn hiển thị kết quả
+    resultAlliance: RichText | null = null; 
     @property(RichText)
-    resultRizz: RichText | null = null; // Nhãn hiển thị kết quả
+    resultRizz: RichText | null = null;
     
     @property(EditBox)
-    nameInput: EditBox | null = null; // Ô nhập tên nhân vật
+    nameInput: EditBox | null = null; 
 
     isRolling: boolean = false;
     characterList: { name: string, race: string }[] = []; // Danh sách lưu nhân vật
@@ -89,6 +89,64 @@ export class RaceWheelComponent extends Component {
         if (!this.wheel) return;
 
         this.wheel.removeAllChildren();
+
+        // Race wheel
+        if (this.wheelNow == 0) {
+            this.sections = this.raceSections;
+        } 
+        // ---- END Race wheel ----
+
+        // Sub race wheel
+        // Goblin
+        else if (this.wheelNow === 10001) {
+            this.sections = this.goblinHordeSelections;
+        } 
+        // Human
+        else if (this.wheelNow === 10002) {
+            this.sections = this.humanSkinSelections;
+        } 
+        // Dwarf
+        else if (this.wheelNow === 10003) {
+            this.sections = this.dwarfTypesSelections;
+        }
+        // Bone Lineage
+        else if (this.wheelNow === 10004) {
+            this.sections = this.raceSections;
+        }
+
+        // ---- End Sub race wheel
+        
+        // Trait 
+        // Alliance
+
+        // Archetype
+
+        // stat
+        // Strength
+
+        // Speed
+
+        // IQ
+
+        // BIQ
+
+        // Durability
+
+        // Martial Arts
+
+        // Weapon Mastery
+
+        // Rizz level
+
+        // Weapon
+
+        // Gear
+
+        // Power count
+
+        // Power
+
+        // Char dev
 
         if (this.wheelNow == 0) {
             this.sections = this.raceSections;
