@@ -631,5 +631,16 @@
     "name": "GUEST",
     "race": "Human",
     "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Giant",
+    "alliance": "Orc"
+  },
+  {
+    "name": "GUEST",
+    "race": "Mythical Beasts",
+    "alliance": "Reincarnator",
+    "subrace": "5000"
   }
 ]
