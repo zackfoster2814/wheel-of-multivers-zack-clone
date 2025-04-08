@@ -24,7 +24,8 @@ import { raceSections,
     dwarfTypesSelections,
     angelRanksSelections,
     reincarnatorsSelections,
-    trollTypeSelections
+    trollTypeSelections,
+    reptileTypeSelections
   } from '../Data/WheelData/WheelData';
 const { ccclass, property } = _decorator;
 
@@ -387,23 +388,23 @@ export class RaceWheelComponent extends Component {
                         // this.wheel.eulerAngles = new Vec3(0, 0, 0);
                         // this.drawWheel();
 
-                        // if (resultId === '01') {
-                        //     this.wheelNow = 10001;
-                        //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
-                        //     this.drawWheel();
-                        // } else if (resultId === '03') {
-                        //     this.wheelNow = 10002;
-                        //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
-                        //     this.drawWheel();
-                        // } else if (resultId === '11') {
-                        //     this.wheelNow = 10008;
-                        //     this.wheel.eulerAngles = new Vec3(0, 0, 0);
-                        //     this.drawWheel();
-                        // } else  {
+                        if (resultId === '01') {
+                            this.wheelNow = 10001;
+                            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                            this.drawWheel();
+                        } else if (resultId === '03') {
+                            this.wheelNow = 10002;
+                            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                            this.drawWheel();
+                        } else if (resultId === '11') {
+                            this.wheelNow = 10008;
+                            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+                            this.drawWheel();
+                        } else  {
                             this.wheelNow = 1;
                             this.wheel.eulerAngles = new Vec3(0, 0, 0);
                             this.drawWheel();
-                        // }
+                        }
                         break;
                     case 1:
                         this.resultAlliance.string = `<color=#FF4500>${rolledResult}</color>`;
