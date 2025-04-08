@@ -23,7 +23,9 @@ import { raceSections,
     vampireBodyCountSelections,
     dwarfTypesSelections,
     angelRanksSelections,
-    reincarnatorsSelections  } from '../Data/WheelData/WheelData';
+    reincarnatorsSelections,
+    trollTypeSelections
+  } from '../Data/WheelData/WheelData';
 const { ccclass, property } = _decorator;
 
 @ccclass('RaceWheelComponent')
@@ -71,6 +73,9 @@ export class RaceWheelComponent extends Component {
     private dwarfTypesSelections = dwarfTypesSelections;
     private angelRanksSelections = angelRanksSelections;
     private reincarnatorsSelection = reincarnatorsSelections;
+    private trollTypeSelections = trollTypeSelections;
+    private reptileTypeSelections = reptileTypeSelections;
+    
     
     private sections = [];
     private wheelNow: number = 0;
@@ -102,69 +107,171 @@ export class RaceWheelComponent extends Component {
             this.sections = this.goblinHordeSelections;
         } 
         // Human
-        else if (this.wheelNow === 10002) {
+        else if (this.wheelNow === 10003) {
             this.sections = this.humanSkinSelections;
         } 
         // Dwarf
-        else if (this.wheelNow === 10003) {
+        else if (this.wheelNow === 10004) {
             this.sections = this.dwarfTypesSelections;
         }
         // Bone Lineage
-        else if (this.wheelNow === 10004) {
+        else if (this.wheelNow === 10006) {
             this.sections = this.raceSections;
         }
 
-        // ---- End Sub race wheel
+        // Troll type
+        else if (this.wheelNow === 10007) {
+            this.sections = this.trollTypeSelections;
+        }
+        
+        // Reptile type
+        else if (this.wheelNow === 10008) {
+            this.sections = this.reptileTypeSelections;
+        }
+
+        // Elf type
+        else if (this.wheelNow === 10011) {
+            this.sections = this.elfSelections;
+        }
+
+        // Spirit type
+        else if (this.wheelNow === 10012) {
+            this.sections = this.spiritSelections;
+        }        
+
+        // Werebeast type
+        else if (this.wheelNow === 10013) {
+            this.sections = this.werebeastSelections;
+        } 
+
+        // Vampire body count
+        else if (this.wheelNow === 10014) {
+            this.sections = this.vampireBodyCountSelections;
+        } 
+
+        // Hybrid type
+        else if (this.wheelNow === 10015) {
+            this.sections = this.hybridTypesSelections;
+        } 
+
+        // Cyber Fusion
+        else if (this.wheelNow === 10016) {
+            this.sections = this.cyberFusionSelections;
+        } 
+
+        // Dragon type
+        else if (this.wheelNow === 10018) {
+            this.sections = this.dragonSelections;
+        } 
+
+        // Angel Ranks
+        else if (this.wheelNow === 10020) {
+            this.sections = this.angelRanksSelections;
+        } 
+
+        // Primordial Being element type
+        else if (this.wheelNow === 10022) {
+            this.sections = this.primordialBeingSelections;
+        } 
+
+        // Reincarnators
+        else if (this.wheelNow === 10023) {
+            this.sections = this.reincarnatorsSelection;
+        } 
+
+        // Mythical Beast
+        else if (this.wheelNow === 10024) {
+            this.sections = this.mythicalBeastSelections;
+        } 
+
+        // Demon Sins
+        else if (this.wheelNow === 10025) {
+            this.sections = this.demonSinsSelections;;
+        } 
+
+        // God name
+        else if (this.wheelNow === 10026) {
+            this.sections = this.godsSelections;;
+        } 
+        
+        // ---- End Sub race wheel ----
         
         // Trait 
         // Alliance
-
+        else if (this.wheelNow === 2) {
+            this.sections = this.allianceSections;
+        }
         // Archetype
-
+        else if (this.wheelNow === 3) {
+            // this.sections = this.archetypeSections;
+        }
         // stat
         // Strength
-
+        else if (this.wheelNow === 4) {
+            // this.sections = this.speedWeightData(race);
+        }
         // Speed
+        else if (this.wheelNow === 5){
 
+        }
         // IQ
-
+        else if (this.wheelNow === 6){
+            
+        }
         // BIQ
-
+        else if (this.wheelNow === 7){
+            
+        }
         // Durability
-
+        else if (this.wheelNow === 8){
+            
+        }
         // Martial Arts
-
+        else if (this.wheelNow === 9){
+            
+        }
         // Weapon Mastery
-
+        else if (this.wheelNow === 10){
+            
+        }
         // Rizz level
-
+        else if (this.wheelNow === 11){
+            this.sections = this.rizzLevelSelections;
+        }
         // Weapon
-
+        else if (this.wheelNow === 12){
+            // this.sections = this.weaponTypeSections;
+        }
+        else if (this.wheelNow === 12001){
+            // this.sections = this.normalWeaponSections;
+        }
+        else if (this.wheelNow === 12002){
+            // this.sections = this.uniqueWeaponSections;
+        }
         // Gear
-
+        else if (this.wheelNow === 13){
+            // this.sections = this.gearCountSections;
+        }
+        else if (this.wheelNow === 13001){
+            // this.sections = this.normalGearSections;
+        }
+        else if (this.wheelNow === 13002){
+            // this.sections = this.speacialGearSections;
+        }
         // Power count
-
+        else if (this.wheelNow === 14){
+            // this.sections = this.powerCountSections;
+        }
         // Power
+        else if (this.wheelNow === 14001){
+            // this.sections = this.powerSections;
+        }
 
         // Char dev
-
-        if (this.wheelNow == 0) {
-            this.sections = this.raceSections;
-        } else if (this.wheelNow === 1) {
-            this.sections = this.allianceSections;
-        } else if (this.wheelNow === 10001) {
-            this.sections = this.goblinHordeSelections;
-        } else if (this.wheelNow === 10002) {
-            this.sections = this.humanSkinSelections;
-        } else if (this.wheelNow === 10006) {
-            this.sections = this.dragonSelections;
-        } else if (this.wheelNow === 10007) {
-            this.sections = this.elfSelections;
-        } else if (this.wheelNow === 10008) {
-            this.sections = this.rizzLevelSelections;
-        } else if (this.wheelNow === 10016) {
-            this.sections = this.cyberFusionSelections;
+        else if (this.wheelNow === 15){
+            // this.sections = this.charDevSections;
         }
+
         const graphics = this.wheel.getComponent(Graphics) || this.wheel.addComponent(Graphics);
         graphics.clear();
     

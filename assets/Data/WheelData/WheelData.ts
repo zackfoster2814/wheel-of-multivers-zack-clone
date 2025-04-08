@@ -108,6 +108,102 @@ export const dragonSelections = [
     { id: '012', name: 'Gearwing Dragon', weight: 5, color: "#808080", description: 'Nhận "Heat Dispatching Control". Ở vòng quay Power khi tạo nhân vật, loại bỏ khả năng ra 0 power và tăng 5 trọng số cho 4 power.', effect: 'Nhận ngẫu nhiên 1 Steampunk Power' }
 ];
 
+export const trollTypeSelections = [
+    { 
+      id: '001', 
+      name: 'Regular Troll',
+      description: "Một con Troll thường 💀", 
+      weight: 35, 
+      bloodType: "Bạn troll 💀", 
+      color: "#008000" // Dark Green 
+    },
+    { 
+      id: '002', 
+      name: 'Aquatic Troll',
+      description: "Nhận 1 random Water Power. Sau mỗi trận đánh với kẻ địch có Water Power, nhận +1 Base vào chỉ số thấp nhất.", 
+      weight: 25, 
+      bloodType: "Nhận +1 Stat thấp nhất", 
+      color: "#006400" // Forest Green 
+    },
+    { 
+      id: '003', 
+      name: 'Mountain Troll',
+      description: "Sau mỗi trận thắng với kẻ địch có Nature Power, cướp lấy tối đa 2 Nature Power của đối phương.", 
+      weight: 15, 
+      bloodType: '"Hút" ngẫu nhiên VĨNH VIỄN 1 "Nature" Power của đối thủ.', 
+      color: "#228B22" // Medium Forest Green 
+    },
+    { 
+      id: '004', 
+      name: 'Ice Troll',
+      description: "Mỗi khi đối đầu với kẻ địch có Frost Power, nhận 1 điểm khởi đầu combat.", 
+      weight: 15, 
+      bloodType: 'Nhận VĨNH VIỄN 1 "Frost" Power', 
+      color: "#32CD32" // Lime Green 
+    },
+    { 
+      id: '005', 
+      name: 'Venom Troll',
+      description: "Đối thủ -1 all stats với mỗi Nature Power họ có.", 
+      weight: 10, 
+      bloodType: "Đối thủ -1 stat cao nhất.", 
+      color: "#00FF00" // Lime 
+    }
+  ];
+
+  export const reptileTypeSelections = [
+    { 
+      id: '001', 
+      name: 'Turtle',
+      description: "Nhận -2 Base Speed và +5 Base Durability.", 
+      weight: 22, 
+      bloodType: "Nhận +1 Dura", 
+      color: "#0000FF" // Blue 
+    },
+    { 
+      id: '002', 
+      name: 'Lizard',
+      description: "Giảm 2 Base BIQ và nhận thêm 1 Archetype.", 
+      weight: 15, 
+      bloodType: "Nhận +1 IQ", 
+      color: "#4682B4" // Steel Blue 
+    },
+    { 
+      id: '003', 
+      name: 'Snake',
+      description: "Nhận +2 BIQ và -1 Speed với mỗi 3 điểm Base Durability.", 
+      weight: 18, 
+      bloodType: "Nhận +1 BIQ", 
+      color: "#5F9EA0" // Cadet Blue 
+    },
+    { 
+      id: '004', 
+      name: 'Pogona',
+      description: "Nhận +1 Base Speed và +1 Base Durability.", 
+      weight: 20, 
+      bloodType: "Nhận +1 Speed", 
+      color: "#1E90FF" // Dodger Blue 
+    },
+    { 
+      id: '005', 
+      name: 'Crocodile',
+      description: "Nhận +2 Base Strength, +1 Base Durability và Giảm 1 Base Speed.", 
+      weight: 15, 
+      bloodType: "Nhận +1 Martial Arts", 
+      color: "#4169E1" // Royal Blue 
+    },
+    { 
+      id: '006', 
+      name: 'Dinosaurus',
+      description: `Nhận +1 Strength.
+      Nhận +1 Base Strength theo luật sau: - Với mỗi 3 điểm Base Durability - Với mỗi 2 trận thắng. - Với mỗi trận đánh nhau ở Phase 2 của vòng Develop.`,
+      weight: 10, 
+      bloodType: "Nhận +2 Strength", 
+      color: "#87CEEB" // Sky Blue 
+    }
+  ];
+  
+  
 export const cyberFusionSelections = [
     { id: '001', name: 'Nothing', weight: 20, description: 'Bro không thể dung hợp💀', effect: 'Không thể dung hợp', color: '#d6d6d6' },
     { id: '002', name: 'Goblin', weight: 8, description: 'Cyborg Goblin Horde', effect: 'Nhận Cyborg Goblin Horde', color: '#b3b3b3' },
