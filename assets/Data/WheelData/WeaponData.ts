@@ -8,6 +8,7 @@ export const weaponSections = [
     active4: "Nhận +2 Strength và +2 Speed.",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "002",
@@ -18,6 +19,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Instrument",
+    weight: 1,
   },
   {
     id: "003",
@@ -28,6 +30,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Bow/Crossbow",
+    weight: 1,
   },
   {
     id: "004",
@@ -38,6 +41,7 @@ export const weaponSections = [
     active4: "Nhận -1 Speed.",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "005",
@@ -48,6 +52,7 @@ export const weaponSections = [
     active4: "Nhận +3 Speed.",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "006",
@@ -58,6 +63,7 @@ export const weaponSections = [
     active4: "Nhận +3 IQ.",
     active5: "",
     type: "Instrument",
+    weight: 1,
   },
   {
     id: "007",
@@ -68,6 +74,7 @@ export const weaponSections = [
     active4: "Nhận +3 BIQ",
     active5: "",
     type: "Magic",
+    weight: 1,
   },
   {
     id: "008",
@@ -78,6 +85,7 @@ export const weaponSections = [
     active4: "Nhận +2 Speed và +2 BIQ.",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "009",
@@ -88,6 +96,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "010",
@@ -98,6 +107,7 @@ export const weaponSections = [
     active4: "Nhận +4 Martial Arts.",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "011",
@@ -109,6 +119,7 @@ export const weaponSections = [
     active4: "Tăng thành 50%. Mất đi hiệu ứng bất lợi.",
     active5: "",
     type: "Firearm",
+    weight: 1,
   },
   {
     id: "012",
@@ -119,6 +130,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Firearm",
+    weight: 1,
   },
   {
     id: "013",
@@ -129,6 +141,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Polearms",
+    weight: 1,
   },
   {
     id: "014",
@@ -139,6 +152,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Dagger",
+    weight: 1,
   },
   {
     id: "015",
@@ -149,6 +163,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Axe/Hammer",
+    weight: 1,
   },
   {
     id: "016",
@@ -160,6 +175,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "017",
@@ -170,6 +186,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Magic",
+    weight: 1,
   },
   {
     id: "018",
@@ -180,6 +197,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Axe/Hammer",
+    weight: 1,
   },
   {
     id: "019",
@@ -190,6 +208,7 @@ export const weaponSections = [
     active4: "Nhận +1 Speed và +3 BIQ.",
     active5: "",
     type: "Bow/Crossbow",
+    weight: 1,
   },
   {
     id: "020",
@@ -200,6 +219,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "021",
@@ -210,6 +230,7 @@ export const weaponSections = [
     active4: "",
     active5: "Nhận +3 BIQ và +2 Martial Arts.",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "022",
@@ -220,6 +241,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Special",
+    weight: 1,
   },
   {
     id: "023",
@@ -230,6 +252,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Special",
+    weight: 1,
   },
   {
     id: "024",
@@ -241,6 +264,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "025",
@@ -251,6 +275,7 @@ export const weaponSections = [
     active4: "Nhận +5 BIQ.",
     active5: "",
     type: "Special",
+    weight: 1,
   },
   {
     id: "026",
@@ -262,6 +287,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "027",
@@ -272,6 +298,7 @@ export const weaponSections = [
     active4: "",
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "028",
@@ -282,6 +309,7 @@ export const weaponSections = [
     active4: 'Nhận +1 all stats. Nhận 1 Power "Bankai".',
     active5: "",
     type: "Sword",
+    weight: 1,
   },
   {
     id: "029",
@@ -292,6 +320,7 @@ export const weaponSections = [
     active4: "Nhận +5 Speed.",
     active5: "",
     type: "Dagger",
+    weight: 1,
   },
   {
     id: "030",
@@ -302,6 +331,7 @@ export const weaponSections = [
     active4: "Có 66.67% nhận 1 điểm trước combat",
     active5: "Có 83.33% nhận 1 điểm trước combat.",
     type: "Firearm",
+    weight: 1,
   },
   {
     id: "031",
@@ -312,6 +342,7 @@ export const weaponSections = [
     active4: null,
     active5: 'Nhận +2 BIQ và +2 Martial Arts. Nhận 1 random "Armor" Gear.',
     type: "Special",
+    weight: 1,
   },
   {
     id: "032",
@@ -322,6 +353,7 @@ export const weaponSections = [
     active4: null,
     active5: null,
     type: "Bow/Crossbow",
+    weight: 1,
   },
   {
     id: "033",
@@ -332,6 +364,7 @@ export const weaponSections = [
     active4: null,
     active5: null,
     type: "Sword",
+    weight: 1,
   },
   {
     id: "034",
@@ -342,6 +375,7 @@ export const weaponSections = [
     active4: "Nhận +2 BIQ.",
     active5: null,
     type: "Special",
+    weight: 1,
   },
   {
     id: "035",
@@ -352,6 +386,7 @@ export const weaponSections = [
     active4: null,
     active5: "Đối thủ nhận -1 Weapon Mastery và -2 Durability.",
     type: "Instrument",
+    weight: 1,
   },
   {
     id: "036",
@@ -362,6 +397,7 @@ export const weaponSections = [
     active4: null,
     active5: "Nhận -3 Durability, +5 Martial Arts.",
     type: "Special",
+    weight: 1,
   },
   {
     id: "037",
@@ -373,6 +409,7 @@ export const weaponSections = [
       "Vào thời điểm nhận vũ khí này, nhận +2 vào chỉ số thấp nhất với mỗi Power sở hữu. Nhận +1 IQ và +1 BIQ.",
     active5: null,
     type: "Magic",
+    weight: 1,
   },
   {
     id: "038",
@@ -384,6 +421,7 @@ export const weaponSections = [
     active5:
       'Nhận 1 random Summoning Power và +1 BIQ với mỗi "Summoning" Power sở hữu.',
     type: "Magic",
+    weight: 1,
   },
   {
     id: "039",
@@ -398,6 +436,7 @@ export const weaponSections = [
     active5:
       "Nhận +3 IQ. Khi combat, người chơi nào có IQ từ 5 trở xuống sẽ bị giảm 1 all stats.",
     type: "Special",
+    weight: 1,
   },
   {
     id: "040",
@@ -408,6 +447,7 @@ export const weaponSections = [
     active4: "Nhận +4 Strength. Vũ khí bị phá hủy sau 2 Combat.",
     active5: "Nhận +5 Strength. Vũ khí bị phá hủy sau 2 Combat.",
     type: "Special",
+    weight: 1,
   },
   {
     id: "041",
@@ -419,6 +459,7 @@ export const weaponSections = [
     active5:
       "Nhận +3 Strength, mỗi round bạn thua có 5% đối thủ không nhận được điểm.",
     type: "Special",
+    weight: 1,
   },
   {
     id: "042",
@@ -429,6 +470,7 @@ export const weaponSections = [
     active4: 'Nhận Power "Tickling".',
     active5: null,
     type: "Special",
+    weight: 1,
   },
   {
     id: "043",
@@ -439,6 +481,7 @@ export const weaponSections = [
     active4: "Nhận +4 Strength",
     active5: null,
     type: "Special",
+    weight: 1,
   },
   {
     id: "044",
@@ -449,6 +492,7 @@ export const weaponSections = [
     active4: null,
     active5: null,
     type: "Instrument",
+    weight: 1,
   },
   {
     id: "045",
@@ -460,6 +504,7 @@ export const weaponSections = [
     active4: null,
     active5: null,
     type: "Polearms",
+    weight: 1,
   },
   {
     id: "046",
@@ -470,6 +515,7 @@ export const weaponSections = [
     active4: null,
     active5: null,
     type: "Instrument",
+    weight: 1,
   },
   {
     id: "047",
@@ -480,6 +526,7 @@ export const weaponSections = [
     active4: "Nhận 2 Power vô dụng.",
     active5: null,
     type: "Magic",
+    weight: 1,
   },
   {
     id: "048",
@@ -491,6 +538,7 @@ export const weaponSections = [
     active4: "Khi thắng round đầu trong combat, nhận -1 vào stat ngay sau đó.",
     active5: null,
     type: "Special",
+    weight: 1,
   },
   {
     id: "049",
@@ -502,6 +550,7 @@ export const weaponSections = [
     active5:
       'Đối thủ nhận -3 Speed, gấp đôi hiệu ứng nếu bạn sở hữu ít nhất 1 Power có tag "Blood".',
     type: "Polearms",
+    weight: 1,
   },
   {
     id: "050",
@@ -513,6 +562,7 @@ export const weaponSections = [
     active5:
       "Toàn bộ Alliance của bạn nhận +1 Strength. (Mỗi Alliance chỉ kích hoạt được mốc này tối đa 2 lần)",
     type: "Instrument",
+    weight: 1,
   },
   {
     id: "051",
@@ -526,6 +576,7 @@ export const weaponSections = [
     active5:
       "Nhận +3 BIQ, nếu BIQ của bạn cao hơn đối thủ thì đối thủ nhận -2 Durability.",
     type: "Dagger",
+    weight: 1,
   },
   {
     id: "052",
@@ -536,6 +587,7 @@ export const weaponSections = [
     active4: "Có 66.67% vô hiệu hóa 3 Power của địch.",
     active5: "Có 83.33% vô hiệu hóa 3 Power của địch.",
     type: "Instrument",
+    weight: 1,
   },
   {
     id: "053",
@@ -546,6 +598,7 @@ export const weaponSections = [
     active4: null,
     active5: "Nhận +2 BIQ, +2 Martial Arts.",
     type: "Polearms",
+    weight: 1,
   },
   {
     id: "054",
@@ -557,6 +610,7 @@ export const weaponSections = [
     active5:
       "Nhận +2 Strength và +2 Speed, gấp đôi hiệu ứng nếu bạn không dính bất kỳ hiệu ứng debuff nào từ mọi nguồn.",
     type: "Dagger",
+    weight: 1,
   },
   {
     id: "055",
@@ -567,6 +621,7 @@ export const weaponSections = [
     active4: "Nhận +1 Strength, +2 BIQ.",
     active5: "Nhận +2 Strength, +2 BIQ.",
     type: "Bow/Crossbow",
+    weight: 1,
   },
 ];
 
@@ -580,6 +635,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +6 IQ và 3 Random Power.",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "002",
@@ -590,6 +646,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "003",
@@ -600,6 +657,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 Strength, +2 Speed và +2 BIQ. Sau khi thành công loại 1 kẻ địch, nhận Power 'Nihility Slash'.",
       active5: "Nhận +3 Strength, +3 Speed và +3 BIQ. Sau khi thành công loại 1 kẻ địch, nhận Power 'Nihility Slash'.",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "004",
@@ -610,6 +668,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 'Critical Strike' và tăng 10% tỉ lệ Crit. Mỗi khi thành công chí mạng, nhận thêm 1 điểm combat nữa.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "005",
@@ -620,6 +679,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Strength và +4 BIQ.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "006",
@@ -630,6 +690,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 'Critical Strike'. Đối phương nhận -6 Durability.",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "007",
@@ -640,6 +701,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "Nhận +3 Speed, +3 BIQ và +3 Martial Arts. Nhận Power 'Corpse Piler'.",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "008",
@@ -650,6 +712,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'True Aim' và 'Critical Strike'. Nhận +1 all stats.",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "009",
@@ -660,6 +723,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "Có 24% khả năng chiến thắng ngay lập tức trước khi giao chiến.",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "010",
@@ -670,6 +734,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Strength, +4 Speed và +1 Martial Arts.",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "011",
@@ -680,6 +745,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +1 All Stats. Đối thủ nhận giảm 1 All Stats.",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "012",
@@ -690,6 +756,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "013",
@@ -700,6 +767,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 Strength, +3 Durability và +3 Martial Arts.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "014",
@@ -710,6 +778,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 All Stats.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "015",
@@ -720,6 +789,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 All Stats khi đối đầu với kẻ địch thuộc chủng tộc cấp cao hơn.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "016",
@@ -730,6 +800,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 IQ và +3 BIQ. Nhận thêm 2 Power.",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "017",
@@ -740,6 +811,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 Strength, +2 Speed và +2 BIQ. Nhận Power 'Wrath of the Lich King'",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "018",
@@ -750,6 +822,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +1 All Stats. Nhận thêm 5 Power.",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "019",
@@ -760,6 +833,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 Speed và +4 Martial Arts. Đối thủ -2 Durability.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "020",
@@ -770,6 +844,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +1 Strength, +1 Durability, +1 BIQ và +1 Martial Arts. Mỗi khi đánh thắng 1 combat, nhận các chỉ số này thêm 1 lần nữa. (Cộng dồn vô hạn)",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "021",
@@ -780,6 +855,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Speed, +3 BIQ và +1 Martial Arts.",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "022",
@@ -790,6 +866,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 Strength, +3 Durability và +2 Martial Arts.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "023",
@@ -800,6 +877,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "024",
@@ -810,6 +888,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 2 Power. Với mỗi 2 Power mà chủ sở hữu có, nhận +1 All Stats. Tối đa là +5 all stats.",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "025",
@@ -820,6 +899,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "026",
@@ -830,6 +910,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 All Stats.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "027",
@@ -840,6 +921,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Strength, +5 BIQ và +4 Martial Arts.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "028",
@@ -850,6 +932,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "029",
@@ -860,6 +943,7 @@ export const uniqueWeaponSections = [
       active4: "Vô hiệu hóa các Gear có tag 'Armor' của đối thủ, nhận +1 all stats.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "030",
@@ -870,6 +954,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "031",
@@ -880,6 +965,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'Moonlight Strike', nhận +1 all stats.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "032",
@@ -890,6 +976,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Speed, +3 BIQ và +2 Martial Arts.",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "033",
@@ -900,6 +987,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "034",
@@ -910,6 +998,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "035",
@@ -920,6 +1009,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Strength và +4 Durability.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "036",
@@ -930,6 +1020,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'Hunter's Rewards'. Nhận +5 Speed.",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "037",
@@ -940,6 +1031,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "038",
@@ -950,6 +1042,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "039",
@@ -960,6 +1053,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "040",
@@ -970,6 +1064,7 @@ export const uniqueWeaponSections = [
       active4: "Durability của đối thủ cố định là 0.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "041",
@@ -980,6 +1075,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'Lightning Mastery', 'Cold Mastery' và 'Fire Mastery'.",
       active5: "Nhận Power 'Lightning Mastery', 'Cold Mastery' và 'Fire Mastery'. Nhận +1 all stats.",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "042",
@@ -990,6 +1086,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 'Critical Strike' và tăng 30% tỉ lệ crit. Nhận +1 all stats.",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "043",
@@ -1000,6 +1097,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "044",
@@ -1010,6 +1108,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "045",
@@ -1020,6 +1119,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'Stone Skin'. Nhận +2 all stats.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "046",
@@ -1030,6 +1130,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "047",
@@ -1040,6 +1141,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'Hades' Blessing' và Power 'Aspect of Nemesis'",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "048",
@@ -1049,7 +1151,8 @@ export const uniqueWeaponSections = [
       active3: "Nhận item 'Buckler'. Nhận +3 Speed. Khả năng kích hoạt của 'Buckler' được tăng thêm 6%.",
       active4: "",
       active5: "Nhận item 'Buckler'. Nhận +4 Speed. Khả năng kích hoạt của 'Buckler' được tăng thêm 10% và có thể kích hoạt được 2 lần mỗi combat.",
-      type: "Dagger"
+      type: "Dagger",
+      weight: 1,   
     },
     {
       id: "049",
@@ -1060,6 +1163,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "050",
@@ -1070,6 +1174,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +1 Strength, +2 Durability, +2 BIQ và +1 Martial Arts. Gấp đôi các chỉ số này nếu bạn là 'Swordman'.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "051",
@@ -1080,6 +1185,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 'Critical Strike'. Mỗi khi gây chí mạng, nhận +2 vào chỉ số ở round bạn vừa thành công crit.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "052",
@@ -1090,6 +1196,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "053",
@@ -1100,6 +1207,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 IQ và +3 BIQ. Nhận Power 'Spider's Symphony'.",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "054",
@@ -1110,6 +1218,7 @@ export const uniqueWeaponSections = [
       active4: "Vô hiệu hóa toàn bộ Power của đối phương. Với mỗi Power vô hiệu hóa, nhận +2 BIQ và +1 Martial Arts (chỉ tác dụng trong combat đó).",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "055",
@@ -1120,6 +1229,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 Strength và +5 Martial Arts. Nếu bạn thành công chiến thắng vòng 'Martial Arts', nhận thêm 1 điểm nữa.",
       active5: "",
       type: "Special",
+      weight: 1,   
     },
     {
       id: "056",
@@ -1130,6 +1240,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +7 IQ.",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "057",
@@ -1140,6 +1251,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "058",
@@ -1150,6 +1262,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "059",
@@ -1160,6 +1273,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +5 all stats. Sau mỗi trận đấu, giảm giá trị all stats đi 1 đơn vị. Sau 4 trận combat, phá hủy vũ khí này và nhận 1 random Normal Weapon.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "060",
@@ -1170,6 +1284,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "061",
@@ -1180,6 +1295,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "062",
@@ -1190,6 +1306,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "063",
@@ -1200,6 +1317,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 Strength, với mỗi 2 điểm Strength nhân vật sở hữu, +1 BIQ.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "064",
@@ -1210,6 +1328,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "065",
@@ -1220,6 +1339,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 IQ, +3 BIQ và +3 Martial Arts. Nhận Power 'Lightning Lord'.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "066",
@@ -1230,6 +1350,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Strength, +2 BIQ và +3 Martial Arts. Gấp đôi chỉ số này nếu đánh lại với tộc 'Demon'.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "067",
@@ -1240,6 +1361,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "068",
@@ -1250,6 +1372,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "069",
@@ -1260,6 +1383,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Special",
+      weight: 1,   
     },
     {
       id: "070",
@@ -1270,6 +1394,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "071",
@@ -1280,6 +1405,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "072",
@@ -1290,6 +1416,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 Strength, +2 Speed, +2 Durability và +4 Martial Arts.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "073",
@@ -1300,6 +1427,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "074",
@@ -1310,6 +1438,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Speed và +5 BIQ. Mỗi khi chiến thắng 1 combat, nhận +1 Speed.",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "075",
@@ -1320,6 +1449,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "076",
@@ -1330,6 +1460,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +5 Speed và +3 Martial Arts. Nhận Power 'Armor Piercing'.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "077",
@@ -1340,6 +1471,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "078",
@@ -1350,6 +1482,7 @@ export const uniqueWeaponSections = [
       active4: "Đối thủ nhận -2 all stats.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "079",
@@ -1360,6 +1493,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 BIQ và +4 Martial Arts. Nhận 'Critical Strike' và 'Armor Piercing'.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "080",
@@ -1370,6 +1504,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận và Triple Bonus từ 'Hawk-Eye Harbinger' Special Power.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "081",
@@ -1380,6 +1515,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'Critical Strike' và tăng 30% tỉ lệ Crit, nhận +5 Speed.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "082",
@@ -1390,6 +1526,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "083",
@@ -1400,6 +1537,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 Speed và +4 Martial Arts. Nếu người sử dụng là Elf, nhận 'Evasion' và 'Armor Piercing'.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "084",
@@ -1410,6 +1548,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "085",
@@ -1420,6 +1559,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 Strength, +3 Speed và +3 Martial Arts. Nhận 1 'Physical' Power.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "086",
@@ -1430,6 +1570,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "087",
@@ -1440,6 +1581,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +5 Strength và +3 Martial Arts. Nhận Power 'Bash'.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "088",
@@ -1450,6 +1592,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 Martial Arts. Nhận 1 random 'Fire' Power, 1 random 'Water' Power và 2 random 'Nature' Power.",
       active5: "",
       type: "Special",
+      weight: 1,   
     },
     {
       id: "089",
@@ -1460,6 +1603,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +7 Speed và 'True Aim'.",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "090",
@@ -1470,6 +1614,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "091",
@@ -1480,6 +1625,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +6 Strength và +2 Durability.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "092",
@@ -1490,6 +1636,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 'Golden Vow' và 2 Power 'Holy' ngẫu nhiên. (dùng Holy Power Wheel)",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "093",
@@ -1500,6 +1647,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +1 all stats, nhận và gấp đôi hiệu ứng giảm stat của 'Blizzard'.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "094",
@@ -1510,6 +1658,7 @@ export const uniqueWeaponSections = [
       active4: "Mỗi khi thắng combat, nhận +3 vào 1 stat ngẫu nhiên và 1 Power ngẫu nhiên.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "095",
@@ -1520,6 +1669,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "096",
@@ -1530,6 +1680,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 Strength, +2 Martial Arts. Đối thủ giảm 4 Durability.",
       active5: "",
       type: "Polearms",
+      weight: 1,   
     },
     {
       id: "097",
@@ -1540,6 +1691,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "098",
@@ -1550,6 +1702,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Strength, mỗi khi thắng 1 round trong combat, đối phương bị giảm 2 ở 2 chỉ số của 2 round kế tiếp.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "099",
@@ -1560,6 +1713,7 @@ export const uniqueWeaponSections = [
       active4: "Với mỗi 3 điểm Base BIQ, nhận +1 vào các chỉ số còn lại. Base BIQ được cố định ở 10.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "100",
@@ -1570,6 +1724,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 2 'Lightning' Power, toàn bộ các hiệu ứng cộng chỉ số từ 'Lightning' Power đều được tăng hiệu quả. (+3 -> +4; +1 -> +2)",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "101",
@@ -1580,6 +1735,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Special Power 'Headshot' và +3 BIQ.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "102",
@@ -1590,6 +1746,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Special",
+      weight: 1,   
     },
     {
       id: "103",
@@ -1600,6 +1757,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận ngẫu nhiên 2 trong 3 chỉ số Strength, Speed và IQ từ nhà vô địch mùa 1 để làm chỉ số Base của bạn (11-11-14).",
       active5: "",
       type: "Special",
+      weight: 1,   
     },
     {
       id: "104",
@@ -1610,6 +1768,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +12 Durability, sau mỗi combat, giảm chỉ số này đi 1.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "105",
@@ -1620,6 +1779,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "106",
@@ -1630,6 +1790,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "107",
@@ -1640,6 +1801,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 3 Steampunk Power ngẫu nhiên. Với mỗi 2 Steampunk Power, đối thủ nhận -1 all stats.",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "108",
@@ -1650,6 +1812,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "109",
@@ -1660,6 +1823,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận char Dev 'Lost an Arm'. Nhận 3 random Steampunk Power. Nhận +3 Strength, +3 Durability.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "110",
@@ -1670,6 +1834,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +1 All Stats. Nhận power 'Evasion'. Nếu đã có sẵn power này, nhận thêm 5% khả năng kích hoạt. Mỗi khi kích hoạt thành công Power này, nhận +2 vĩnh viễn vào 1 random stat.",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "111",
@@ -1680,6 +1845,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +4 Strength và +4 IQ. Nhận Special Power 'Headshot'.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "112",
@@ -1690,6 +1856,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "113",
@@ -1700,6 +1867,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Sword",
+      weight: 1,   
     },
     {
       id: "114",
@@ -1710,6 +1878,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "115",
@@ -1720,6 +1889,7 @@ export const uniqueWeaponSections = [
       active4: "Toàn bộ Alliance nhận +1 VĨNH VIỄN vào 3 chỉ số thấp nhất.",
       active5: "",
       type: "Special",
+      weight: 1,   
     },
     {
       id: "116",
@@ -1730,6 +1900,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "117",
@@ -1740,6 +1911,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "118",
@@ -1750,6 +1922,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "119",
@@ -1760,6 +1933,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Instrument",
+      weight: 1,   
     },
     {
       id: "120",
@@ -1770,6 +1944,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +6 BIQ và 2 'Abyssal' Power.",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "121",
@@ -1780,6 +1955,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "122",
@@ -1790,6 +1966,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "123",
@@ -1800,6 +1977,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "124",
@@ -1810,6 +1988,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 2 'Holy' Power và 1 'Physical' Power. Nhận +2 Strength.",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "125",
@@ -1820,6 +1999,7 @@ export const uniqueWeaponSections = [
       active4: "Round đầu tiên thua trong combat đối phương sẽ không nhận điểm (và không thể kích hoạt các hiệu ứng như Crit). Round đầu tiên bạn thắng trong combat sẽ nhận thêm 1 điểm, nhưng không thể crit (nếu có).",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "126",
@@ -1830,6 +2010,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 Strength, +4 IQ và +5 BIQ.",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "127",
@@ -1840,6 +2021,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "128",
@@ -1850,6 +2032,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "129",
@@ -1860,6 +2043,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận 3 'Lightning' Power, với mỗi Lightning Power sở hữu, nhận +1 Strength và +1 Speed.",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "130",
@@ -1870,6 +2054,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "131",
@@ -1880,6 +2065,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "132",
@@ -1890,6 +2076,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 Strength, +2 Speed và Power 'Get Excited!'",
       active5: "Nhận +3 Strength, +3 Speed và Power 'Get Excited!'",
       type: "Firearm",
+      weight: 1,   
     },
     {
       id: "133",
@@ -1900,6 +2087,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'Critical Strike' và tăng 60% tỉ lệ Crit ở round 1, giảm đi 8% sau mỗi round.",
       active5: "Nhận Power 'Critical Strike' và tăng 80% tỉ lệ Crit ở round 1, giảm đi 10% sau mỗi round.",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "134",
@@ -1910,6 +2098,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Bow/Crossbow",
+      weight: 1,   
     },
     {
       id: "135",
@@ -1920,6 +2109,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận Power 'Summoning Imp', nhận 2 BIQ và nhận thêm archetype 'Summoner'. Nếu đã có sẵn archetype này, nhận ngẫu nhiên 2 Summoning Power. Hiệu ứng giảm Weapon Mastery tới từ Summoner sẽ bị loại bỏ.",
       active5: "",
       type: "Magic",
+      weight: 1,   
     },
     {
       id: "136",
@@ -1930,6 +2120,7 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Special",
+      weight: 1,   
     },
     {
       id: "137",
@@ -1940,6 +2131,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +2 Speed và +3 Martial Arts. Đối thủ bị giảm 4 Durability. Hiệu ứng này chỉ có thể bị biến mất khi đối thủ thắng được 2 combat (tính cả combat đối đầu với người chơi sử dụng Black Knife)",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "138",
@@ -1950,6 +2142,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +12 Strength. Nếu thắng round Strength với cách biệt trên 10 điểm, nhận thêm 1 PvP Rewards sau combat.",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
     {
       id: "139",
@@ -1960,6 +2153,7 @@ export const uniqueWeaponSections = [
       active4: "Nhận +3 Speed, +2 IQ và +1 BIQ. Nhận 2 random 'Arcana' Power.",
       active5: "",
       type: "Dagger",
+      weight: 1,   
     },
     {
       id: "140",
@@ -1970,5 +2164,6 @@ export const uniqueWeaponSections = [
       active4: "",
       active5: "",
       type: "Axe/Hammer",
+      weight: 1,   
     },
 ];  
