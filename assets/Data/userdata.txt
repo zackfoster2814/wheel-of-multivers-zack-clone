@@ -642,5 +642,34 @@
     "race": "Mythical Beasts",
     "alliance": "Reincarnator",
     "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Moon-touched",
+    "alliance": "Sun"
+  },
+  {
+    "name": "GUEST",
+    "race": "Demi-God",
+    "alliance": "Sun",
+    "subrace": "5000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Moon-touched",
+    "alliance": "Sun",
+    "subrace": "1000"
+  },
+  {
+    "name": "GUEST",
+    "race": "Giant",
+    "alliance": "Moon",
+    "subrace": "100"
+  },
+  {
+    "name": "GUEST",
+    "race": "Orc",
+    "alliance": "Sun",
+    "subrace": "500"
   }
 ]

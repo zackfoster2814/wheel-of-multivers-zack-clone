@@ -1,3 +1,27 @@
+export const weaponCountSections = [
+  {
+    id: "WCS001",
+    name: "No weapon",
+    activeWheel: 0,
+    weight: 4,
+    color: "#F44336",
+  },
+  {
+    id: "WCS002",
+    name: "Normal Weapon",
+    activeWheel: 1,
+    weight: 6,
+    color: "#E91E63",
+  },
+  {
+    id: "WCS003",
+    name: "Unique Weapon",
+    activeWheel: 2,
+    weight: 4,
+    color: "#9C27B0",
+  },
+];
+
 export const weaponSections = [
   {
     id: "WP001",

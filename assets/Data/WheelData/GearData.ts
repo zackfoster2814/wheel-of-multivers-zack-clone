@@ -1,3 +1,48 @@
+export const gearCountSections = [
+  {
+    id: "GCS001",
+    name: "0 Gear",
+    weight: 25,
+    color: "#3357FF",
+  },
+  {
+    id: "GCS002",
+    name: "1 Normal Gear",
+    weight: 30,
+    color: "#FF33A1",
+  },
+  {
+    id: "GCS003",
+    name: "2 Normal Gear",
+    weight: 11,
+    color: "#A133FF",
+  },
+  {
+    id: "GCS004",
+    name: "3 Normal Gear",
+    weight: 10,
+    color: "#33FFF6",
+  },
+  {
+    id: "GCS005",
+    name: "1 Speacial Gear",
+    weight: 9,
+    color: "#FF8F33",
+  },
+  {
+    id: "GCS006",
+    name: "1 Normal 1 Speacial Gear",
+    weight: 8,
+    color: "#8FFF33",
+  },
+  {
+    id: "GCS007",
+    name: "2 Speacial Gear",
+    weight: 7,
+    color: "#FF3333",
+  },
+];
+
 export const gearSections = [
   {
     id: "GE001",
