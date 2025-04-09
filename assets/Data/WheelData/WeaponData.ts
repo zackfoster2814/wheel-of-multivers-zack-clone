@@ -1,6 +1,6 @@
 export const weaponSections = [
   {
-    id: "001",
+    id: "WP001",
     name: "Straight Sword",
     active1: "Nhận +1 Strength và +1 Speed.",
     active2: "",
@@ -12,7 +12,7 @@ export const weaponSections = [
     color: "#FF5733",
   },
   {
-    id: "002",
+    id: "WP002",
     name: "Ukulele",
     active1: "",
     active2: "",
@@ -24,7 +24,7 @@ export const weaponSections = [
     color: "#33FF57",
   },
   {
-    id: "003",
+    id: "WP003",
     name: "Steel Crossbow",
     active1: "Đối phương nhận -1 Durability.",
     active2: "",
@@ -36,7 +36,7 @@ export const weaponSections = [
     color: "#3357FF",
   },
   {
-    id: "004",
+    id: "WP004",
     name: "Broken Straight Sword",
     active1: "Nhận -1 all stats.",
     active2: "",
@@ -48,7 +48,7 @@ export const weaponSections = [
     color: "#FF33A1",
   },
   {
-    id: "005",
+    id: "WP005",
     name: "Rapier",
     active1: "Nhận +1 Speed.",
     active2: "",
@@ -60,7 +60,7 @@ export const weaponSections = [
     color: "#A133FF",
   },
   {
-    id: "006",
+    id: "WP006",
     name: "Zither",
     active1: "",
     active2: "Nhận +1 IQ",
@@ -72,7 +72,7 @@ export const weaponSections = [
     color: "#33FFF6",
   },
   {
-    id: "007",
+    id: "WP007",
     name: "Magic Book",
     active1: "Nhận +1 BIQ",
     active2: "",
@@ -84,7 +84,7 @@ export const weaponSections = [
     color: "#FF8F33",
   },
   {
-    id: "008",
+    id: "WP008",
     name: "Mecha-blade",
     active1: "",
     active2: "Nhận +1 Speed và +1 BIQ.",
@@ -96,7 +96,7 @@ export const weaponSections = [
     color: "#8FFF33",
   },
   {
-    id: "009",
+    id: "WP009",
     name: "Cursed Blade",
     active1: "Nhận -2 IQ và -1 BIQ.",
     active2: "",
@@ -108,7 +108,7 @@ export const weaponSections = [
     color: "#FF3333",
   },
   {
-    id: "010",
+    id: "WP010",
     name: "Clockwork Blade",
     active1: "Nhận +2 Martial Arts.",
     active2: "Nhận +3 Martial Arts.",
@@ -120,7 +120,7 @@ export const weaponSections = [
     color: "#33FF8F",
   },
   {
-    id: "011",
+    id: "WP011",
     name: "Tesla Colt SAA",
     active1:
       "Với mỗi trận combat, có 10% +3 stat thấp nhất và 10% -3 stat thấp nhất.",
@@ -133,7 +133,7 @@ export const weaponSections = [
     color: "#8F33FF",
   },
   {
-    id: "012",
+    id: "WP012",
     name: "Match'clock Musket",
     active1: "",
     active2: "Nhận +1 Strength.",
@@ -145,7 +145,7 @@ export const weaponSections = [
     color: "#33A1FF",
   },
   {
-    id: "013",
+    id: "WP013",
     name: "Halberd",
     active1: "Nhận +2 Strength",
     active2: "Nhận +2 Strength và +1 Martial Arts.",
@@ -157,7 +157,7 @@ export const weaponSections = [
     color: "#FFA133",
   },
   {
-    id: "014",
+    id: "WP014",
     name: "Hidden Blade",
     active1: "Nhận +1 Speed.",
     active2: "Nhận +2 Speed.",
@@ -169,7 +169,7 @@ export const weaponSections = [
     color: "#57FF33",
   },
   {
-    id: "015",
+    id: "WP015",
     name: "Blooded Greataxe",
     active1: "",
     active2: "",
@@ -181,7 +181,7 @@ export const weaponSections = [
     color: "#FF338F",
   },
   {
-    id: "016",
+    id: "WP016",
     name: "Potential Blade",
     active1: "",
     active2:
@@ -194,7 +194,7 @@ export const weaponSections = [
     color: "#A1FF33",
   },
   {
-    id: "017",
+    id: "WP017",
     name: "Cursed Wand",
     active1: "Nhận +2 IQ và -2 BIQ.",
     active2: "Nhận +4 IQ và -3 BIQ.",
@@ -206,7 +206,7 @@ export const weaponSections = [
     color: "#5733FF",
   },
   {
-    id: "018",
+    id: "WP018",
     name: "Brick Hammer",
     active1: "",
     active2: "Nhận +4 Strength.",
@@ -218,7 +218,7 @@ export const weaponSections = [
     color: "#33FFA1",
   },
   {
-    id: "019",
+    id: "WP019",
     name: "Wooden Long Bow",
     active1: "Nhận +1 BIQ.",
     active2: "Nhận +2 BIQ.",
@@ -230,7 +230,7 @@ export const weaponSections = [
     color: "#F633FF",
   },
   {
-    id: "020",
+    id: "WP020",
     name: "Sellsword Twinblade",
     active1: "Nhận +1 Strength, +1 Speed và +1 Martial Arts.",
     active2: "",
@@ -242,7 +242,7 @@ export const weaponSections = [
     color: "#33F6FF",
   },
   {
-    id: "021",
+    id: "WP021",
     name: "Uchigatana",
     active1: "",
     active2: "Nhận +2 BIQ và +1 Martial Arts.",
@@ -254,7 +254,7 @@ export const weaponSections = [
     color: "#FFAF33",
   },
   {
-    id: "022",
+    id: "WP022",
     name: "Caestus",
     active1: "Nhận +2 Martial Arts.",
     active2: "",
@@ -266,7 +266,7 @@ export const weaponSections = [
     color: "#AF33FF",
   },
   {
-    id: "023",
+    id: "WP023",
     name: "Nunchuck",
     active1: "Nhận +1 BIQ và +1 Martial Arts.",
     active2: "Nhận +2 BIQ và +1 Martial Arts",
@@ -278,7 +278,7 @@ export const weaponSections = [
     color: "#33FFAF",
   },
   {
-    id: "024",
+    id: "WP024",
     name: "Nichirin Sword",
     active1: "",
     active2:
@@ -291,7 +291,7 @@ export const weaponSections = [
     color: "#33AFF6",
   },
   {
-    id: "025",
+    id: "WP025",
     name: "Mechanical Arm",
     active1: "Nhận +2 BIQ.",
     active2: "",
@@ -303,7 +303,7 @@ export const weaponSections = [
     color: "#F6FF33",
   },
   {
-    id: "026",
+    id: "WP026",
     name: "Manamune",
     active1:
       'Nhận +1 Strength và +1 BIQ.Sau 1 Combat, loại bỏ vũ khí này và nhận "Muramana"',
@@ -316,7 +316,7 @@ export const weaponSections = [
     color: "#FF33F6",
   },
   {
-    id: "027",
+    id: "WP027",
     name: "Muramana",
     active1: "Nhận +1 All Stats.",
     active2: "Nhận +2 All Stats.",
@@ -328,7 +328,7 @@ export const weaponSections = [
     color: "#AFF633",
   },
   {
-    id: "028",
+    id: "WP028",
     name: "Zanpakuto",
     active1: "Nhận +1 Strength, +1 Speed và +1 Martial Arts.",
     active2: "",
@@ -340,7 +340,7 @@ export const weaponSections = [
     color: "#F633A1",
   },
   {
-    id: "029",
+    id: "WP029",
     name: "Kunai",
     active1: "Nhận +2 Speed.",
     active2: "",
@@ -352,7 +352,7 @@ export const weaponSections = [
     color: "#33F6A1",
   },
   {
-    id: "030",
+    id: "WP030",
     name: "Revolver",
     active1: "Có 16.67% nhận 1 điểm trước combat.",
     active2: "Có 33.33% nhận 1 điểm trước combat",
@@ -364,7 +364,7 @@ export const weaponSections = [
     color: "#F6A133",
   },
   {
-    id: "031",
+    id: "WP031",
     name: "Hextech Gauntlets",
     active1: null,
     active2: "Nhận +2 BIQ và +1 Martial Arts.",
@@ -376,7 +376,7 @@ export const weaponSections = [
     color: "#33F633",
   },
   {
-    id: "032",
+    id: "WP032",
     name: "Recurve Bow",
     active1: "Nhận +1 Speed",
     active2: "Nhận +2 Speed.",
@@ -388,7 +388,7 @@ export const weaponSections = [
     color: "#A1F633",
   },
   {
-    id: "033",
+    id: "WP033",
     name: "Double-edge Sword",
     active1: "Nhận -5 Speed, +5 BIQ.",
     active2: null,
@@ -400,7 +400,7 @@ export const weaponSections = [
     color: "#FF33AF",
   },
   {
-    id: "034",
+    id: "WP034",
     name: "Shuriken",
     active1: "Nhận +1 BIQ.",
     active2: null,
@@ -412,7 +412,7 @@ export const weaponSections = [
     color: "#33A1F6",
   },
   {
-    id: "035",
+    id: "WP035",
     name: "Harmonica",
     active1: null,
     active2: null,
@@ -424,7 +424,7 @@ export const weaponSections = [
     color: "#F6AF33",
   },
   {
-    id: "036",
+    id: "WP036",
     name: "Cursed Gauntlet",
     active1: null,
     active2: "Nhận -2 Durability, +2 Martial Arts.",
@@ -436,7 +436,7 @@ export const weaponSections = [
     color: "#AF33F6",
   },
   {
-    id: "037",
+    id: "WP037",
     name: "Magical Staff",
     active1: null,
     active2: null,
@@ -449,7 +449,7 @@ export const weaponSections = [
     color: "#33F6AF",
   },
   {
-    id: "038",
+    id: "WP038",
     name: "Summoning Scroll",
     active1: "Nhận 1 random Summoning Power.",
     active2: null,
@@ -462,7 +462,7 @@ export const weaponSections = [
     color: "#A1FF8F",
   },
   {
-    id: "039",
+    id: "WP039",
     name: "Banana Peel",
     active1: null,
     active2:
@@ -478,7 +478,7 @@ export const weaponSections = [
     color: "#FF8FA1",
   },
   {
-    id: "040",
+    id: "WP040",
     name: "Glass Bottle",
     active1: "Nhận +1 Strength. Vũ khí bị phá hủy sau 2 Combat.",
     active2: "Nhận +2 Strength. Vũ khí bị phá hủy sau 2 Combat.",
@@ -490,7 +490,7 @@ export const weaponSections = [
     color: "#8FA1FF",
   },
   {
-    id: "041",
+    id: "WP041",
     name: "Clay Brick",
     active1: "Nhận +1 Strength.",
     active2: null,
@@ -503,7 +503,7 @@ export const weaponSections = [
     color: "#A1F6FF",
   },
   {
-    id: "042",
+    id: "WP042",
     name: "Feather Duster",
     active1: null,
     active2: null,
@@ -515,7 +515,7 @@ export const weaponSections = [
     color: "#FFA1F6",
   },
   {
-    id: "043",
+    id: "WP043",
     name: "Claws of Attack",
     active1: "Nhận +1 Strength",
     active2: "Nhận +2 Strength",
@@ -527,7 +527,7 @@ export const weaponSections = [
     color: "#A1FFA1",
   },
   {
-    id: "044",
+    id: "WP044",
     name: "Drums",
     active1: "Sau mỗi 2 trận thắng PvP, nhận thêm 1 phần thưởng PvP nữa.",
     active2: null,
@@ -539,7 +539,7 @@ export const weaponSections = [
     color: "#FFA18F",
   },
   {
-    id: "045",
+    id: "WP045",
     name: "Trident",
     active1: null,
     active2:
@@ -552,7 +552,7 @@ export const weaponSections = [
     color: "#8FA1A1",
   },
   {
-    id: "046",
+    id: "WP046",
     name: "Wooden Flute",
     active1: 'Với mỗi combat thắng, nhận 1 gear random không có tag "Cursed".',
     active2: null,
@@ -564,7 +564,7 @@ export const weaponSections = [
     color: "#A18FFF",
   },
   {
-    id: "047",
+    id: "WP047",
     name: "Magician's Wand",
     active1: null,
     active2: "Nhận 1 Power vô dụng.",
@@ -576,7 +576,7 @@ export const weaponSections = [
     color: "#8FFFF6",
   },
   {
-    id: "048",
+    id: "WP048",
     name: "Cursed Gunblade",
     active1: "Với mỗi round thắng trong combat, nhận -1 vào stat ngay sau đó.",
     active2: null,
@@ -589,7 +589,7 @@ export const weaponSections = [
     color: "#8FFFA1",
   },
   {
-    id: "049",
+    id: "WP049",
     name: "Crimson Scythe",
     active1: null,
     active2: "Đối thủ nhận -2 Speed.",
@@ -602,7 +602,7 @@ export const weaponSections = [
     color: "#F6FFA1",
   },
   {
-    id: "050",
+    id: "WP050",
     name: "War Horn",
     active1: "Nhận +1 Strength.",
     active2: null,
@@ -615,7 +615,7 @@ export const weaponSections = [
     color: "#A1F6A1",
   },
   {
-    id: "051",
+    id: "WP051",
     name: "Bloody Knife",
     active1: "Nhận +1 BIQ.",
     active2: "Nhận +2 BIQ.",
@@ -630,7 +630,7 @@ export const weaponSections = [
     color: "#A1A1FF",
   },
   {
-    id: "052",
+    id: "WP052",
     name: "Magic Violin",
     active1: "Có 16.67% vô hiệu hóa 3 Power của địch.",
     active2: "Có 33.33% vô hiệu hóa 3 Power của địch.",
@@ -642,7 +642,7 @@ export const weaponSections = [
     color: "#A1A1F6",
   },
   {
-    id: "053",
+    id: "WP053",
     name: "Wooden Spear",
     active1: null,
     active2: "Nhận +1 Martial Arts.",
@@ -654,7 +654,7 @@ export const weaponSections = [
     color: "#F6A1A1",
   },
   {
-    id: "054",
+    id: "WP054",
     name: "Silent Dagger",
     active1: "Nhận +1 Strength.",
     active2: "Nhận +1 Strength, +1 Speed.",
@@ -667,7 +667,7 @@ export const weaponSections = [
     color: "#A1A1A1",
   },
   {
-    id: "055",
+    id: "WP055",
     name: "Slingshot",
     active1: null,
     active2: null,
@@ -682,7 +682,7 @@ export const weaponSections = [
 
 export const uniqueWeaponSections = [
   {
-    id: "056",
+    id: "WP056",
     name: "Staff of Moses",
     active1: "Nhận +3 IQ và 1 Random Power.",
     active2: "",
@@ -694,7 +694,7 @@ export const uniqueWeaponSections = [
     color: "#FFBF00",
   },
   {
-    id: "057",
+    id: "WP057",
     name: "Hullbreaker",
     active1: "",
     active2: "",
@@ -707,7 +707,7 @@ export const uniqueWeaponSections = [
     color: "#FF7F50",
   },
   {
-    id: "058",
+    id: "WP058",
     name: "Acheron's Katana",
     active1: "",
     active2: "",
@@ -721,7 +721,7 @@ export const uniqueWeaponSections = [
     color: "#DE3163",
   },
   {
-    id: "059",
+    id: "WP059",
     name: "Infinity Edge",
     active1: "",
     active2:
@@ -735,7 +735,7 @@ export const uniqueWeaponSections = [
     color: "#9FE2BF",
   },
   {
-    id: "060",
+    id: "WP060",
     name: "Blade of Chaos",
     active1: "",
     active2: "",
@@ -747,7 +747,7 @@ export const uniqueWeaponSections = [
     color: "#40E0D0",
   },
   {
-    id: "061",
+    id: "WP061",
     name: "Lord Dominik's Regards",
     active1: "Nhận 'Critical Strike'. Đối phương nhận -2 Durability.",
     active2: "",
@@ -759,7 +759,7 @@ export const uniqueWeaponSections = [
     color: "#6495ED",
   },
   {
-    id: "062",
+    id: "WP062",
     name: "River of Blood",
     active1: "",
     active2: "Nhận +1 Speed, +1 BIQ +1 Martial Arts.",
@@ -772,7 +772,7 @@ export const uniqueWeaponSections = [
     color: "#CCCCFF",
   },
   {
-    id: "063",
+    id: "WP063",
     name: "Heartseeker Bow",
     active1: "Nhận Power 'True Aim'.",
     active2: "",
@@ -784,7 +784,7 @@ export const uniqueWeaponSections = [
     color: "#FF6666",
   },
   {
-    id: "064",
+    id: "WP064",
     name: "Flute of Music God",
     active1: "",
     active2:
@@ -797,7 +797,7 @@ export const uniqueWeaponSections = [
     color: "#FFB6C1",
   },
   {
-    id: "065",
+    id: "WP065",
     name: "Nỏ thần An Dương Vương",
     active1: "",
     active2: "Nhận +2 Strength, +2 Speed.",
@@ -809,7 +809,7 @@ export const uniqueWeaponSections = [
     color: "#FF69B4",
   },
   {
-    id: "066",
+    id: "WP066",
     name: "Ruan Mei's Lute",
     active1: "",
     active2: "Nhận +1 Speed và +1 IQ. Đối thủ giảm 2 Durability.",
@@ -821,7 +821,7 @@ export const uniqueWeaponSections = [
     color: "#DB7093",
   },
   {
-    id: "067",
+    id: "WP067",
     name: "Durandal",
     active1: "",
     active2: "",
@@ -833,7 +833,7 @@ export const uniqueWeaponSections = [
     color: "#C71585",
   },
   {
-    id: "068",
+    id: "WP068",
     name: "Staff of Homa",
     active1: "",
     active2: "Nhận +1 Strength, +2 Durability và +1 Martial Arts.",
@@ -845,7 +845,7 @@ export const uniqueWeaponSections = [
     color: "#800080",
   },
   {
-    id: "069",
+    id: "WP069",
     name: "Leviathan Axe",
     active1: "",
     active2: "",
@@ -857,7 +857,7 @@ export const uniqueWeaponSections = [
     color: "#4B0082",
   },
   {
-    id: "070",
+    id: "WP070",
     name: "Thuận Thiên Kiếm",
     active1:
       "Nhận +1 All Stats khi đối đầu với kẻ địch thuộc chủng tộc cấp cao hơn.",
@@ -872,7 +872,7 @@ export const uniqueWeaponSections = [
     color: "#8A2BE2",
   },
   {
-    id: "071",
+    id: "WP071",
     name: "Staff of Holy God",
     active1: "",
     active2: "Nhận +3 IQ, +2 BIQ.",
@@ -884,7 +884,7 @@ export const uniqueWeaponSections = [
     color: "#9370DB",
   },
   {
-    id: "072",
+    id: "WP072",
     name: "Frostmourne",
     active1: "",
     active2: "Nhận +1 Strength, +1 Speed và +1 BIQ",
@@ -897,7 +897,7 @@ export const uniqueWeaponSections = [
     color: "#BA55D3",
   },
   {
-    id: "073",
+    id: "WP073",
     name: "Staff of Thousand Year Old Elf",
     active1: "",
     active2: "",
@@ -909,7 +909,7 @@ export const uniqueWeaponSections = [
     color: "#9932CC",
   },
   {
-    id: "074",
+    id: "WP074",
     name: "Maliketh's Black Blade",
     active1: "",
     active2: "Nhận +1 Speed và +2 Martial Arts. Đối thủ -1 Durability.",
@@ -921,7 +921,7 @@ export const uniqueWeaponSections = [
     color: "#9400D3",
   },
   {
-    id: "075",
+    id: "WP075",
     name: "Death's Scythe",
     active1: "",
     active2: "",
@@ -934,7 +934,7 @@ export const uniqueWeaponSections = [
     color: "#8B008B",
   },
   {
-    id: "076",
+    id: "WP076",
     name: "Grand Matron Bow",
     active1: "",
     active2: "",
@@ -946,7 +946,7 @@ export const uniqueWeaponSections = [
     color: "#6A5ACD",
   },
   {
-    id: "077",
+    id: "WP077",
     name: "Executioner's Glorious Axe",
     active1: "",
     active2: "Nhận +2 Strength, +2 Durability và +1 Martial Arts.",
@@ -958,7 +958,7 @@ export const uniqueWeaponSections = [
     color: "#483D8B",
   },
   {
-    id: "078",
+    id: "WP078",
     name: "Mjolnir",
     active1: "",
     active2: "",
@@ -971,7 +971,7 @@ export const uniqueWeaponSections = [
     color: "#7B68EE",
   },
   {
-    id: "079",
+    id: "WP079",
     name: "The Oculus Swirling Crystal",
     active1: "",
     active2: "",
@@ -984,7 +984,7 @@ export const uniqueWeaponSections = [
     color: "#ADFF2F",
   },
   {
-    id: "080",
+    id: "WP080",
     name: "Boneshade Lich Wand",
     active1:
       "Nhận vĩnh viễn Power 'Reversed Cursed Fate'. Sau đó đưa vũ khí này trở lại Unique Weapon Wheel và nhận Normal Weapon 'Cursed Gaunlet'.",
@@ -997,7 +997,7 @@ export const uniqueWeaponSections = [
     color: "#7FFF00",
   },
   {
-    id: "081",
+    id: "WP081",
     name: "Excalibur",
     active1:
       "Nhận +1 All Stats. Khi thua trận, đưa vũ khí này cho đối phương nếu đối phương không sử dụng Unique Weapon.",
@@ -1010,7 +1010,7 @@ export const uniqueWeaponSections = [
     color: "#7CFC00",
   },
   {
-    id: "082",
+    id: "WP082",
     name: "Green Dragon Crescent Blade",
     active1: "",
     active2: "",
@@ -1022,7 +1022,7 @@ export const uniqueWeaponSections = [
     color: "#00FF00",
   },
   {
-    id: "083",
+    id: "WP083",
     name: "Heavenly Jewelled Spear",
     active1: "Nhận +1 Strength, +1 Speed và Power 'Warzone'.",
     active2: "",
@@ -1035,7 +1035,7 @@ export const uniqueWeaponSections = [
     color: "#32CD32",
   },
   {
-    id: "084",
+    id: "WP084",
     name: "Symmetrical Lance",
     active1: "",
     active2:
@@ -1049,7 +1049,7 @@ export const uniqueWeaponSections = [
     color: "#98FB98",
   },
   {
-    id: "085",
+    id: "WP085",
     name: "Yamato Blade",
     active1: "",
     active2: "",
@@ -1061,7 +1061,7 @@ export const uniqueWeaponSections = [
     color: "#90EE90",
   },
   {
-    id: "086",
+    id: "WP086",
     name: "Moonlight Greatsword",
     active1: "",
     active2: "Nhận Power 'Moonlight Strike'.",
@@ -1073,7 +1073,7 @@ export const uniqueWeaponSections = [
     color: "#00FA9A",
   },
   {
-    id: "087",
+    id: "WP087",
     name: "Odysseus' Legendary Bow",
     active1: "Nhận +2 Speed, +1 BIQ và +1 Martial Arts.",
     active2: "",
@@ -1085,7 +1085,7 @@ export const uniqueWeaponSections = [
     color: "#00FF7F",
   },
   {
-    id: "088",
+    id: "WP088",
     name: "Dagger of Time",
     active1: "",
     active2: "",
@@ -1097,7 +1097,7 @@ export const uniqueWeaponSections = [
     color: "#3CB371",
   },
   {
-    id: "089",
+    id: "WP089",
     name: "Rhongomyniad",
     active1: "",
     active2: "",
@@ -1110,7 +1110,7 @@ export const uniqueWeaponSections = [
     color: "#2E8B57",
   },
   {
-    id: "090",
+    id: "WP090",
     name: "Rhitta",
     active1: "",
     active2: "",
@@ -1122,7 +1122,7 @@ export const uniqueWeaponSections = [
     color: "#228B22",
   },
   {
-    id: "091",
+    id: "WP091",
     name: "Artemis' Silver Bow",
     active1: "Nhận Power 'Hunter's Rewards'",
     active2: "",
@@ -1134,7 +1134,7 @@ export const uniqueWeaponSections = [
     color: "#008000",
   },
   {
-    id: "092",
+    id: "WP092",
     name: "Hou Yi's Divine Bow",
     active1:
       "Với mỗi round thắng trong combat, nhận 1 'Sun Stack', khi đủ 9 'Sun Stack', nhận +2 All Stats.",
@@ -1147,7 +1147,7 @@ export const uniqueWeaponSections = [
     color: "#006400",
   },
   {
-    id: "093",
+    id: "WP093",
     name: "Divine Rapier",
     active1: "",
     active2:
@@ -1160,7 +1160,7 @@ export const uniqueWeaponSections = [
     color: "#66CDAA",
   },
   {
-    id: "094",
+    id: "WP094",
     name: "Blink Dagger",
     active1: "",
     active2: "",
@@ -1173,7 +1173,7 @@ export const uniqueWeaponSections = [
     color: "#8FBC8F",
   },
   {
-    id: "095",
+    id: "WP095",
     name: "Gungnir",
     active1: "",
     active2: "",
@@ -1185,7 +1185,7 @@ export const uniqueWeaponSections = [
     color: "#20B2AA",
   },
   {
-    id: "096",
+    id: "WP096",
     name: "Death's Fathom",
     active1: "",
     active2: "Nhận Power 'Lightning Mastery'.",
@@ -1199,7 +1199,7 @@ export const uniqueWeaponSections = [
     color: "#008B8B",
   },
   {
-    id: "097",
+    id: "WP097",
     name: "Bloodthirst Dagger",
     active1: "Nhận 'Critical Strike' và tăng 10% tỉ lệ crit.",
     active2: "",
@@ -1212,7 +1212,7 @@ export const uniqueWeaponSections = [
     color: "#008080",
   },
   {
-    id: "098",
+    id: "WP098",
     name: "Crimson Mischief",
     active1: "",
     active2: "",
@@ -1225,7 +1225,7 @@ export const uniqueWeaponSections = [
     color: "#00CED1",
   },
   {
-    id: "099",
+    id: "WP099",
     name: "Balduran's Giantslayer",
     active1: "",
     active2:
@@ -1238,7 +1238,7 @@ export const uniqueWeaponSections = [
     color: "#48D1CC",
   },
   {
-    id: "100",
+    id: "WP100",
     name: "Ruyi Jingu Bang",
     active1: "",
     active2: "",
@@ -1250,7 +1250,7 @@ export const uniqueWeaponSections = [
     color: "#40E0D0",
   },
   {
-    id: "101",
+    id: "WP101",
     name: "Poseidon's Trident",
     active1: "",
     active2: "Nhận +3 BIQ và +3 Martial Arts. Nhận Power 'Rising Tide'.",
@@ -1262,7 +1262,7 @@ export const uniqueWeaponSections = [
     color: "#00FFFF",
   },
   {
-    id: "102",
+    id: "WP102",
     name: "Stygian Blade",
     active1: "",
     active2: "",
@@ -1274,7 +1274,7 @@ export const uniqueWeaponSections = [
     color: "#E0FFFF",
   },
   {
-    id: "103",
+    id: "WP103",
     name: "Misericorde",
     active1: "Nhận item 'Buckler'. Nhận +2 Speed.",
     active2: "",
@@ -1288,7 +1288,7 @@ export const uniqueWeaponSections = [
     color: "#AFEEEE",
   },
   {
-    id: "104",
+    id: "WP104",
     name: "Reduvia",
     active1: "Nhận +1 Strength và +2 Speed. Đối thủ giảm 2 Durability.",
     active2: "Nhận +2 Strength và +3 Speed. Đối thủ giảm 2 Durability.",
@@ -1300,7 +1300,7 @@ export const uniqueWeaponSections = [
     color: "#7FFFD4",
   },
   {
-    id: "105",
+    id: "WP105",
     name: "Master Sword",
     active1: "",
     active2: "",
@@ -1313,7 +1313,7 @@ export const uniqueWeaponSections = [
     color: "#B0E0E6",
   },
   {
-    id: "106",
+    id: "WP106",
     name: "Archon Glaive",
     active1: "",
     active2:
@@ -1327,7 +1327,7 @@ export const uniqueWeaponSections = [
     color: "#5F9EA0",
   },
   {
-    id: "107",
+    id: "WP107",
     name: "Scythe of the Unmaker",
     active1: "",
     active2: "",
@@ -1339,7 +1339,7 @@ export const uniqueWeaponSections = [
     color: "#4682B4",
   },
   {
-    id: "108",
+    id: "WP108",
     name: "Spider's Lyre",
     active1: "",
     active2: "Nhận +2 IQ và +2 BIQ.",
@@ -1351,7 +1351,7 @@ export const uniqueWeaponSections = [
     color: "#B0C4DE",
   },
   {
-    id: "109",
+    id: "WP109",
     name: "Inverted Spear of Heaven",
     active1: "",
     active2: "",
@@ -1364,7 +1364,7 @@ export const uniqueWeaponSections = [
     color: "#ADD8E6",
   },
   {
-    id: "110",
+    id: "WP110",
     name: "Playful Cloud",
     active1: "Nhận +2 Strength và +2 Martial Arts.",
     active2: "",
@@ -1377,7 +1377,7 @@ export const uniqueWeaponSections = [
     color: "#87CEEB",
   },
   {
-    id: "111",
+    id: "WP111",
     name: "Psaltery of Forgotten Kingdom",
     active1: "",
     active2: "",
@@ -1389,7 +1389,7 @@ export const uniqueWeaponSections = [
     color: "#87CEFA",
   },
   {
-    id: "112",
+    id: "WP112",
     name: "Great Highland Bagpipe",
     active1: "Nhận +1 all stats.",
     active2: "",
@@ -1401,7 +1401,7 @@ export const uniqueWeaponSections = [
     color: "#00BFFF",
   },
   {
-    id: "113",
+    id: "WP113",
     name: "Golden Loong Staff",
     active1: "",
     active2: "",
@@ -1413,7 +1413,7 @@ export const uniqueWeaponSections = [
     color: "#1E90FF",
   },
   {
-    id: "114",
+    id: "WP114",
     name: "Blade of Olympus",
     active1: "",
     active2: "",
@@ -1426,7 +1426,7 @@ export const uniqueWeaponSections = [
     color: "#6495ED",
   },
   {
-    id: "115",
+    id: "WP115",
     name: "Mortal Blade",
     active1: "",
     active2: "",
@@ -1439,7 +1439,7 @@ export const uniqueWeaponSections = [
     color: "#7B68EE",
   },
   {
-    id: "116",
+    id: "WP116",
     name: "Dragonslayer Greatbow",
     active1: "",
     active2: "Nhận +3 Strength và +4 BIQ.",
@@ -1451,7 +1451,7 @@ export const uniqueWeaponSections = [
     color: "#4169E1",
   },
   {
-    id: "117",
+    id: "WP117",
     name: "Dragonslayer Greataxe",
     active1: "",
     active2: "Nhận +4 Strength và +3 Durability.",
@@ -1463,7 +1463,7 @@ export const uniqueWeaponSections = [
     color: "#0000FF",
   },
   {
-    id: "118",
+    id: "WP118",
     name: "Golem Axe",
     active1: "",
     active2: "",
@@ -1476,7 +1476,7 @@ export const uniqueWeaponSections = [
     color: "#0000CD",
   },
   {
-    id: "119",
+    id: "WP119",
     name: "Moonveil",
     active1: "",
     active2: "",
@@ -1488,7 +1488,7 @@ export const uniqueWeaponSections = [
     color: "#00008B",
   },
   {
-    id: "120",
+    id: "WP120",
     name: "Jingyuan's Guan Dao",
     active1: "",
     active2: "Nhận +2 IQ, +2 BIQ và +2 Martial Arts.",
@@ -1501,7 +1501,7 @@ export const uniqueWeaponSections = [
     color: "#000080",
   },
   {
-    id: "121",
+    id: "WP121",
     name: "Yoriichi's Black Nichirin",
     active1: "Nhận +3 Strength, +2 Martial Arts",
     active2: "",
@@ -1514,7 +1514,7 @@ export const uniqueWeaponSections = [
     color: "#191970",
   },
   {
-    id: "122",
+    id: "WP122",
     name: "Enma Blade",
     active1: "",
     active2: "",
@@ -1526,7 +1526,7 @@ export const uniqueWeaponSections = [
     color: "#8B0000",
   },
   {
-    id: "123",
+    id: "WP123",
     name: "Chastiefol",
     active1: "",
     active2: "",
@@ -1539,7 +1539,7 @@ export const uniqueWeaponSections = [
     color: "#A52A2A",
   },
   {
-    id: "124",
+    id: "WP124",
     name: "Dual Sai",
     active1: "",
     active2: "Nhận +2 Strength, +2 Speed, +2 BIQ và +2 Martial Arts.",
@@ -1551,7 +1551,7 @@ export const uniqueWeaponSections = [
     color: "#B22222",
   },
   {
-    id: "125",
+    id: "WP125",
     name: "Necronomicon",
     active1: "",
     active2: "",
@@ -1564,7 +1564,7 @@ export const uniqueWeaponSections = [
     color: "#DC143C",
   },
   {
-    id: "126",
+    id: "WP126",
     name: "Nine-Tooth Spike Rake",
     active1: "Nhận +2 Durability và +2 BIQ.",
     active2: "Nhận +3 Durability và +3 BIQ.",
@@ -1576,7 +1576,7 @@ export const uniqueWeaponSections = [
     color: "#FF0000",
   },
   {
-    id: "127",
+    id: "WP127",
     name: "Sword of Kusanagi",
     active1: "",
     active2: "",
@@ -1588,7 +1588,7 @@ export const uniqueWeaponSections = [
     color: "#FF6347",
   },
   {
-    id: "128",
+    id: "WP128",
     name: "Anduril",
     active1: "",
     active2: "",
@@ -1600,7 +1600,7 @@ export const uniqueWeaponSections = [
     color: "#FF4500",
   },
   {
-    id: "129",
+    id: "WP129",
     name: "Carnwennan",
     active1: "",
     active2: "",
@@ -1613,7 +1613,7 @@ export const uniqueWeaponSections = [
     color: "#FF8C00",
   },
   {
-    id: "130",
+    id: "WP130",
     name: "Trishula",
     active1: "",
     active2: "",
@@ -1626,7 +1626,7 @@ export const uniqueWeaponSections = [
     color: "#FFA500",
   },
   {
-    id: "131",
+    id: "WP131",
     name: "Gae Bulg",
     active1: "Nhận +3 Speed và +2 Martial Arts.",
     active2: "",
@@ -1638,7 +1638,7 @@ export const uniqueWeaponSections = [
     color: "#FFD700",
   },
   {
-    id: "132",
+    id: "WP132",
     name: "Ame-no-Nuboko",
     active1: "Nhận 2 'Physical' Power ngẫu nhiên. Nhận +1 all stats.",
     active2: "",
@@ -1650,7 +1650,7 @@ export const uniqueWeaponSections = [
     color: "#FFFF00",
   },
   {
-    id: "133",
+    id: "WP133",
     name: "Tonbokiri",
     active1: "",
     active2: "Đối thủ nhận -1 all stats.",
@@ -1662,7 +1662,7 @@ export const uniqueWeaponSections = [
     color: "#FFFFE0",
   },
   {
-    id: "134",
+    id: "WP134",
     name: "Honjo Masamune",
     active1: "Nhận +2 BIQ và +2 Martial Arts.",
     active2: "",
@@ -1675,7 +1675,7 @@ export const uniqueWeaponSections = [
     color: "#FFFACD",
   },
   {
-    id: "135",
+    id: "WP135",
     name: "Bird's Eye Sniper Rifle",
     active1: "",
     active2: "Nhận 'Hawk-Eye Harbinger' Special Power.",
@@ -1687,7 +1687,7 @@ export const uniqueWeaponSections = [
     color: "#FAFAD2",
   },
   {
-    id: "136",
+    id: "WP136",
     name: "Rapid Firecannon",
     active1: "Nhận Power 'Critical Strike' và tăng 15% tỉ lệ Crit.",
     active2: "",
@@ -1701,7 +1701,7 @@ export const uniqueWeaponSections = [
     color: "#FFEFD5",
   },
   {
-    id: "137",
+    id: "WP137",
     name: "Dragon Lance",
     active1: "",
     active2:
@@ -1714,7 +1714,7 @@ export const uniqueWeaponSections = [
     color: "#FFE4B5",
   },
   {
-    id: "138",
+    id: "WP138",
     name: "Elven's Sting",
     active1: "",
     active2: "",
@@ -1727,7 +1727,7 @@ export const uniqueWeaponSections = [
     color: "#FFDAB9",
   },
   {
-    id: "139",
+    id: "WP139",
     name: "The Dagger of Destiny",
     active1: "",
     active2: "",
@@ -1740,7 +1740,7 @@ export const uniqueWeaponSections = [
     color: "#EEE8AA",
   },
   {
-    id: "140",
+    id: "WP140",
     name: "Fragarach",
     active1: "",
     active2: "",
@@ -1753,7 +1753,7 @@ export const uniqueWeaponSections = [
     color: "#F0E68C",
   },
   {
-    id: "141",
+    id: "WP141",
     name: "The Elder Wand",
     active1: "Nhận +1 IQ và +2 BIQ.",
     active2: "Nhận +2 IQ và +3 BIQ.",
@@ -1766,7 +1766,7 @@ export const uniqueWeaponSections = [
     color: "#BDB76B",
   },
   {
-    id: "142",
+    id: "WP142",
     name: "Aegis-Fang",
     active1: "",
     active2: "Nhận +3 Strength và +3 Martial Arts.",
@@ -1778,7 +1778,7 @@ export const uniqueWeaponSections = [
     color: "#E6E6FA",
   },
   {
-    id: "143",
+    id: "WP143",
     name: "Airbender Staff",
     active1: "",
     active2: "",
@@ -1791,7 +1791,7 @@ export const uniqueWeaponSections = [
     color: "#D8BFD8",
   },
   {
-    id: "144",
+    id: "WP144",
     name: "Bow of Katniss Everdeen",
     active1: "",
     active2: "Nhận +2 Speed và 'True Aim'.",
@@ -1803,7 +1803,7 @@ export const uniqueWeaponSections = [
     color: "#FF1493",
   },
   {
-    id: "145",
+    id: "WP145",
     name: "Dawnbreaker",
     active1: "Nhận +2 BIQ và +2 Martial Arts.",
     active2: "Nhận +3 BIQ và +4 Martial Arts.",
@@ -1815,7 +1815,7 @@ export const uniqueWeaponSections = [
     color: "#C71585",
   },
   {
-    id: "146",
+    id: "WP146",
     name: "Gunn's Axe",
     active1: "",
     active2: "",
@@ -1827,7 +1827,7 @@ export const uniqueWeaponSections = [
     color: "#DB7093",
   },
   {
-    id: "147",
+    id: "WP147",
     name: "Sarastro's Flute",
     active1: "Nhận 2 Power 'Holy' ngẫu nhiên. (dùng Holy Power Wheel)",
     active2: "",
@@ -1840,7 +1840,7 @@ export const uniqueWeaponSections = [
     color: "#FFC0CB",
   },
   {
-    id: "148",
+    id: "WP148",
     name: "Hemera's Gaze",
     active1: "Nhận +1 Strength và Power 'Blizzard'.",
     active2: "Nhận +1 Strength, +1 Speed, +1 Durability và Power 'Blizzard'.",
@@ -1853,7 +1853,7 @@ export const uniqueWeaponSections = [
     color: "#FFB6C1",
   },
   {
-    id: "149",
+    id: "WP149",
     name: "The Collector",
     active1: "",
     active2: "Mỗi khi thắng combat, nhận +2 vào 1 stat ngẫu nhiên.",
@@ -1867,7 +1867,7 @@ export const uniqueWeaponSections = [
     color: "#FAEBD7",
   },
   {
-    id: "150",
+    id: "WP150",
     name: "Selene's Quartz Staff",
     active1: "",
     active2: "",
@@ -1880,7 +1880,7 @@ export const uniqueWeaponSections = [
     color: "#F5F5DC",
   },
   {
-    id: "151",
+    id: "WP151",
     name: "Desolator",
     active1: "Nhận +2 Strength, +1 Martial Arts. \nĐối thủ giảm 2 Durability.",
     active2: "",
@@ -1892,7 +1892,7 @@ export const uniqueWeaponSections = [
     color: "#FFE4C4",
   },
   {
-    id: "152",
+    id: "WP152",
     name: "Ebony Blade",
     active1: "",
     active2: "",
@@ -1905,7 +1905,7 @@ export const uniqueWeaponSections = [
     color: "#FFDEAD",
   },
   {
-    id: "153",
+    id: "WP153",
     name: "Battle Fury",
     active1: "",
     active2:
@@ -1919,7 +1919,7 @@ export const uniqueWeaponSections = [
     color: "#EEDC82",
   },
   {
-    id: "154",
+    id: "WP154",
     name: "The Tihar",
     active1: "Với mỗi 3 điểm Base BIQ, nhận +1 vào các chỉ số còn lại.",
     active2: "",
@@ -1932,7 +1932,7 @@ export const uniqueWeaponSections = [
     color: "#DEB887",
   },
   {
-    id: "155",
+    id: "WP155",
     name: "Thunderfury",
     active1: "",
     active2: "",
@@ -1945,7 +1945,7 @@ export const uniqueWeaponSections = [
     color: "#D2B48C",
   },
   {
-    id: "156",
+    id: "WP156",
     name: "The Magnum",
     active1: "",
     active2: "",
@@ -1957,7 +1957,7 @@ export const uniqueWeaponSections = [
     color: "#BC8F8F",
   },
   {
-    id: "157",
+    id: "WP157",
     name: "Giant Slayer",
     active1: "",
     active2: "Nhận +1 all stats với mỗi 4 Durability mà đối phương có.",
@@ -1969,7 +1969,7 @@ export const uniqueWeaponSections = [
     color: "#F4A460",
   },
   {
-    id: "158",
+    id: "WP158",
     name: "Tsuki's Ladder",
     active1: "",
     active2: "",
@@ -1983,7 +1983,7 @@ export const uniqueWeaponSections = [
     color: "#DAA520",
   },
   {
-    id: "159",
+    id: "WP159",
     name: "Reinhardt's Rocket Hammer",
     active1: "",
     active2: "",
@@ -1995,7 +1995,7 @@ export const uniqueWeaponSections = [
     color: "#B8860B",
   },
   {
-    id: "160",
+    id: "WP160",
     name: "Wrath Hammer of Shao Kahn",
     active1: "",
     active2:
@@ -2008,7 +2008,7 @@ export const uniqueWeaponSections = [
     color: "#CD853F",
   },
   {
-    id: "161",
+    id: "WP161",
     name: "Labrys Axe",
     active1: "",
     active2: "Nhận +2 Strength và +3 Martial Arts.",
@@ -2020,7 +2020,7 @@ export const uniqueWeaponSections = [
     color: "#D2691E",
   },
   {
-    id: "162",
+    id: "WP162",
     name: "Magical Electric Guitar",
     active1: "",
     active2: "",
@@ -2033,7 +2033,7 @@ export const uniqueWeaponSections = [
     color: "#8B4513",
   },
   {
-    id: "163",
+    id: "WP163",
     name: "Aghanim's Scepter",
     active1: "",
     active2:
@@ -2046,7 +2046,7 @@ export const uniqueWeaponSections = [
     color: "#A0522D",
   },
   {
-    id: "164",
+    id: "WP164",
     name: "Falcon Eyes",
     active1: "",
     active2: "",
@@ -2059,7 +2059,7 @@ export const uniqueWeaponSections = [
     color: "#A52A2A",
   },
   {
-    id: "165",
+    id: "WP165",
     name: "Two Dragons Sword",
     active1: "",
     active2: "",
@@ -2073,7 +2073,7 @@ export const uniqueWeaponSections = [
     color: "#800000",
   },
   {
-    id: "166",
+    id: "WP166",
     name: "Kalash 2012",
     active1: "",
     active2: "Nhận +3 Strength và +3 IQ.",
@@ -2085,7 +2085,7 @@ export const uniqueWeaponSections = [
     color: "#FFFFFF",
   },
   {
-    id: "167",
+    id: "WP167",
     name: "Flower of Fire",
     active1: "Nhận 1 random Fire Power. Nhận +2 BIQ.",
     active2: "Nhận 2 random Fire Power. Nhận +3 BIQ.",
@@ -2097,7 +2097,7 @@ export const uniqueWeaponSections = [
     color: "#FFFAFA",
   },
   {
-    id: "168",
+    id: "WP168",
     name: "Diamond Sword",
     active1: "",
     active2: "Nhận +3 Strength và +2 Speed.",
@@ -2109,7 +2109,7 @@ export const uniqueWeaponSections = [
     color: "#F0FFF0",
   },
   {
-    id: "169",
+    id: "WP169",
     name: "Lusat's Glintstone Staff",
     active1:
       "Nhận +3 IQ và 2 random 'Arcana' Power. Nếu bạn thuộc 'Lunarian' Alliance, nhận gấp đôi hiệu ứng từ vũ khí này.",
@@ -2122,7 +2122,7 @@ export const uniqueWeaponSections = [
     color: "#F5FFFA",
   },
   {
-    id: "170",
+    id: "WP170",
     name: "Hammer and Sickle",
     active1: "",
     active2: "Toàn bộ Alliance nhận +1 vào 3 chỉ số thấp nhất.",
@@ -2134,7 +2134,7 @@ export const uniqueWeaponSections = [
     color: "#F0FFFF",
   },
   {
-    id: "171",
+    id: "WP171",
     name: "Instruments of the Sirens",
     active1: "",
     active2: "",
@@ -2147,7 +2147,7 @@ export const uniqueWeaponSections = [
     color: "#F0F8FF",
   },
   {
-    id: "172",
+    id: "WP172",
     name: "Gjallarhorn",
     active1: "",
     active2: "Nhận +3 IQ. Đối thủ giảm 2 BIQ và 2 Durability.",
@@ -2159,7 +2159,7 @@ export const uniqueWeaponSections = [
     color: "#F8F8FF",
   },
   {
-    id: "173",
+    id: "WP173",
     name: "Seven Trumpets",
     active1:
       "Nhận +1 vĩnh viễn vào 1 chỉ số ngẫu nhiên 7 lần. Sau đó đưa vũ khí này trở lại Unique Weapon Wheel.",
@@ -2172,7 +2172,7 @@ export const uniqueWeaponSections = [
     color: "#F5F5F5",
   },
   {
-    id: "174",
+    id: "WP174",
     name: "Harp of Love",
     active1: "",
     active2: "",
@@ -2185,7 +2185,7 @@ export const uniqueWeaponSections = [
     color: "#FFF5EE",
   },
   {
-    id: "175",
+    id: "WP175",
     name: "Dark Magician's Staff",
     active1: "",
     active2: "",
@@ -2197,7 +2197,7 @@ export const uniqueWeaponSections = [
     color: "#FDF5E6",
   },
   {
-    id: "176",
+    id: "WP176",
     name: "Death's Web Wand",
     active1: "",
     active2: "Nhận +1 all stats. Nhận 2 Summoning Power.",
@@ -2209,7 +2209,7 @@ export const uniqueWeaponSections = [
     color: "#FAF0E6",
   },
   {
-    id: "177",
+    id: "WP177",
     name: "Lycander's Aim",
     active1: "",
     active2: "",
@@ -2221,7 +2221,7 @@ export const uniqueWeaponSections = [
     color: "#FAEBD7",
   },
   {
-    id: "178",
+    id: "WP178",
     name: "Pinaka Bow",
     active1:
       "Quay ngẫu nhiên 3 người chơi của Alliance đối địch. Mỗi khi 1 người trong số đó thua 1 combat, bạn nhận +1 vào 1 chỉ số ngẫu nhiên vĩnh viễn. Khi toàn bộ những người được chọn đã bị loại, nhận vĩnh viễn 1 random Power, trả vũ khí này về Unique Weapon Wheel và nhận 1 random Normal Weapon.",
@@ -2234,7 +2234,7 @@ export const uniqueWeaponSections = [
     color: "#FFEBCD",
   },
   {
-    id: "179",
+    id: "WP179",
     name: "Apollo's Bow",
     active1: "",
     active2: "",
@@ -2246,7 +2246,7 @@ export const uniqueWeaponSections = [
     color: "#FFE4C4",
   },
   {
-    id: "180",
+    id: "WP180",
     name: "Galeforce",
     active1: "",
     active2: "",
@@ -2259,7 +2259,7 @@ export const uniqueWeaponSections = [
     color: "#FFDEAD",
   },
   {
-    id: "181",
+    id: "WP181",
     name: "Luden's Companion",
     active1: "",
     active2: "Nhận +2 Strength, +2 IQ và +2 BIQ.",
@@ -2271,7 +2271,7 @@ export const uniqueWeaponSections = [
     color: "#778899",
   },
   {
-    id: "182",
+    id: "WP182",
     name: "Kafka's Dual Uzi",
     active1: "",
     active2: "",
@@ -2284,7 +2284,7 @@ export const uniqueWeaponSections = [
     color: "#708090",
   },
   {
-    id: "183",
+    id: "WP183",
     name: "Shadow Killer",
     active1: "",
     active2:
@@ -2297,7 +2297,7 @@ export const uniqueWeaponSections = [
     color: "#2F4F4F",
   },
   {
-    id: "184",
+    id: "WP184",
     name: "Stormspike",
     active1: "",
     active2: "",
@@ -2310,7 +2310,7 @@ export const uniqueWeaponSections = [
     color: "#000000",
   },
   {
-    id: "185",
+    id: "WP185",
     name: "Orianna's Ball",
     active1: "",
     active2:
@@ -2324,7 +2324,7 @@ export const uniqueWeaponSections = [
     color: "#E0FFFF",
   },
   {
-    id: "186",
+    id: "WP186",
     name: "The Hex Core",
     active1: "",
     active2: "",
@@ -2336,7 +2336,7 @@ export const uniqueWeaponSections = [
     color: "#00FFFF",
   },
   {
-    id: "187",
+    id: "WP187",
     name: "Fishbones",
     active1: "",
     active2: "",
@@ -2348,7 +2348,7 @@ export const uniqueWeaponSections = [
     color: "#4682B4",
   },
   {
-    id: "188",
+    id: "WP188",
     name: "Black Hand of the Goddess",
     active1:
       "Nhận Power 'Critical Strike' và tăng 20% tỉ lệ Crit ở round 1, giảm đi 3% sau mỗi round.",
@@ -2365,7 +2365,7 @@ export const uniqueWeaponSections = [
     color: "#B0C4DE",
   },
   {
-    id: "189",
+    id: "WP189",
     name: "Ashe's Bow",
     active1: "Nhận Power 'Cold Arrow'.",
     active2: "Nhận power 'Cold Arrow'. Nhận +3 BIQ và +1 Martial Arts.",
@@ -2377,7 +2377,7 @@ export const uniqueWeaponSections = [
     color: "#ADD8E6",
   },
   {
-    id: "190",
+    id: "WP190",
     name: "Imp Staff",
     active1: "",
     active2: "Nhận Power 'Summoning Imp' và 2 BIQ.",
@@ -2390,7 +2390,7 @@ export const uniqueWeaponSections = [
     color: "#87CEEB",
   },
   {
-    id: "191",
+    id: "WP191",
     name: "Spiked Caestus",
     active1: "",
     active2: "",
@@ -2403,7 +2403,7 @@ export const uniqueWeaponSections = [
     color: "#87CEFA",
   },
   {
-    id: "192",
+    id: "WP192",
     name: "Black Knife",
     active1: "",
     active2: "",
@@ -2416,7 +2416,7 @@ export const uniqueWeaponSections = [
     color: "#00BFFF",
   },
   {
-    id: "193",
+    id: "WP193",
     name: "Great Stars",
     active1: "",
     active2: "",
@@ -2429,7 +2429,7 @@ export const uniqueWeaponSections = [
     color: "#0000FF",
   },
   {
-    id: "194",
+    id: "WP194",
     name: "Glintstone Kris",
     active1: "",
     active2: "",
@@ -2441,7 +2441,7 @@ export const uniqueWeaponSections = [
     color: "#0000CD",
   },
   {
-    id: "195",
+    id: "WP195",
     name: "Grond the Hammer of the Underworld",
     active1: "Sau mỗi trận PvP thắng, nhận +1 all stats. Tối đa +2 all stats.",
     active2: "Sau mỗi trận PvP thắng, nhận +1 all stats. Tối đa +3 all stats.",

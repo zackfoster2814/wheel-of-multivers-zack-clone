@@ -1,298 +1,298 @@
 export const powerSections = [
   {
-    id: "001",
+    id: "PO001",
     name: "Shinuchi (Bankai)",
     description: "Đối thủ bị vô hiệu hóa toàn bộ Power khi combat.",
     power: ["Arcana", "Wibu"],
   },
   {
-    id: "002",
+    id: "PO002",
     name: "Hellflame",
     description:
       'Toàn bộ "Fire" Power của đối phương sẽ thuộc về bạn (chỉ trong combat đó). Sau mỗi combat với người chơi có sở hữu "Fire" Power, nhận +2 vào chỉ số thấp nhất. (Stack)',
     power: ["Quirk", "Fire"],
   },
   {
-    id: "003",
+    id: "PO003",
     name: "Zanka no Tachi (Bankai)",
     description:
       'Hấp thụ vĩnh viễn toàn bộ Power có tag "Fire" của những kẻ địch đối đầu.',
     power: ["Fire", "Wibu"],
   },
   {
-    id: "004",
+    id: "PO004",
     name: "Rinrin's Chihuahua",
     description: "Nhận -1 All Stats.",
     power: ["Summoning"],
   },
   {
-    id: "005",
+    id: "PO005",
     name: "Regular Chihuahua",
     description: "Nhận -1 All Stats.",
     power: ["Summoning"],
   },
   {
-    id: "006",
+    id: "PO006",
     name: "Igris",
     description:
       "Nhận +1 Strength và +1 Speed. Với mỗi Summon bạn có, nhận chỉ số này thêm 1 lần nữa.",
     power: ["Summoning"],
   },
   {
-    id: "007",
+    id: "PO007",
     name: "Creator's Cat",
     description: 'Nhận thêm Char Dev "Creator\'s Favor" khi quay Char Dev.',
     power: ["Summoning"],
   },
   {
-    id: "008",
+    id: "PO008",
     name: "That thing from FMA",
     description: "Nhận hiệu ứng tương tự Chimera của Mythical Beast.",
     power: ["Summoning"],
   },
   {
-    id: "009",
+    id: "PO009",
     name: "Rewind",
     description:
       "Đưa đối thủ hiện tại về trạng thái của vòng combat trước (loại bỏ PvP Rewards và tất cả những hiệu ứng đã áp dụng). Power này sẽ có hiệu lực vĩnh viễn.",
     power: ["Quirk"],
   },
   {
-    id: "010",
+    id: "PO010",
     name: "Sun Aura",
     description:
       "Mỗi người có Sun Aura sẽ nhận +2 VĨNH VIỄN vào chỉ số thấp nhất trước mỗi combat.",
     power: ["Holy"],
   },
   {
-    id: "011",
+    id: "PO011",
     name: "Idle Death Gamble (Ryoiki Tenkai)",
     description:
       "Nhận vòng quay may mắn ngay trước khi combat với 8% khả năng +100 all stats, 22% khả năng +1 all stats và 70% không có gì xảy ra. (Hiệu lực chỉ trong combat đó). Toàn bộ Power khác Idle Death Gamble của bạn bị vô hiệu hóa. Power này không thể bị xóa, vô hiệu hoặc cướp.",
     power: ["Abyssal", "Wibu"],
   },
   {
-    id: "012",
+    id: "PO012",
     name: "Headshot",
     description:
       'Khi bắt đầu combat, quay 2 chỉ số ngẫu nhiên. Khi thắng những chỉ số được quay ra sẽ nhận thêm 1 điểm và chắc chắn Crit nếu có power "Critical Strike".',
     power: ["Physical"],
   },
   {
-    id: "013",
+    id: "PO013",
     name: "Susanoo",
     description:
       'Nhận 2 random Normal Gear. Với mỗi "Gear" sở hữu, +1 vào chỉ số thấp nhất.',
     power: ["Summoning"],
   },
   {
-    id: "014",
+    id: "PO014",
     name: "Get Excited!",
     description:
       "Nếu combat trước bạn chiến thắng, nhận +4 Strength và +4 Speed khi combat.",
     power: ["Physical"],
   },
   {
-    id: "015",
+    id: "PO015",
     name: "Daiguren Hyorinmaru (Bankai)",
     description:
       'Nhận +1 Martial Arts và 1 Power có tag "Frost" ngẫu nhiên. Với mỗi Power có tag "Frost" sở hữu, nhận +1 Martial Arts.',
     power: ["Frost", "Wibu"],
   },
   {
-    id: "016",
+    id: "PO016",
     name: "Santoryu",
     description:
       'Giới hạn số lượng vũ khí được đẩy lên 3, nhận thêm 1 vòng quay vũ khí có tag "Sword". Sẽ chỉ có thể sử dụng và nhận "Sword". Mỗi khi nhận 1 vũ khí random sẽ chắc chắn nhận Sword. Khi có đủ 3 "Sword", nhận +3 Strength, +3 Speed, +3 BIQ. (Các Sword còn lại sẽ không được là Unique Weapon, nếu nhận Unique sẽ mặc định chuyển thành 1 Normal Sword). Nếu bị vô hiệu hóa power này, khả năng sử dụng 3 vũ khí vẫn được giữ lại.',
     power: ["Physical"],
   },
   {
-    id: "017",
+    id: "PO017",
     name: "Hawk-Eye Harbinger",
     description:
       "Nhận 2 Strength, 2 Martial Art khi đối đầu với chủng tộc thuộc nửa trên bảng xếp hạng.",
     power: ["Steampunk"],
   },
   {
-    id: "018",
+    id: "PO018",
     name: "The Greatest Showman",
     description: "Nhận tất cả Power vô dụng sau đó loại bỏ power này.",
     power: ["Arcana"],
   },
   {
-    id: "019",
+    id: "PO019",
     name: "Killer Queen",
     description:
       'Khi nhận Power này, chọn ngẫu nhiên 5 người chơi bên phe Alliance đối địch.\n\nKhi vào vòng Tournament, nếu người sở hữu Power này chưa bị loại thì 5 người chơi được chọn chắc chắn sẽ bị loại ở vòng đấu tiếp theo của họ (nếu họ còn sống). Với mỗi người chơi bị loại theo cách này, nhận +1 vào một chỉ số ngẫu nhiên.\n\nVào thời điểm toàn bộ người chơi được chọn đã bị loại, nhận +1 all stats. Nếu bạn spin ra Power này ở vòng Tournament, spin lại "Stand" Wheel để nhận 1 Stand khác.',
     power: ["Wibu", "Summoning"],
   },
   {
-    id: "020",
+    id: "PO020",
     name: "Haki",
     description: 'Nhận "Haki" Wheel rồi loại bỏ power này.',
     power: ["Wibu"],
   },
   {
-    id: "021",
+    id: "PO021",
     name: "Quirks",
     description: 'Nhận "Quirks" Wheel rồi loại bỏ power này.',
     power: ["Wibu"],
   },
   {
-    id: "022",
+    id: "PO022",
     name: "Jojo Stands",
     description: 'Nhận "Stands" Wheel rồi loại bỏ power này.',
     power: ["Wibu"],
   },
   {
-    id: "023",
+    id: "PO023",
     name: "Dojutsu",
     description: 'Nhận "Dojutsu" Wheel rồi loại bỏ power này.',
     power: ["Wibu"],
   },
   {
-    id: "024",
+    id: "PO024",
     name: "Ryoiki Tenkai",
     description: 'Nhận "Domain Expansion" Wheel rồi loại bỏ power này.',
     power: ["Wibu"],
   },
   {
-    id: "025",
+    id: "PO025",
     name: "Time Travel",
     description:
       "Re-spin lại chỉ số thấp nhất 1 lần sau đó loại power này ra khỏi danh sách power của bản thân.",
     power: ["Arcana"],
   },
   {
-    id: "026",
+    id: "PO026",
     name: "Reversed Cursed Fate",
     description:
       'Tất cả hiệu ứng trừ Stats từ trang bị "Cursed" sẽ được chuyển thành cộng. Nhận ngẫu nhiên 1 "Cursed" Normal Gear.',
     power: ["Abyssal"],
   },
   {
-    id: "027",
+    id: "PO027",
     name: "Hidden Potential",
     description: 'Nhận thêm 1 "Character Development" và loại bỏ Power này.',
     power: ["Arcana"],
   },
   {
-    id: "028",
+    id: "PO028",
     name: "Abyss Monster",
     description:
       "Bạn có thêm 1 Summon với hiệu ứng: Nhận +1 Strength, và nhận thêm bonus này 1 lần nữa với mỗi Summoning Power bạn có.",
     power: ["Summoning", "Abyssal"],
   },
   {
-    id: "029",
+    id: "PO029",
     name: "Pack of Wolves",
     description:
       "Bạn có thêm 1 Summon với hiệu ứng: Nhận +1 BIQ, và nhận thêm Bonus này 1 lần nữa với mỗi Summoning Power bạn có.",
     power: ["Summoning", "Physical"],
   },
   {
-    id: "030",
+    id: "PO030",
     name: "Rising tide",
     description:
       'Nhận +2 Martial Arts. Gấp đôi nếu như bạn sở hữu vũ khí "Poseidon\'s Trident"',
     power: ["Water"],
   },
   {
-    id: "031",
+    id: "PO031",
     name: "Rise from the Ashes",
     description:
       "Nhận +3 all stats. Sau mỗi trận đấu, nhận -1 all stats. Sau 3 combat, xóa bỏ Power này.",
     power: ["Fire"],
   },
   {
-    id: "032",
+    id: "PO032",
     name: "Invulnerability",
     description: "Nhận +3 Durability.",
     power: ["Holy"],
   },
   {
-    id: "033",
+    id: "PO033",
     name: "Mufasa",
     description: "Nhận +4 Strength.",
     power: ["Summoning"],
   },
   {
-    id: "034",
+    id: "PO034",
     name: "Hades' Blessing",
     description: "Nhận +2 Strength, +2 Speed, +1 BIQ và +1 Martial Arts.",
     power: ["Abyssal", "Blood"],
   },
   {
-    id: "035",
+    id: "PO035",
     name: "Gate to Heaven",
     description: 'Khi ở trạng thái "Redemption Arc", nhận +1 all stats.',
     power: ["Holy"],
   },
   {
-    id: "036",
+    id: "PO036",
     name: "Stone Skin",
     description: "Nhận +4 Durability.",
     power: ["Nature"],
   },
   {
-    id: "037",
+    id: "PO037",
     name: "Stand United",
     description:
       "Tất cả người chơi có cùng Alliance lẫn Race với bạn nhận +2 Martial Arts. (tính cả bản thân).",
     power: ["Physical"],
   },
   {
-    id: "038",
+    id: "PO038",
     name: "Earth Golem",
     description:
       "Bạn có thêm 1 Summon với hiệu ứng: Nhận +1 Durability, và nhận thêm bonus này 1 lần nữa với mỗi Summoning Power bạn có.",
     power: ["Summoning", "Nature"],
   },
   {
-    id: "039",
+    id: "PO039",
     name: "Katen Kyokotsu: Karamatsu Shinju (Bankai)",
     description:
       "Nhận +2 Strength và +1 Durability. Đối thủ bị giảm 2 Durability.",
     power: ["Abyssal", "Wibu"],
   },
   {
-    id: "040",
+    id: "PO040",
     name: "Coffin of the Iron Mountain (Ryoiki Tenkai)",
     description: "Nhận +3 Strength, +2 BIQ và +1 Martial Arts.",
     power: ["Fire", "Wibu"],
   },
   {
-    id: "041",
+    id: "PO041",
     name: "Body Enhancing",
     description: "Nhận +1 Strength, +1 Speed, +1 Durability.",
     power: ["Physical"],
   },
   {
-    id: "042",
+    id: "PO042",
     name: "Tail",
     effect: "Nhận +1 Durability.",
     tags: ["Quirk", "Physical"],
   },
   {
-    id: "043",
+    id: "PO043",
     name: "Tusk Act II",
     effect: "Nhận +2 Strength và +1 BIQ.",
     tags: ["Wibu", "Summoning"],
   },
   {
-    id: "044",
+    id: "PO044",
     name: "Shock Blast",
     effect: "Nhận +3 Strength.",
     tags: ["Lightning"],
   },
   {
-    id: "045",
+    id: "PO045",
     name: "Fa Jin",
     effect: "Nhận +2 Strength và +1 Speed.",
     tags: ["Quirk", "Physical"],
   },
   {
-    id: "046",
+    id: "PO046",
     name: "Love",
     effect:
       "Quay một nhân vật cùng Alliance, nhân vật đó nhận 1 Quirk ngẫu nhiên (chỉ nằm trong Power Wheel) và +1 Strength với mỗi Quirk họ có. Khi người sở hữu Power này bị loại thì người được chọn cũng mất các hiệu ứng này. (2 người sẽ được tính là Lovers của nhau) Power này có thể được nhận nhiều lần.",
@@ -300,382 +300,382 @@ export const powerSections = [
     multi: true,
   },
   {
-    id: "047",
+    id: "PO047",
     name: "Big Fist",
     effect: "Nhận +1 Strength.",
     tags: ["Quirk", "Physical"],
   },
   {
-    id: "048",
+    id: "PO048",
     name: "Hardening",
     effect: "Nhận +1 Durability.",
     tags: ["Quirk", "Physical"],
   },
   {
-    id: "049",
+    id: "PO049",
     name: "Play Ball with your life",
     effect: "Nhận +2 Strength, +2 Speed và +1 Durability.",
     tags: ["Physical"],
   },
   {
-    id: "050",
+    id: "PO050",
     name: "Lightning Mastery",
     effect: "Nhận +3 IQ.",
     tags: ["Lightning"],
   },
-  { id: "051", name: "Fire Mastery", effect: "Nhận +5 BIQ.", tags: ["Fire"] },
+  { id: "PO051", name: "Fire Mastery", effect: "Nhận +5 BIQ.", tags: ["Fire"] },
   {
-    id: "052",
+    id: "PO052",
     name: "Explosion",
     effect: "Nhận +1 Strength và +2 Martial Arts.",
     tags: ["Quirk"],
   },
-  { id: "053", name: "Clear Mind", effect: "Nhận +2 IQ.", tags: ["Arcana"] },
+  { id: "PO053", name: "Clear Mind", effect: "Nhận +2 IQ.", tags: ["Arcana"] },
   {
-    id: "054",
+    id: "PO054",
     name: "Burning Hand",
     effect: "Nhận +1 Strength và +2 Martial Arts.",
     tags: ["Fire"],
   },
   {
-    id: "055",
+    id: "PO055",
     name: "Thunder Strike",
     effect: "Nhận +1 Strength, +1 BIQ.",
     tags: ["Lightning"],
   },
   {
-    id: "056",
+    id: "PO056",
     name: "Tsunami Control",
     effect: "Gọi sóng thần, +2 Strength",
     tags: ["Water"],
   },
   {
-    id: "057",
+    id: "PO057",
     name: "Fist Fighting",
     effect:
       "Nhận +2 Martial Arts. Khi đang không cầm vũ khí, gấp đôi chỉ số này.",
     tags: ["Physical"],
   },
   {
-    id: "058",
+    id: "PO058",
     name: "Crimson Pact",
     effect:
       "Mỗi 3 Base IQ, tăng 1 Durability. Mỗi 3 Base Durability, tăng 1 IQ.",
     tags: ["Blood"],
   },
   {
-    id: "059",
+    id: "PO059",
     name: "Rabbit",
     effect: "Nhận +1 Speed, +1 BIQ và +1 Martial Arts.",
     tags: ["Quirk", "Physical"],
   },
   {
-    id: "060",
+    id: "PO060",
     name: "Enlarging",
     effect: "Nhận +2 Strength, +2 Durability, -3 Speed.",
     tags: ["Physical"],
   },
   {
-    id: "061",
+    id: "PO061",
     name: "Overdrive",
     effect: "Nhận +3 BIQ, -1 Durability.",
     tags: ["Physical"],
   },
   {
-    id: "062",
+    id: "PO062",
     name: "Summon Undead",
     effect:
       'Undead Ghoul trở thành Summon của bạn: Khi combat ở "Graveyard" Nhận +3 Stat thấp nhất, +1 Stat cao nhất.',
     tags: ["Summoning"],
   },
   {
-    id: "063",
+    id: "PO063",
     name: "Shrinking",
     effect: "Nhận +5 Speed, -2 Strength, -2 Durability.",
     tags: ["Physical"],
   },
   {
-    id: "064",
+    id: "PO064",
     name: "Blood Frenzy",
     effect: "Nhận -3 IQ và -3 BIQ, +2 all stat còn lại.",
     tags: ["Blood"],
   },
   {
-    id: "065",
+    id: "PO065",
     name: "Hunter's Mark",
     effect:
       "Chọn 1 chỉ số ngẫu nhiên trước khi bắt đầu combat. Khi thắng round đấy, nhận +3 vào stat thấp nhất khi tổng kết combat.",
     tags: ["Physical"],
   },
   {
-    id: "066",
+    id: "PO066",
     name: "Nature's Blessing",
     effect: 'Nhận +2 Durability với mỗi power có tag "Nature" sở hữu.',
     tags: ["Nature"],
   },
   {
-    id: "067",
+    id: "PO067",
     name: "Water Elemental",
     effect:
       "Bạn có thêm 1 Summon với hiệu ứng: Nhận +1 Speed, và nhận thêm bonus này lần nữa với mỗi Summoning Power mà bạn có.",
     tags: ["Summoning", "Water"],
   },
   {
-    id: "068",
+    id: "PO068",
     name: "Cold Arrow",
     effect:
       "Nhận +1 strength và +1 Martial Arts. Nhận gấp 3 lần chỉ số này nếu sử dụng vũ khí là Bow/Crossbow.",
     tags: ["Physical", "Frost"],
   },
   {
-    id: "069",
+    id: "PO069",
     name: "Powerful Strike",
     effect: "Nếu có vũ khí, nhận +3 BIQ.",
     tags: ["Physical"],
   },
   {
-    id: "070",
+    id: "PO070",
     name: "Tidecaller's Blessing",
     effect:
       "Chọn 1 người ngẫu nhiên thuộc Alliance của bạn, bạn và họ nhận +1 Speed và +1 IQ VĨNH VIỄN.",
     tags: ["Water"],
   },
   {
-    id: "071",
+    id: "PO071",
     name: "Ice Hammer",
     effect:
       'Nhận +2 Strength. Nếu sở hữu vũ khí Axe/Hammer, gấp đôi con số này. Nếu thi đấu tại "Frostlands" Arena, gấp đôi con số này lần nữa. (tối đa là x4)',
     tags: ["Frost"],
   },
   {
-    id: "072",
+    id: "PO072",
     name: "Odin's Blessing",
     effect:
       'Nhận "+4 Strength". Chuyển thành "+4 vào Stat yếu nhất" khi thua 1 combat.',
     tags: ["Holy"],
   },
   {
-    id: "073",
+    id: "PO073",
     name: "Heat Dispatching Control",
     effect:
       'Với mỗi "Fire" Power, +1 Dura và Strength. Với mỗi "Steampunk" gear, nhận +1 IQ và +1 BIQ.',
     tags: ["Steampunk", "Fire"],
   },
   {
-    id: "074",
+    id: "PO074",
     name: "One For All",
     effect:
       "Nhận +3 Strength, +3 Speed và +3 Durability. Sau khi người sở hữu Power này bị loại, chuyển nó cho người cùng Alliance đã thi đấu và còn sống gần nhất. Mỗi Alliance chỉ có thể có 1 người sở hữu Power này.",
     tags: ["Quirk", "Physical"],
   },
   {
-    id: "075",
+    id: "PO075",
     name: "Let Him Cook",
     effect: "Nhận +1 all stats.",
     tags: ["Physical"],
   },
   {
-    id: "076",
+    id: "PO076",
     name: "Command: Attack",
     effect: "Nhận +3 Strength.",
     tags: ["Steampunk"],
   },
   {
-    id: "077",
+    id: "PO077",
     name: "Command: Protect",
     effect: "Nhận +3 Durability.",
     tags: ["Steampunk"],
   },
   {
-    id: "078",
+    id: "PO078",
     name: "Voidwalking",
     effect: "Nhận +3 Speed.",
     tags: ["Arcana"],
   },
   {
-    id: "079",
+    id: "PO079",
     name: "IQ",
     effect: "Nhận +6 IQ. Power này sẽ biến mất khi bạn thua round IQ.",
     tags: ["Quirk"],
   },
   {
-    id: "080",
+    id: "PO080",
     name: "Dark Shadow",
     effect:
       "Nhận +1 all stats vào trận đánh thứ 1, 3, 5, 7, 9,... (Không tính PvE)",
     tags: ["Quirk", "Arcana"],
   },
   {
-    id: "081",
+    id: "PO081",
     name: "Heal",
     effect: "Nhận +2 Durability. Sau mỗi combat, nhận +1 Durability vĩnh viễn.",
     tags: ["Quirk"],
   },
   {
-    id: "082",
+    id: "PO082",
     name: "Half-Cold Half-Hot",
     effect:
       'Nhận 1 random "Fire" Power và 1 random "Frost" Power. Nhận +1 BIQ với mỗi 2 Power thuộc "Fire" hoặc "Frost.',
     tags: ["Quirk", "Fire", "Frost"],
   },
   {
-    id: "083",
+    id: "PO083",
     name: "Byakugan",
     effect: "Nhận +2 BIQ và +2 Martial Arts.",
     tags: ["Wibu"],
   },
   {
-    id: "084",
+    id: "PO084",
     name: "Tenseigan",
     effect:
       'Nhận +1 BIQ và +1 Martial Arts. Khi vào "Tournament" đổi thành nhận +1 all stats.',
     tags: ["Wibu"],
   },
-  { id: "085", name: "Observation", effect: "Nhận +3 BIQ.", tags: ["Wibu"] },
+  { id: "PO085", name: "Observation", effect: "Nhận +3 BIQ.", tags: ["Wibu"] },
   {
-    id: "086",
+    id: "PO086",
     name: "Armament",
     effect: "Nhận +2 Durability và +1 Martial Arts.",
     tags: ["Wibu"],
   },
   {
-    id: "087",
+    id: "PO087",
     name: "Tree Bound",
     effect: "Bị -1 All Stat không phải Durability, +6 vào Durability",
     tags: ["Nature"],
   },
   {
-    id: "088",
+    id: "PO088",
     name: "Nihility Slash",
     effect:
       "Mỗi khi khởi đầu 1 combat, nhận +1 vào 2 chỉ số thấp nhất vĩnh viễn.",
     tags: ["Physical", "Arcana"],
   },
   {
-    id: "089",
+    id: "PO089",
     name: "Guided Arrow",
     effect:
       "Nhận +1 Speed và +1 BIQ. Nếu sử dụng vũ khí thuộc Bow/Crossbow, gấp đôi hai chỉ số được cộng thêm này.",
     tags: ["Physical"],
   },
   {
-    id: "090",
+    id: "PO090",
     name: "Strafe",
     effect:
       "Nhận +1 BIQ và +1 Martial Arts. Nếu sử dụng vũ khí thuộc Bow/Crossbow, gấp đôi hai chỉ số được cộng thêm này.",
     tags: ["Physical"],
   },
   {
-    id: "091",
+    id: "PO091",
     name: "Sweet Win",
     effect:
       'Power này chỉ có tác dụng trước khi vào Tournament. Người nhận Power này sẽ thắng combat tiếp theo. (không tính PvE và không thể bị vô hiệu hóa). Khi có cả 2 power "Sweet Win" và "Spicy Lost" thì sẽ mất cả hai power.',
     tags: ["Abyssal"],
   },
   {
-    id: "092",
+    id: "PO092",
     name: "Spicy Lost",
     effect:
       'Power này chỉ có tác dụng trước khi vào Tournament. Người nhận Power này sẽ thua combat tiếp theo. (không tính PvE và không thể bị vô hiệu hóa)  Khi có cả 2 power "Sweet Win" và "Spicy Lost" thì sẽ mất cả hai power.',
     tags: ["Abyssal"],
   },
   {
-    id: "093",
+    id: "PO093",
     name: "Erasure",
     effect:
       "Trong combat, vô hiệu hóa tối đa 3 Power ngẫu nhiên của đối phương.",
     tags: ["Quirk"],
   },
   {
-    id: "094",
+    id: "PO094",
     name: "Fly",
     effect: 'Vô hiệu hóa các hiệu ứng giảm speed từ Arena "Sky".',
     tags: ["Physical"],
   },
   {
-    id: "095",
+    id: "PO095",
     name: "Total Protection",
     effect:
       "Toàn bộ Power của bạn sẽ không thể bị ảnh hưởng từ hiệu ứng của đối phương.",
     tags: ["Arcana"],
   },
   {
-    id: "096",
+    id: "PO096",
     name: "Mirror Image",
     effect:
       "Trong trận đấu PvP đầu tiên sau khi nhận power này, nhân đôi toàn bộ base stats. Sau trận PvP đầu tiên, loại power này khỏi người sở hữu.",
     tags: ["Arcana"],
   },
   {
-    id: "097",
+    id: "PO097",
     name: "Misty Step Ahead",
     effect: "Ở round PvE khởi đầu với 2 điểm.",
     tags: ["Nature"],
   },
   {
-    id: "098",
+    id: "PO098",
     name: "200 years of Balancing",
     effect:
       "Khi combat ở vòng Tournament, không nhân đôi trọng số của người có stat cao hơn mỗi round, bất kể là bạn hay đối phương.",
     tags: ["Abyssal"],
   },
   {
-    id: "099",
+    id: "PO099",
     name: "Disarmament",
     effect:
       "Đối thủ mất đi vũ khí (chỉ trong combat với nhân vật có power này).",
     tags: ["Physical"],
   },
   {
-    id: "100",
+    id: "PO100",
     name: "Counterspell",
     effect:
       "Vô hiệu hóa Power đầu tiên của đối thủ trong combat. (Đầu tiên tính theo thứ tự nhận power)",
     tags: ["Lightning"],
   },
   {
-    id: "101",
+    id: "PO101",
     name: "Power Negation",
     effect:
       "Vô hiệu hóa 1 Power ngẫu nhiên của đối thủ có độ ưu tiên thấp hơn Power này trong combat.",
     tags: ["Nature"],
   },
   {
-    id: "102",
+    id: "PO102",
     name: "Static Field",
     effect:
       "Đối thủ nhận -2 Durability và bị vô hiệu 1 Power ngẫu nhiên có độ ưu tiên thấp hơn Power này.",
     tags: ["Lightning"],
   },
   {
-    id: "103",
+    id: "PO103",
     name: "Memory Alter",
     effect:
       "Đối thủ bị vô hiệu hóa 1 Power ngẫu nhiên trong combat. Nếu bạn thắng combat, đối thủ sẽ vĩnh viễn mất power đó.",
     tags: ["Abyssal"],
   },
   {
-    id: "104",
+    id: "PO104",
     name: "Anivoice",
     effect: "Vô hiệu hóa 1 Summoning ngẫu nhiên của đối phương.",
     tags: ["Quirk", "Nature"],
   },
   {
-    id: "105",
+    id: "PO105",
     name: "Fire Breath",
     effect:
       'Nhận +2 BIQ và vô hiệu hóa 1 power "Frost" ngẫu nhiên của đối phương.',
     tags: ["Fire"],
   },
   {
-    id: "106",
+    id: "PO106",
     name: "Frost Armor",
     effect:
       'Nhận +2 Durability và vô hiệu hóa 1 random "Water" Power của đối phương.',
     tags: ["Frost"],
   },
   {
-    id: "107",
+    id: "PO107",
     name: "Power Mimicry",
     effect:
       "Sao chép 1 Power ngẫu nhiên của đối thủ. Nếu sao chép trúng Power có độ ưu tiên cao hơn sẽ không có tác dụng. Chỉ có thể dùng được Power sao chép ở trong trận đấu đó.",

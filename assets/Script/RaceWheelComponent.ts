@@ -42,6 +42,11 @@ import {
   trollTypeSelections,
   reptileTypeSelections,
 } from "../Data/WheelData/WheelData";
+import { archetypeSections } from "../Data/WheelData/ArchetypeData";
+import { weaponSections, uniqueWeaponSections } from "../Data/WheelData/WeaponData";
+import { gearSections, speacialGearSections } from "../Data/WheelData/GearData";
+import { powerSections } from "../Data/WheelData/PowerData";
+import { charDevSections } from "../Data/WheelData/CharDevData";
 const { ccclass, property } = _decorator;
 
 @ccclass("RaceWheelComponent")
@@ -91,6 +96,13 @@ export class RaceWheelComponent extends Component {
   private reincarnatorsSelection = reincarnatorsSelections;
   private trollTypeSelections = trollTypeSelections;
   private reptileTypeSelections = reptileTypeSelections;
+  private archetypeSections = archetypeSections;
+  private normalWeaponSections = weaponSections;
+  private uniqueWeaponSections = uniqueWeaponSections;
+  private normalGearSections = gearSections;
+  private speacialGearSections = speacialGearSections;
+  private powerSections = powerSections;
+  private charDevSections = charDevSections;
 
   private sections = [];
   private wheelNow: number = 0;
@@ -218,7 +230,7 @@ export class RaceWheelComponent extends Component {
     }
     // Archetype
     else if (this.wheelNow === 3) {
-      // this.sections = this.archetypeSections;
+      this.sections = this.archetypeSections;
     }
     // stat
     // Strength
@@ -249,19 +261,19 @@ export class RaceWheelComponent extends Component {
     }
     // Weapon
     else if (this.wheelNow === 12) {
-      // this.sections = this.weaponTypeSections;
+    //   this.sections = this.weaponTypeSections;
     } else if (this.wheelNow === 12001) {
-      // this.sections = this.normalWeaponSections;
+      this.sections = this.normalWeaponSections;
     } else if (this.wheelNow === 12002) {
-      // this.sections = this.uniqueWeaponSections;
+      this.sections = this.uniqueWeaponSections;
     }
     // Gear
     else if (this.wheelNow === 13) {
       // this.sections = this.gearCountSections;
     } else if (this.wheelNow === 13001) {
-      // this.sections = this.normalGearSections;
+      this.sections = this.normalGearSections;
     } else if (this.wheelNow === 13002) {
-      // this.sections = this.speacialGearSections;
+      this.sections = this.speacialGearSections;
     }
     // Power count
     else if (this.wheelNow === 14) {
@@ -269,12 +281,12 @@ export class RaceWheelComponent extends Component {
     }
     // Power
     else if (this.wheelNow === 14001) {
-      // this.sections = this.powerSections;
+      this.sections = this.powerSections;
     }
 
     // Char dev
     else if (this.wheelNow === 15) {
-      // this.sections = this.charDevSections;
+      this.sections = this.charDevSections;
     }
 
     const graphics =
@@ -525,7 +537,7 @@ export class RaceWheelComponent extends Component {
               this.drawWheel();
             }
             break;
-          case 1:
+          case 2:
             this.resultAlliance.string = `<color=#FF4500>${rolledResult}</color>`;
             this.alliance = rolledResult;
             this.wheelNow = 10001;

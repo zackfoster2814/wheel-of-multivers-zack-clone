@@ -1,6 +1,6 @@
 export const gearSections = [
   {
-    id: "001",
+    id: "GE001",
     name: "Healing Flasks",
     effect: 'Nếu đang ở trong "Redemption Arc", nhận +2 Durability.',
     type: "Misc",
@@ -8,7 +8,7 @@ export const gearSections = [
     color: "#FF6F61",
   },
   {
-    id: "002",
+    id: "GE002",
     name: "Swift Boots",
     effect: "Nhận +2 Speed.",
     type: "Misc",
@@ -16,7 +16,7 @@ export const gearSections = [
     color: "#6B5B95",
   },
   {
-    id: "003",
+    id: "GE003",
     name: "Stopwatch",
     effect:
       "Đối thủ của bạn sẽ không nhận điểm ở round thua đầu tiên sau khi bạn nhận trang bị này. Hiệu ứng chỉ kích hoạt 1 lần. Sau khi kích hoạt, phá hủy trang bị này.",
@@ -25,7 +25,7 @@ export const gearSections = [
     color: "#88B04B",
   },
   {
-    id: "004",
+    id: "GE004",
     name: "Buckler",
     effect:
       "Mỗi khi thua 1 round đấu, có 2% đối phương không nhận được điểm nào và bạn nhận được 1 điểm. Với mỗi điểm Speed bạn có, hiệu ứng này được tăng 1% tỉ lệ. Mỗi combat chỉ kích hoạt được tối đa hiệu ứng 1 lần.",
@@ -34,7 +34,7 @@ export const gearSections = [
     color: "#F7CAC9",
   },
   {
-    id: "005",
+    id: "GE005",
     name: "Gloves of Thieves",
     effect:
       'Nhận +1 Speed. Mỗi khi combat bắt đầu, có 8% cướp lấy một "Gear" ngẫu nhiên của đối phương (hiệu lực vĩnh viễn).',
@@ -43,7 +43,7 @@ export const gearSections = [
     color: "#92A8D1",
   },
   {
-    id: "006",
+    id: "GE006",
     name: "Stone Shield",
     effect: "Nhận +2 Durability.",
     type: "Shield",
@@ -51,7 +51,7 @@ export const gearSections = [
     color: "#955251",
   },
   {
-    id: "007",
+    id: "GE007",
     name: "Leather Jacket",
     effect: "Nhận +1 Durability.",
     type: "Armor",
@@ -59,7 +59,7 @@ export const gearSections = [
     color: "#B565A7",
   },
   {
-    id: "008",
+    id: "GE008",
     name: "Cursed Skeleton Shield",
     effect: "Nhận -2 IQ, +1 Strength, +1 Durablity và +1 Battle IQ",
     type: "Shield",
@@ -68,7 +68,7 @@ export const gearSections = [
     color: "#009B77",
   },
   {
-    id: "009",
+    id: "GE009",
     name: "Knight's Armor",
     effect: "Nhận -2 Speed, +2 Strength và +2 Durability.",
     type: "Armor",
@@ -76,7 +76,7 @@ export const gearSections = [
     color: "#DD4124",
   },
   {
-    id: "010",
+    id: "GE010",
     name: "Goddess' Tear",
     effect: 'Sau 2 Combat, loại bỏ trang bị này và nhận Weapon "Manamune".',
     type: "Misc",
@@ -84,7 +84,7 @@ export const gearSections = [
     color: "#D65076",
   },
   {
-    id: "011",
+    id: "GE011",
     name: "Angel Halo",
     effect: "Nhận +1 Strength, +1 Durability.",
     type: "Misc",
@@ -92,7 +92,7 @@ export const gearSections = [
     color: "#45B8AC",
   },
   {
-    id: "012",
+    id: "GE012",
     name: "Small Chain Vest",
     effect: "Nhận +1 Durability.",
     type: "Armor",
@@ -100,7 +100,7 @@ export const gearSections = [
     color: "#EFC050",
   },
   {
-    id: "013",
+    id: "GE013",
     name: "Cursed Charm",
     effect: "Nhận -1 Durability.",
     type: "Misc",
@@ -109,7 +109,7 @@ export const gearSections = [
     color: "#5B5EA6",
   },
   {
-    id: "014",
+    id: "GE014",
     name: "Cursed Armor",
     effect: "Nhận -1 IQ, -1 BIQ và +2 Durability.",
     type: "Armor",
@@ -118,7 +118,7 @@ export const gearSections = [
     color: "#9B2335",
   },
   {
-    id: "015",
+    id: "GE015",
     name: "Lucky Clover Charm",
     effect:
       'Mỗi khi chiến thắng combat, có 25% cơ hội nhận được thêm 1 phần thưởng từ "PvP Rewards".',
@@ -127,7 +127,7 @@ export const gearSections = [
     color: "#DFCFBE",
   },
   {
-    id: "016",
+    id: "GE016",
     name: "Cursed Helmet",
     effect: "Nhận +1 Durability và -1 IQ.",
     type: "Armor",
@@ -136,7 +136,7 @@ export const gearSections = [
     color: "#55B4B0",
   },
   {
-    id: "017",
+    id: "GE017",
     name: "Spiked Shield",
     effect: "Nhận +1 Durability và +1 BIQ.",
     type: "Shield",
@@ -144,7 +144,7 @@ export const gearSections = [
     color: "#E15D44",
   },
   {
-    id: "018",
+    id: "GE018",
     name: "Soap",
     effect: "Không có",
     type: "Misc",
@@ -152,7 +152,7 @@ export const gearSections = [
     color: "#7FCDCD",
   },
   {
-    id: "019",
+    id: "GE019",
     name: "Magical Scroll",
     effect: "Sau 1 Combat, loại bỏ trang bị này và nhận 1 Power.",
     type: "Misc",
@@ -160,7 +160,7 @@ export const gearSections = [
     color: "#BC243C",
   },
   {
-    id: "020",
+    id: "GE020",
     name: "Small Treasure Chest",
     effect:
       'Sau 1 Combat PvP thắng, loại bỏ trang bị này và nhận thêm 1 "PvP Rewards".',
@@ -169,7 +169,7 @@ export const gearSections = [
     color: "#C3447A",
   },
   {
-    id: "021",
+    id: "GE021",
     name: "Titan Armor",
     effect:
       'Nhận +1 Durability và +1 BIQ. Nếu bạn thuộc Archetype "Goliath", nhận gấp đôi các chỉ số này.',
@@ -178,7 +178,7 @@ export const gearSections = [
     color: "#98B4D4",
   },
   {
-    id: "022",
+    id: "GE022",
     name: "Arm Guard",
     effect: "Nhận +2 Martial Arts. Gấp đôi chỉ số này nếu không sở hữu vũ khí.",
     type: "Armor",
@@ -186,7 +186,7 @@ export const gearSections = [
     color: "#F7786B",
   },
   {
-    id: "023",
+    id: "GE023",
     name: "Giant's Belt",
     effect: "Nhận +1 Strength và +1 Durability.",
     type: "Armor",
@@ -194,7 +194,7 @@ export const gearSections = [
     color: "#6C4F3D",
   },
   {
-    id: "024",
+    id: "GE024",
     name: "Mercury's Treads",
     effect:
       "Nhận +1 Speed và +1 Durability. Nếu đối thủ có nhiều hơn 3 Power, nhận chỉ số này lần nữa.",
@@ -203,7 +203,7 @@ export const gearSections = [
     color: "#DE7C00",
   },
   {
-    id: "025",
+    id: "GE025",
     name: "Cursed Book",
     effect: "Nhận -1 all stats.",
     type: "Misc",
@@ -212,7 +212,7 @@ export const gearSections = [
     color: "#9E1030",
   },
   {
-    id: "026",
+    id: "GE026",
     name: "Gold Pine Resin",
     effect:
       "Nhận +3 BIQ, sau 2 combat kích hoạt hiệu ứng trên, phá hủy trang bị này.",
@@ -221,7 +221,7 @@ export const gearSections = [
     color: "#8A307F",
   },
   {
-    id: "027",
+    id: "GE027",
     name: "Dark Seal",
     effect:
       "Nhận +1 IQ và +1 BIQ. Trang bị sẽ biến mất khi bạn thua combat đầu tiên. Nếu bạn bất bại trước khi vào Tournament, trang bị này sẽ được nâng cấp thành Mejai's Soulstealer.",
@@ -230,7 +230,7 @@ export const gearSections = [
     color: "#79C753",
   },
   {
-    id: "028",
+    id: "GE028",
     name: "Cappa Juice",
     effect: "Bạn nhận được 1 chiếc mũ. (cho đẹp)",
     type: "Misc",
@@ -238,7 +238,7 @@ export const gearSections = [
     color: "#1E4D2B",
   },
   {
-    id: "029",
+    id: "GE029",
     name: "Elixir of Force",
     effect:
       "Nhận +3 Strength, sau 2 combat kích hoạt hiệu ứng trên, phá hủy trang bị này.",
@@ -247,7 +247,7 @@ export const gearSections = [
     color: "#B39EB5",
   },
   {
-    id: "030",
+    id: "GE030",
     name: "Aether Wisp",
     effect: "Nhận +1 Strength, +1 Speed.",
     type: "Misc",
@@ -255,7 +255,7 @@ export const gearSections = [
     color: "#FFA500",
   },
   {
-    id: "031",
+    id: "GE031",
     name: "Verdant Barrier",
     effect: "Miễn nhiễm với mọi debuff của đối thủ. CD: 3 trận.",
     type: "Misc",
@@ -263,7 +263,7 @@ export const gearSections = [
     color: "#003366",
   },
   {
-    id: "032",
+    id: "GE032",
     name: "Lucky Dice",
     effect:
       'Một lần mỗi combat: Khi Power "Critical Strike" hoặc "Evasion" của bạn kích hoạt thất bại, re-spin 1 lần.',
@@ -272,7 +272,7 @@ export const gearSections = [
     color: "#FFB6C1",
   },
   {
-    id: "033",
+    id: "GE033",
     name: "Crownguard",
     effect:
       "Nhận +2 Strength. Nếu bạn thua round Strength, nhận +2 Durability trong combat đó.",
@@ -281,7 +281,7 @@ export const gearSections = [
     color: "#8B0000",
   },
   {
-    id: "034",
+    id: "GE034",
     name: "Cursed Boots",
     effect: "Nhận +2 Speed, -2 Durability.",
     type: "Misc",
@@ -290,7 +290,7 @@ export const gearSections = [
     color: "#4682B4",
   },
   {
-    id: "035",
+    id: "GE035",
     name: "Frying Pan",
     effect: "Giúp bạn nấu ăn dễ hơn (lmao)",
     type: "Misc",
@@ -298,7 +298,7 @@ export const gearSections = [
     color: "#B22222",
   },
   {
-    id: "036",
+    id: "GE036",
     name: "Spatula",
     effect: "Có lẽ thứ này có tác dụng gì đó...",
     type: "Misc",
@@ -306,7 +306,7 @@ export const gearSections = [
     color: "#ADFF2F",
   },
   {
-    id: "037",
+    id: "GE037",
     name: "Determined Investor",
     effect:
       "Sau 8 round thua, phá hủy trang bị này và nhận 3 Normal Gear ngẫu nhiên. (Kích hoạt sau combat)",
@@ -315,7 +315,7 @@ export const gearSections = [
     color: "#8FBC8F",
   },
   {
-    id: "038",
+    id: "GE038",
     name: "Cursed Necklace",
     effect: "Nhận -1 IQ, -1 BIQ.",
     type: "Misc",
@@ -324,7 +324,7 @@ export const gearSections = [
     color: "#FF1493",
   },
   {
-    id: "039",
+    id: "GE039",
     name: "Cursed Bracelet",
     effect: "Nhận -1 Martial Arts.",
     type: "Misc",
@@ -333,7 +333,7 @@ export const gearSections = [
     color: "#20B2AA",
   },
   {
-    id: "040",
+    id: "GE040",
     name: "Blue Key",
     effect: "Có lẽ thứ này có tác dụng gì đó...",
     type: "Misc",
@@ -341,7 +341,7 @@ export const gearSections = [
     color: "#4B0082",
   },
   {
-    id: "041",
+    id: "GE041",
     name: "Blue Lock",
     effect: "Có lẽ thứ này có tác dụng gì đó...",
     type: "Misc",
@@ -349,7 +349,7 @@ export const gearSections = [
     color: "#E9967A",
   },
   {
-    id: "042",
+    id: "GE042",
     name: "Baguette",
     effect: "Ngon!",
     type: "Misc",
@@ -357,7 +357,7 @@ export const gearSections = [
     color: "#2E8B57",
   },
   {
-    id: "043",
+    id: "GE043",
     name: "Potion of Blood",
     effect:
       "Có tác dụng thay thế một bữa ăn cho Vampire. Item này sẽ chuyển vào túi của Vampire nếu bạn để thua 1 con Vampire.",
@@ -367,7 +367,7 @@ export const gearSections = [
     color: "#F0E68C",
   },
   {
-    id: "044",
+    id: "GE044",
     name: "Mana Potion",
     effect:
       "Khi combat thua, nhận 3 power và đánh lại combat đó. 3 Power được nhận sẽ tự động hủy sau khi hết combat. Gear này sẽ tự động biến mất sau khi kích hoạt 1 lần.",
@@ -376,7 +376,7 @@ export const gearSections = [
     color: "#008080",
   },
   {
-    id: "045",
+    id: "GE045",
     name: "Cursed Treasure Chest",
     effect: "Nhận -1 all stats và 2 random Power.",
     type: "Misc",
@@ -385,7 +385,7 @@ export const gearSections = [
     color: "#DC143C",
   },
   {
-    id: "046",
+    id: "GE046",
     name: "Turbo Chemtank",
     effect: "Nhận -2 Martial Arts, +2 Speed và +2 Durability.",
     type: "Armor",
@@ -394,7 +394,7 @@ export const gearSections = [
     color: "#A0522D",
   },
   {
-    id: "047",
+    id: "GE047",
     name: "Doran's Shield",
     effect:
       "Nhận +1 Durability. Sau combat PvP đầu tiên, nhận thêm +1 Durability.",
@@ -403,7 +403,7 @@ export const gearSections = [
     color: "#FF4500",
   },
   {
-    id: "048",
+    id: "GE048",
     name: "Wooden Shield",
     effect: "Nếu đối thủ không có vũ khí, nhận +2 Durability.",
     type: "Shield",
@@ -411,7 +411,7 @@ export const gearSections = [
     color: "#C71585",
   },
   {
-    id: "049",
+    id: "GE049",
     name: "Magician's Hat",
     effect: "Nhận 1 Power vô dụng.",
     type: "Misc",
@@ -419,7 +419,7 @@ export const gearSections = [
     color: "#4169E1",
   },
   {
-    id: "050",
+    id: "GE050",
     name: "Adamant Shield",
     effect: "Giảm 10% tỉ lệ Crit của đối thủ.",
     type: "Shield",
@@ -427,7 +427,7 @@ export const gearSections = [
     color: "#008000",
   },
   {
-    id: "051",
+    id: "GE051",
     name: "Cursed Compass",
     effect:
       "Khi combat: Nhận -1 lần lượt vào các stat nếu chưa thắng round nào (Ví dụ: -1 Str, thua round Str thì tiếp tục -1 Spd, thắng round Spd thì không trừ nữa)",
@@ -436,7 +436,7 @@ export const gearSections = [
     color: "#BA55D3",
   },
   {
-    id: "052",
+    id: "GE052",
     name: "Makeshift Armor",
     effect: "Nếu không sở hữu Weapon, nhận +3 Durability.",
     type: "Armor",
@@ -444,7 +444,7 @@ export const gearSections = [
     color: "#F4A460",
   },
   {
-    id: "053",
+    id: "GE053",
     name: "Loudspeaker",
     effect: "Nếu sở hữu vũ khí nhạc cụ, nhận +2 Strength.",
     type: "Misc",
@@ -452,7 +452,7 @@ export const gearSections = [
     color: "#FF69B4",
   },
   {
-    id: "054",
+    id: "GE054",
     name: "Locacaca Fruit",
     effect:
       "Nhận -2 vào 2 stat có base stat cao nhất, +2 vào 2 stat có base stat thấp nhất.",
@@ -461,7 +461,7 @@ export const gearSections = [
     color: "#A9A9A9",
   },
   {
-    id: "055",
+    id: "GE055",
     name: "Ancient Sheath",
     effect: "Vũ khí của bạn không bị ảnh hưởng bởi hiệu ứng từ đối thủ.",
     type: "Misc",
@@ -469,7 +469,7 @@ export const gearSections = [
     color: "#FFD700",
   },
   {
-    id: "056",
+    id: "GE056",
     name: "Steam Lamp",
     effect:
       'Khi combat ở "Graveyard". 85% Nhận thêm 1 "Gear" từ người đã chết.',
@@ -479,7 +479,7 @@ export const gearSections = [
     color: "#BDB76B",
   },
   {
-    id: "057",
+    id: "GE057",
     name: "Goggles with Microscope",
     effect: 'Nhận +2 IQ, khi nhận 1 Power mới thuộc tag "Steampunk", +1 IQ.',
     type: "Misc",
@@ -488,7 +488,7 @@ export const gearSections = [
     color: "#00CED1",
   },
   {
-    id: "058",
+    id: "GE058",
     name: "Kaleidoscope Eye-Attached",
     effect:
       "Ở những quyết định Tie-break phải giải quyết bằng vòng quay 50/50, biến thành 70/30.",
@@ -498,7 +498,7 @@ export const gearSections = [
     color: "#40E0D0",
   },
   {
-    id: "059",
+    id: "GE059",
     name: "Far West Gearhat",
     effect:
       'Không có tác dụng trừ khi dùng cùng vũ khí "Firearm". Luôn nhận +4 Speed ở Round Speed. Nếu thua round Speed nhận char dev "Lost a Leg".',
@@ -508,7 +508,7 @@ export const gearSections = [
     color: "#7FFF00",
   },
   {
-    id: "060",
+    id: "GE060",
     name: "Dorothy Hat",
     effect: 'Nhận 1 Power "Abyssal", biến mất sau 1 combat.',
     type: "Misc",
@@ -517,7 +517,7 @@ export const gearSections = [
     color: "#FA8072",
   },
   {
-    id: "061",
+    id: "GE061",
     name: "Roman Pocket Watch",
     effect: '"Time Travel" sau khi vào vòng "2-2".',
     type: "Misc",
@@ -526,7 +526,7 @@ export const gearSections = [
     color: "#DAA520",
   },
   {
-    id: "062",
+    id: "GE062",
     name: "Heart-shaped Pocket Watch",
     effect: '"Love" khi vào vòng "Tournament".',
     type: "Misc",
@@ -535,7 +535,7 @@ export const gearSections = [
     color: "#1E90FF",
   },
   {
-    id: "063",
+    id: "GE063",
     name: "Gothic Backhand Glove",
     effect: 'Sau 1 combat, nhận 1 Power "Abyssal" cho tới khi vào Tournament.',
     type: "Misc",
@@ -544,7 +544,7 @@ export const gearSections = [
     color: "#EEE8AA",
   },
   {
-    id: "064",
+    id: "GE064",
     name: "Victorian Gloves",
     effect: 'Nhận thêm Archetype "Softie"',
     type: "Misc",
@@ -554,9 +554,9 @@ export const gearSections = [
   },
 ];
 
-export const speacialItems = [
+export const speacialGearSections = [
   {
-    id: "065",
+    id: "GE065",
     name: "Sun Shard",
     effect: `- Mỗi khi thắng trận, +1 random stat vĩnh viễn cho (những) người cùng Alliance thi đấu trong trận kế tiếp.
   - Khi có chuỗi 3 trận thắng liên tiếp, nhận Special Power "Sun Aura".
@@ -567,7 +567,7 @@ export const speacialItems = [
     color: "#48D1CC",
   },
   {
-    id: "066",
+    id: "GE066",
     name: "Moon Shard",
     effect: `- Mỗi khi thua trận, người cùng Alliance kế tiếp sẽ nhận 1 random Gear, với 15% là Special Gear.
   - Khi có chuỗi 3 trận thắng liên tiếp, nhận Special Power "Moon Aura".
@@ -578,7 +578,7 @@ export const speacialItems = [
     color: "#9932CC",
   },
   {
-    id: "067",
+    id: "GE067",
     name: "Zhonya's Hourglass",
     effect:
       "Đối thủ của bạn sẽ không nhận được điểm ở round đầu tiên bạn thua trong trận. Cooldown: 1 trận.",
@@ -587,7 +587,7 @@ export const speacialItems = [
     color: "#228B22",
   },
   {
-    id: "068",
+    id: "GE068",
     name: "Kaleidoscope Amulet",
     effect: "Nhận +1 All Stats.",
     type: "Misc",
@@ -595,7 +595,7 @@ export const speacialItems = [
     color: "#F5DEB3",
   },
   {
-    id: "069",
+    id: "GE069",
     name: "Warmog's Armor",
     effect:
       "Nhận +2 Durability. Nếu Durability đạt Cosmic trở lên, nhận thêm +3 Durability.",
@@ -604,7 +604,7 @@ export const speacialItems = [
     color: "#CD5C5C",
   },
   {
-    id: "070",
+    id: "GE070",
     name: "The Legendary Wheel",
     effect:
       "Sau trận thua đầu tiên, phá hủy trang bị này và nhận +2 vào tất cả các chỉ số bạn đã thua trong trận đấu đó.",
@@ -613,7 +613,7 @@ export const speacialItems = [
     color: "#AFEEEE",
   },
   {
-    id: "071",
+    id: "GE071",
     name: "Tyrael's Might",
     effect: "Nhận +3 Durability.",
     type: "Armor",
@@ -621,7 +621,7 @@ export const speacialItems = [
     color: "#D2B48C",
   },
   {
-    id: "072",
+    id: "GE072",
     name: "Trickster's Glass",
     effect:
       "Mỗi khi thua 1 round, có 10% bạn nhận được điểm thay vì đối thủ. Ngược lại, mỗi round bạn thắng có 5% đối thủ nhận được điểm thay vì bạn.",
@@ -630,7 +630,7 @@ export const speacialItems = [
     color: "#00FA9A",
   },
   {
-    id: "073",
+    id: "GE073",
     name: "Zephyrus's Wings",
     effect: 'Nhận gấp đôi điểm khi bạn chiến thắng round "Speed".',
     type: "Misc",
@@ -638,7 +638,7 @@ export const speacialItems = [
     color: "#B0E0E6",
   },
   {
-    id: "074",
+    id: "GE074",
     name: "Shield of Naofumi",
     effect:
       "Nhận +3 Durability. Mỗi khi bạn thắng round Durability, nhận thêm +1 Durability.",
@@ -647,7 +647,7 @@ export const speacialItems = [
     color: "#9370DB",
   },
   {
-    id: "075",
+    id: "GE075",
     name: "Cursed Demon's Heart",
     effect:
       "Nhận +1 vào những chỉ số có Base lớn hơn hoặc bằng 5 và -1 những chỉ số có Base dưới 5.",
@@ -656,7 +656,7 @@ export const speacialItems = [
     color: "#FFDEAD",
   },
   {
-    id: "076",
+    id: "GE076",
     name: "Holy Shield",
     effect:
       "Nhận +1 Durability và +1 BIQ. Tăng gấp 3 chỉ số cộng thêm này khi đối đầu với Demon hoặc Skeleton.",
@@ -665,7 +665,7 @@ export const speacialItems = [
     color: "#3CB371",
   },
   {
-    id: "077",
+    id: "GE077",
     name: "Ultimate Spellbook",
     effect: "Nhận 1 Power ngẫu nhiên sau mỗi 2 trận thắng.",
     type: "Misc",
@@ -673,7 +673,7 @@ export const speacialItems = [
     color: "#FF7F50",
   },
   {
-    id: "078",
+    id: "GE078",
     name: "Overlord's Bloodmail",
     effect: "Nhận +1 Strength với mỗi 3 điểm Durability bạn đang có.",
     type: "Armor",
@@ -681,7 +681,7 @@ export const speacialItems = [
     color: "#87CEFA",
   },
   {
-    id: "079",
+    id: "GE079",
     name: "Banshee's Veil",
     effect: "Miễn nhiễm với mọi debuff stats của đối thủ.",
     type: "Misc",
@@ -689,7 +689,7 @@ export const speacialItems = [
     color: "#F0FFF0",
   },
   {
-    id: "080",
+    id: "GE080",
     name: "Titan's Reserves",
     effect:
       "Sau khi thua 8 round trong các combat, nhận +3 Strength, +3 Durability. (cộng sau khi kết thúc trận đấu) (kích hoạt 1 lần)",
@@ -698,7 +698,7 @@ export const speacialItems = [
     color: "#FFE4C4",
   },
   {
-    id: "081",
+    id: "GE081",
     name: "Eternal Winter",
     effect: "Đối thủ nhận -4 Speed.",
     type: "Armor",
@@ -706,7 +706,7 @@ export const speacialItems = [
     color: "#778899",
   },
   {
-    id: "082",
+    id: "GE082",
     name: "Talisman of Ascension",
     effect:
       "Sau khi thắng 10 round, nhận +2 Strength, +2 Speed, +2 Durability. (cộng sau khi kết thúc trận đấu) (kích hoạt 1 lần)",
@@ -715,7 +715,7 @@ export const speacialItems = [
     color: "#8A2BE2",
   },
   {
-    id: "083",
+    id: "GE083",
     name: "Adaptive Helm",
     effect:
       "Sau khi thua trận đầu tiên, nhận +1 all stats. Sau khi thua trận thứ hai, tiếp tục nhận +1 all stats.",
@@ -724,7 +724,7 @@ export const speacialItems = [
     color: "#FFEFD5",
   },
   {
-    id: "084",
+    id: "GE084",
     name: "Aegis Shield",
     effect:
       "Với mỗi round thua, có 25% khả năng đối thủ không nhận được điểm. (Và vô hiệu hóa các hiệu ứng liên quan như Crit)",
@@ -733,7 +733,7 @@ export const speacialItems = [
     color: "#00FF7F",
   },
   {
-    id: "085",
+    id: "GE085",
     name: "The Holy Grail",
     effect: "Nhận +4 vào stat bạn có base stat thấp nhất.",
     type: "Misc",
@@ -741,7 +741,7 @@ export const speacialItems = [
     color: "#FFE4E1",
   },
   {
-    id: "086",
+    id: "GE086",
     name: "Philosopher's Stone",
     effect: "Với mỗi round bạn hòa, nhận 1 điểm.",
     type: "Misc",
@@ -749,7 +749,7 @@ export const speacialItems = [
     color: "#2F4F4F",
   },
   {
-    id: "087",
+    id: "GE087",
     name: "Pandora's Box",
     effect: "Nhận 4 Normal Gear ngẫu nhiên.",
     type: "Misc",
@@ -757,7 +757,7 @@ export const speacialItems = [
     color: "#8B008B",
   },
   {
-    id: "088",
+    id: "GE088",
     name: "Santa's Giftbox",
     effect: "Nhận 2 Power ngẫu nhiên.",
     type: "Misc",
@@ -765,7 +765,7 @@ export const speacialItems = [
     color: "#00FF00",
   },
   {
-    id: "089",
+    id: "GE089",
     name: "Divine Cornucopia",
     effect: "Sau mỗi trận thắng, +1 vào stat thấp nhất.",
     type: "Misc",
@@ -773,7 +773,7 @@ export const speacialItems = [
     color: "#FFDAB9",
   },
   {
-    id: "090",
+    id: "GE090",
     name: "Odin's Whetstone",
     effect: "Nhận +1 Weapon Mastery.",
     type: "Misc",
@@ -781,7 +781,7 @@ export const speacialItems = [
     color: "#F5F5DC",
   },
   {
-    id: "091",
+    id: "GE091",
     name: "Mejai's Soulstealer",
     effect:
       "Nhận +2 IQ và +2 BIQ, nhận thêm 1 sau mỗi trận thắng (tối đa lên +4)",
@@ -790,7 +790,7 @@ export const speacialItems = [
     color: "#E0FFFF",
   },
   {
-    id: "092",
+    id: "GE092",
     name: "Frozen Heart",
     effect: "Đối thủ nhận -2 Speed, -2 Martial Arts.",
     type: "Misc",
@@ -798,7 +798,7 @@ export const speacialItems = [
     color: "#FFFACD",
   },
   {
-    id: "093",
+    id: "GE093",
     name: "Blighting Jewel",
     effect: "Với mỗi Power bạn có, đối thủ nhận -1 Durability.",
     type: "Misc",
@@ -806,7 +806,7 @@ export const speacialItems = [
     color: "#696969",
   },
   {
-    id: "094",
+    id: "GE094",
     name: "Banner of Command",
     effect: "Nhận 2 Power Summoning ngẫu nhiên.",
     type: "Misc",
@@ -814,7 +814,7 @@ export const speacialItems = [
     color: "#FF00FF",
   },
   {
-    id: "095",
+    id: "GE095",
     name: "Edge of Night",
     effect: 'Nhận Power "Evasion". Mỗi khi "Né" thành công, nhận +1 Speed.',
     type: "Armor",
@@ -822,7 +822,7 @@ export const speacialItems = [
     color: "#8FBC8F",
   },
   {
-    id: "096",
+    id: "GE096",
     name: "Ionic Spark",
     effect: "Với mỗi Power đối thủ có, đối thủ nhận -1 Durability.",
     type: "Misc",
@@ -830,7 +830,7 @@ export const speacialItems = [
     color: "#FFF0F5",
   },
   {
-    id: "097",
+    id: "GE097",
     name: "Cloak of Flame",
     effect: "Đối thủ giảm 2 Durability và 2 Strength.",
     type: "Misc",
@@ -838,7 +838,7 @@ export const speacialItems = [
     color: "#F5FFFA",
   },
   {
-    id: "098",
+    id: "GE098",
     name: "Armor of God",
     effect: "Với mỗi chỉ số có Base dưới 6, nhận +2 vào các chỉ số đó.",
     type: "Armor",
@@ -846,7 +846,7 @@ export const speacialItems = [
     color: "#FDF5E6",
   },
   {
-    id: "099",
+    id: "GE099",
     name: "Rabadon's Deathcap",
     effect: "Nhận +3 IQ. Nếu base IQ của bạn trên 6, nhận thêm +2 IQ nữa.",
     type: "Misc",
@@ -854,7 +854,7 @@ export const speacialItems = [
     color: "#F8F8FF",
   },
   {
-    id: "100",
+    id: "GE100",
     name: "Sky-Hook",
     effect: `Nhận 1 Speed và 1 Strength.
   Nếu người dùng đang có Power "Cognition Engine", "Maelstrom", "Return to Sender" hoặc "Bucking Bronco", thêm 1(+1) Bonus vào hiệu ứng của Power đấy.`,
@@ -864,7 +864,7 @@ export const speacialItems = [
     color: "#FFEBCD",
   },
   {
-    id: "101",
+    id: "GE101",
     name: "Mechanical Limbs",
     effect: `Nhận +1 all stats.
   Cố định 1 chỉ số ngẫu nhiên lúc combat, chỉ số đó không thể bị thay đổi bởi bất cứ thứ gì khác ngoài Power "Abyssal".`,
@@ -874,7 +874,7 @@ export const speacialItems = [
     color: "#FFF5EE",
   },
   {
-    id: "102",
+    id: "GE102",
     name: "Shield of Heracles",
     effect:
       "Nhận +2 Durability. Người chơi cùng Alliance thi đấu tiếp theo nhận +2 Durability trong combat.",
@@ -883,7 +883,7 @@ export const speacialItems = [
     color: "#FAFAD2",
   },
   {
-    id: "103",
+    id: "GE103",
     name: "Svalinn Shield",
     effect: 'Vô hiệu hóa toàn bộ "Fire" Power của kẻ địch.',
     type: "Shield",
@@ -891,7 +891,7 @@ export const speacialItems = [
     color: "#E6E6FA",
   },
   {
-    id: "104",
+    id: "GE104",
     name: "Inspiring Epitaph",
     effect:
       "Khi người sở hữu bị loại, chuyển trang bị này sang người cùng Alliance combat kế tiếp và kích hoạt hiệu ứng: Nhận +2 Speed và +2 Durability. (Một người chỉ có thể sở hữu 1 trang bị này)",
@@ -900,7 +900,7 @@ export const speacialItems = [
     color: "#D8BFD8",
   },
   {
-    id: "105",
+    id: "GE105",
     name: "The Golden Egg",
     effect:
       "Nhận 1 quả trứng vàng sẽ nở sau 8 combat PvP, khi nở sẽ tặng bạn 3 Power ngẫu nhiên. Trứng sẽ nở nhanh hơn 1 combat nếu bạn thắng.",
@@ -909,7 +909,7 @@ export const speacialItems = [
     color: "#DCEDC1",
   },
   {
-    id: "106",
+    id: "GE106",
     name: "Needlessly Big Gem",
     effect:
       "Nếu bạn vào được vòng Tournament, toàn bộ thành viên thuộc Alliance của bạn (bao gồm bản thân) nhận +3 Strength. (1 Alliance chỉ có thể kích hoạt tối đa 1 lần trang bị này). Nếu bạn không nằm trong Alliance nào, nhận +1 all stats thay vào đó.",
@@ -918,7 +918,7 @@ export const speacialItems = [
     color: "#A7FFEB",
   },
   {
-    id: "107",
+    id: "GE107",
     name: "Chalice of Power",
     effect: "2 thành viên ngẫu nhiên thuộc Alliance của bạn nhận 2 Power.",
     type: "Misc",
@@ -926,7 +926,7 @@ export const speacialItems = [
     color: "#D500F9",
   },
   {
-    id: "108",
+    id: "GE108",
     name: "Cursed Crown",
     effect: "Nhận +2 all stats, khởi đầu combat với -2 điểm.",
     type: "Misc",
@@ -934,7 +934,7 @@ export const speacialItems = [
     color: "#00B8D4",
   },
   {
-    id: "109",
+    id: "GE109",
     name: "Prophet's Shawl",
     effect: "Khi combat: Nhận +3 vào stat mà đối thủ có base stat cao nhất.",
     type: "Misc",
@@ -942,7 +942,7 @@ export const speacialItems = [
     color: "#FFAB00",
   },
   {
-    id: "110",
+    id: "GE110",
     name: "Overlord's Coffin",
     effect:
       "Khi loại bỏ 1 đối thủ, lấy số round thắng của đối thủ trong combat vừa rồi cộng vào 1 stat ngẫu nhiên của bản thân.",
@@ -951,7 +951,7 @@ export const speacialItems = [
     color: "#C51162",
   },
   {
-    id: "111",
+    id: "GE111",
     name: "Silver Lion's Protection",
     effect: "Nhận +2 Durability, +2 vào stat có base stat thấp nhất.",
     type: "Shield",
@@ -959,7 +959,7 @@ export const speacialItems = [
     color: "#6200EA",
   },
   {
-    id: "112",
+    id: "GE112",
     name: "Abyssal Crown",
     effect: "Nhận 2 Power Abyssal ngẫu nhiên.",
     type: "Misc",
@@ -967,7 +967,7 @@ export const speacialItems = [
     color: "#00C853",
   },
   {
-    id: "113",
+    id: "GE113",
     name: "Draco Plate",
     effect:
       'Tăng 15% tỉ lệ Crit của bản thân nếu có "Critical Strike" và giảm 15% tỉ lệ Crit của đối thủ.',
