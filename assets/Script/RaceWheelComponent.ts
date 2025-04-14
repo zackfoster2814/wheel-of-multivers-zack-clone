@@ -75,11 +75,29 @@ export class RaceWheelComponent extends Component {
   @property(RichText)
   resultName: RichText | null = null;
   @property(RichText)
+  resultRaceName: RichText | null = null;
+  @property(RichText)
   resultSubrace: RichText | null = null;
   @property(RichText)
   resultAlliance: RichText | null = null;
   @property(RichText)
   resultRizz: RichText | null = null;
+
+  @property(RichText)
+  resultStr: RichText | null = null;
+  @property(RichText)
+  resultSpd: RichText | null = null;
+  @property(RichText)
+  resultIq: RichText | null = null;
+  @property(RichText)
+  resultBiq: RichText | null = null;
+  @property(RichText)
+  resultDur: RichText | null = null;
+  @property(RichText)
+  resultMar: RichText | null = null;
+
+  @property(RichText)
+  resultWM: RichText | null = null;
 
   @property(EditBox)
   nameInput: EditBox | null = null;
@@ -260,25 +278,31 @@ export class RaceWheelComponent extends Component {
     // stat
     // Strength
     else if (this.wheelNow === 4) {
-      // this.sections = this.speedWeightData(race);
+      this.sections = this.statWheel(this.character.raceId, this.wheelNow);
     }
     // Speed
     else if (this.wheelNow === 5) {
+      this.sections = this.statWheel(this.character.raceId, this.wheelNow);
     }
     // IQ
     else if (this.wheelNow === 6) {
+      this.sections = this.statWheel(this.character.raceId, this.wheelNow);
     }
     // BIQ
     else if (this.wheelNow === 7) {
+      this.sections = this.statWheel(this.character.raceId, this.wheelNow);
     }
     // Durability
     else if (this.wheelNow === 8) {
+      this.sections = this.statWheel(this.character.raceId, this.wheelNow);
     }
     // Martial Arts
     else if (this.wheelNow === 9) {
+      this.sections = this.statWheel(this.character.raceId, this.wheelNow);
     }
     // Weapon Mastery
     else if (this.wheelNow === 10) {
+      this.sections = this.statWheel(this.character.raceId, this.wheelNow);
     }
     // Rizz level
     else if (this.wheelNow === 11) {
@@ -291,7 +315,10 @@ export class RaceWheelComponent extends Component {
       this.sections = this.normalWeaponSections;
     } else if (this.wheelNow === 12002) {
       this.sections = this.uniqueWeaponSections;
+    } else if (this.wheelNow === 12003) {
+      // this.sections = this.uniqueWeaponSections;
     }
+
     // Gear
     else if (this.wheelNow === 13) {
       this.sections = this.gearCountSections;
@@ -741,58 +768,79 @@ export class RaceWheelComponent extends Component {
             this.drawWheel();
             break;
           case 3:
-            this.character.archetype = resultId;
-            this.character.alliance.allianceName = resultName;
-            this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            this.wheelNow = 11; // return 4 is true
+            // this.character.archetype = resultId;
+            // this.character.archetype = resultName;
+            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
+            this.wheelNow = 4; // return 4 is true
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
           case 4:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
+            if (!this.character.stat) {
+              this.character.stat = {}; // Khởi tạo nếu chưa có
+            }
+            this.character.stat.str = section.point;
+            this.resultStr.string = `<color=#FF4500>${this.character.stat.str}</color>`;
             this.wheelNow = 5;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
           case 5:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
+            if (!this.character.stat) {
+              this.character.stat = {}; // Khởi tạo nếu chưa có
+            }
+            this.character.stat.spd = section.point;
+            this.resultSpd.string = `<color=#FF4500>${this.character.stat.spd}</color>`;
             this.wheelNow = 6;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
           case 6:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
+            if (!this.character.stat) {
+              this.character.stat = {}; // Khởi tạo nếu chưa có
+            }
+            this.character.stat.iq = section.point;
+            this.resultIq.string = `<color=#FF4500>${this.character.stat.iq}</color>`;
             this.wheelNow = 7;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
           case 7:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
+            if (!this.character.stat) {
+              this.character.stat = {}; // Khởi tạo nếu chưa có
+            }
+            this.character.stat.biq = section.point;
+            this.resultBiq.string = `<color=#FF4500>${this.character.stat.biq}</color>`;
             this.wheelNow = 8;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
           case 8:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
+            if (!this.character.stat) {
+              this.character.stat = {}; // Khởi tạo nếu chưa có
+            }
+            this.character.stat.dur = section.point;
+            this.resultDur.string = `<color=#FF4500>${this.character.stat.dur}</color>`;
             this.wheelNow = 9;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
           case 9:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
+            if (!this.character.stat) {
+              this.character.stat = {}; // Khởi tạo nếu chưa có
+            }
+            this.character.stat.mar = section.point;
+            this.resultMar.string = `<color=#FF4500>${this.character.stat.mar}</color>`;
             this.wheelNow = 10;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
           case 10:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
+            if (!this.character.stat) {
+              this.character.stat = {}; // Khởi tạo nếu chưa có
+            }
+            this.character.stat.wm = section.point;
+            this.resultWM.string = `<color=#FF4500>${this.character.stat.wm}</color>`;
             if (this.rizzler) {
               this.wheelNow = 11;
             } else {
@@ -802,8 +850,11 @@ export class RaceWheelComponent extends Component {
             this.drawWheel();
             break;
           case 11:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
+            if (!this.character.stat) {
+              this.character.stat = {}; // Khởi tạo nếu chưa có
+            }
+            this.character.stat.rizz = section.point;
+            this.resultRizz.string = `<color=#FF4500>${this.character.stat.rizz}</color>`;
             this.wheelNow = 12;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
@@ -940,6 +991,593 @@ export class RaceWheelComponent extends Component {
 
     if (this.resultRizz) {
       this.resultRizz.string = "";
+    }
+  }
+
+  statWheel(raceId: String, statNow: Number): any[] {
+    console.log("RaceId: " + raceId + " || Stat now: " + statNow);
+    switch (statNow) {
+      case 4: {
+        // str
+        switch (raceId) {
+          case "01": {
+            return this.statDataSections.Goblin.str;
+          }
+          case "02": {
+            return this.statDataSections.Gnome.str;
+          }
+          case "03": {
+            return this.statDataSections.Human.str;
+          }
+          case "04": {
+            return this.statDataSections.Dwarf.str;
+          }
+          case "05": {
+            return this.statDataSections.Merfolk.str;
+          }
+          case "06": {
+            return this.statDataSections.Skeleton.str;
+          }
+          case "07": {
+            return this.statDataSections.Troll.str;
+          }
+          case "08": {
+            return this.statDataSections.Reptile.str;
+          }
+          case "09": {
+            return this.statDataSections.Orc.str;
+          }
+          case "10": {
+            return this.statDataSections.Dryad.str;
+          }
+          case "11": {
+            return this.statDataSections.Elf.str;
+          }
+          case "12": {
+            return this.statDataSections.Spirit.str;
+          }
+          case "13": {
+            return this.statDataSections.Werebeast.str;
+          }
+          case "14": {
+            return this.statDataSections.Vampire.str;
+          }
+          case "15": {
+            return this.statDataSections.Hybrid.str;
+          }
+          case "16": {
+            return this.statDataSections.Cyborg.str;
+          }
+          case "17": {
+            return this.statDataSections.Giant.str;
+          }
+          case "18": {
+            return this.statDataSections.Dragon.str;
+          }
+          case "19": {
+            return this.statDataSections.MoonTouched.str;
+          }
+          case "20": {
+            return this.statDataSections.Angel.str;
+          }
+          case "21": {
+            return this.statDataSections.DemiGod.str;
+          }
+          case "22": {
+            return this.statDataSections.PrimordialBeing.str;
+          }
+          case "23": {
+            return this.statDataSections.Reincarnator.str;
+          }
+          case "24": {
+            return this.statDataSections.MythicalBeasts.str;
+          }
+          case "25": {
+            return this.statDataSections.Demon.str;
+          }
+          case "26": {
+            return this.statDataSections.God.str;
+          }
+        }
+      }
+      case 5: {
+        // spd
+        switch (raceId) {
+          case "01": {
+            return this.statDataSections.Goblin.spd;
+          }
+          case "02": {
+            return this.statDataSections.Gnome.spd;
+          }
+          case "03": {
+            return this.statDataSections.Human.spd;
+          }
+          case "04": {
+            return this.statDataSections.Dwarf.spd;
+          }
+          case "05": {
+            return this.statDataSections.Merfolk.spd;
+          }
+          case "06": {
+            return this.statDataSections.Skeleton.spd;
+          }
+          case "07": {
+            return this.statDataSections.Troll.spd;
+          }
+          case "08": {
+            return this.statDataSections.Reptile.spd;
+          }
+          case "09": {
+            return this.statDataSections.Orc.spd;
+          }
+          case "10": {
+            return this.statDataSections.Dryad.spd;
+          }
+          case "11": {
+            return this.statDataSections.Elf.spd;
+          }
+          case "12": {
+            return this.statDataSections.Spirit.spd;
+          }
+          case "13": {
+            return this.statDataSections.Werebeast.spd;
+          }
+          case "14": {
+            return this.statDataSections.Vampire.spd;
+          }
+          case "15": {
+            return this.statDataSections.Hybrid.spd;
+          }
+          case "16": {
+            return this.statDataSections.Cyborg.spd;
+          }
+          case "17": {
+            return this.statDataSections.Giant.spd;
+          }
+          case "18": {
+            return this.statDataSections.Dragon.spd;
+          }
+          case "19": {
+            return this.statDataSections.MoonTouched.spd;
+          }
+          case "20": {
+            return this.statDataSections.Angel.spd;
+          }
+          case "21": {
+            return this.statDataSections.DemiGod.spd;
+          }
+          case "22": {
+            return this.statDataSections.PrimordialBeing.spd;
+          }
+          case "23": {
+            return this.statDataSections.Reincarnator.spd;
+          }
+          case "24": {
+            return this.statDataSections.MythicalBeasts.spd;
+          }
+          case "25": {
+            return this.statDataSections.Demon.spd;
+          }
+          case "26": {
+            return this.statDataSections.God.spd;
+          }
+        }
+      }
+      case 6: {
+        // iq
+        switch (raceId) {
+          case "01": {
+            return this.statDataSections.Goblin.iq;
+          }
+          case "02": {
+            return this.statDataSections.Gnome.iq;
+          }
+          case "03": {
+            return this.statDataSections.Human.iq;
+          }
+          case "04": {
+            return this.statDataSections.Dwarf.iq;
+          }
+          case "05": {
+            return this.statDataSections.Merfolk.iq;
+          }
+          case "06": {
+            return this.statDataSections.Skeleton.iq;
+          }
+          case "07": {
+            return this.statDataSections.Troll.iq;
+          }
+          case "08": {
+            return this.statDataSections.Reptile.iq;
+          }
+          case "09": {
+            return this.statDataSections.Orc.iq;
+          }
+          case "10": {
+            return this.statDataSections.Dryad.iq;
+          }
+          case "11": {
+            return this.statDataSections.Elf.iq;
+          }
+          case "12": {
+            return this.statDataSections.Spirit.iq;
+          }
+          case "13": {
+            return this.statDataSections.Werebeast.iq;
+          }
+          case "14": {
+            return this.statDataSections.Vampire.iq;
+          }
+          case "15": {
+            return this.statDataSections.Hybrid.iq;
+          }
+          case "16": {
+            return this.statDataSections.Cyborg.iq;
+          }
+          case "17": {
+            return this.statDataSections.Giant.iq;
+          }
+          case "18": {
+            return this.statDataSections.Dragon.iq;
+          }
+          case "19": {
+            return this.statDataSections.MoonTouched.iq;
+          }
+          case "20": {
+            return this.statDataSections.Angel.iq;
+          }
+          case "21": {
+            return this.statDataSections.DemiGod.iq;
+          }
+          case "22": {
+            return this.statDataSections.PrimordialBeing.iq;
+          }
+          case "23": {
+            return this.statDataSections.Reincarnator.iq;
+          }
+          case "24": {
+            return this.statDataSections.MythicalBeasts.iq;
+          }
+          case "25": {
+            return this.statDataSections.Demon.iq;
+          }
+          case "26": {
+            return this.statDataSections.God.iq;
+          }
+        }
+      }
+      case 7: {
+        // biq
+        switch (raceId) {
+          case "01": {
+            return this.statDataSections.Goblin.biq;
+          }
+          case "02": {
+            return this.statDataSections.Gnome.biq;
+          }
+          case "03": {
+            return this.statDataSections.Human.biq;
+          }
+          case "04": {
+            return this.statDataSections.Dwarf.biq;
+          }
+          case "05": {
+            return this.statDataSections.Merfolk.biq;
+          }
+          case "06": {
+            return this.statDataSections.Skeleton.biq;
+          }
+          case "07": {
+            return this.statDataSections.Troll.biq;
+          }
+          case "08": {
+            return this.statDataSections.Reptile.biq;
+          }
+          case "09": {
+            return this.statDataSections.Orc.biq;
+          }
+          case "10": {
+            return this.statDataSections.Dryad.biq;
+          }
+          case "11": {
+            return this.statDataSections.Elf.biq;
+          }
+          case "12": {
+            return this.statDataSections.Spirit.biq;
+          }
+          case "13": {
+            return this.statDataSections.Werebeast.biq;
+          }
+          case "14": {
+            return this.statDataSections.Vampire.biq;
+          }
+          case "15": {
+            return this.statDataSections.Hybrid.biq;
+          }
+          case "16": {
+            return this.statDataSections.Cyborg.biq;
+          }
+          case "17": {
+            return this.statDataSections.Giant.biq;
+          }
+          case "18": {
+            return this.statDataSections.Dragon.biq;
+          }
+          case "19": {
+            return this.statDataSections.MoonTouched.biq;
+          }
+          case "20": {
+            return this.statDataSections.Angel.biq;
+          }
+          case "21": {
+            return this.statDataSections.DemiGod.biq;
+          }
+          case "22": {
+            return this.statDataSections.PrimordialBeing.biq;
+          }
+          case "23": {
+            return this.statDataSections.Reincarnator.biq;
+          }
+          case "24": {
+            return this.statDataSections.MythicalBeasts.biq;
+          }
+          case "25": {
+            return this.statDataSections.Demon.biq;
+          }
+          case "26": {
+            return this.statDataSections.God.biq;
+          }
+        }
+      }
+      case 8: {
+        // dur
+        switch (raceId) {
+          case "01": {
+            return this.statDataSections.Goblin.dur;
+          }
+          case "02": {
+            return this.statDataSections.Gnome.dur;
+          }
+          case "03": {
+            return this.statDataSections.Human.dur;
+          }
+          case "04": {
+            return this.statDataSections.Dwarf.dur;
+          }
+          case "05": {
+            return this.statDataSections.Merfolk.dur;
+          }
+          case "06": {
+            return this.statDataSections.Skeleton.dur;
+          }
+          case "07": {
+            return this.statDataSections.Troll.dur;
+          }
+          case "08": {
+            return this.statDataSections.Reptile.dur;
+          }
+          case "09": {
+            return this.statDataSections.Orc.dur;
+          }
+          case "10": {
+            return this.statDataSections.Dryad.dur;
+          }
+          case "11": {
+            return this.statDataSections.Elf.dur;
+          }
+          case "12": {
+            return this.statDataSections.Spirit.dur;
+          }
+          case "13": {
+            return this.statDataSections.Werebeast.dur;
+          }
+          case "14": {
+            return this.statDataSections.Vampire.dur;
+          }
+          case "15": {
+            return this.statDataSections.Hybrid.dur;
+          }
+          case "16": {
+            return this.statDataSections.Cyborg.dur;
+          }
+          case "17": {
+            return this.statDataSections.Giant.dur;
+          }
+          case "18": {
+            return this.statDataSections.Dragon.dur;
+          }
+          case "19": {
+            return this.statDataSections.MoonTouched.dur;
+          }
+          case "20": {
+            return this.statDataSections.Angel.dur;
+          }
+          case "21": {
+            return this.statDataSections.DemiGod.dur;
+          }
+          case "22": {
+            return this.statDataSections.PrimordialBeing.dur;
+          }
+          case "23": {
+            return this.statDataSections.Reincarnator.dur;
+          }
+          case "24": {
+            return this.statDataSections.MythicalBeasts.dur;
+          }
+          case "25": {
+            return this.statDataSections.Demon.dur;
+          }
+          case "26": {
+            return this.statDataSections.God.dur;
+          }
+        }
+      }
+      case 9: {
+        // mar
+        switch (raceId) {
+          case "01": {
+            return this.statDataSections.Goblin.mar;
+          }
+          case "02": {
+            return this.statDataSections.Gnome.mar;
+          }
+          case "03": {
+            return this.statDataSections.Human.mar;
+          }
+          case "04": {
+            return this.statDataSections.Dwarf.mar;
+          }
+          case "05": {
+            return this.statDataSections.Merfolk.mar;
+          }
+          case "06": {
+            return this.statDataSections.Skeleton.mar;
+          }
+          case "07": {
+            return this.statDataSections.Troll.mar;
+          }
+          case "08": {
+            return this.statDataSections.Reptile.mar;
+          }
+          case "09": {
+            return this.statDataSections.Orc.mar;
+          }
+          case "10": {
+            return this.statDataSections.Dryad.mar;
+          }
+          case "11": {
+            return this.statDataSections.Elf.mar;
+          }
+          case "12": {
+            return this.statDataSections.Spirit.mar;
+          }
+          case "13": {
+            return this.statDataSections.Werebeast.mar;
+          }
+          case "14": {
+            return this.statDataSections.Vampire.mar;
+          }
+          case "15": {
+            return this.statDataSections.Hybrid.mar;
+          }
+          case "16": {
+            return this.statDataSections.Cyborg.mar;
+          }
+          case "17": {
+            return this.statDataSections.Giant.mar;
+          }
+          case "18": {
+            return this.statDataSections.Dragon.mar;
+          }
+          case "19": {
+            return this.statDataSections.MoonTouched.mar;
+          }
+          case "20": {
+            return this.statDataSections.Angel.mar;
+          }
+          case "21": {
+            return this.statDataSections.DemiGod.mar;
+          }
+          case "22": {
+            return this.statDataSections.PrimordialBeing.mar;
+          }
+          case "23": {
+            return this.statDataSections.Reincarnator.mar;
+          }
+          case "24": {
+            return this.statDataSections.MythicalBeasts.mar;
+          }
+          case "25": {
+            return this.statDataSections.Demon.mar;
+          }
+          case "26": {
+            return this.statDataSections.God.mar;
+          }
+        }
+      }
+      case 10: {
+        // wm
+        switch (raceId) {
+          case "01": {
+            return this.statDataSections.Goblin.wm;
+          }
+          case "02": {
+            return this.statDataSections.Gnome.wm;
+          }
+          case "03": {
+            return this.statDataSections.Human.wm;
+          }
+          case "04": {
+            return this.statDataSections.Dwarf.wm;
+          }
+          case "05": {
+            return this.statDataSections.Merfolk.wm;
+          }
+          case "06": {
+            return this.statDataSections.Skeleton.wm;
+          }
+          case "07": {
+            return this.statDataSections.Troll.wm;
+          }
+          case "08": {
+            return this.statDataSections.Reptile.wm;
+          }
+          case "09": {
+            return this.statDataSections.Orc.wm;
+          }
+          case "10": {
+            return this.statDataSections.Dryad.wm;
+          }
+          case "11": {
+            return this.statDataSections.Elf.wm;
+          }
+          case "12": {
+            return this.statDataSections.Spirit.wm;
+          }
+          case "13": {
+            return this.statDataSections.Werebeast.wm;
+          }
+          case "14": {
+            return this.statDataSections.Vampire.wm;
+          }
+          case "15": {
+            return this.statDataSections.Hybrid.wm;
+          }
+          case "16": {
+            return this.statDataSections.Cyborg.wm;
+          }
+          case "17": {
+            return this.statDataSections.Giant.wm;
+          }
+          case "18": {
+            return this.statDataSections.Dragon.wm;
+          }
+          case "19": {
+            return this.statDataSections.MoonTouched.wm;
+          }
+          case "20": {
+            return this.statDataSections.Angel.wm;
+          }
+          case "21": {
+            return this.statDataSections.DemiGod.wm;
+          }
+          case "22": {
+            return this.statDataSections.PrimordialBeing.wm;
+          }
+          case "23": {
+            return this.statDataSections.Reincarnator.wm;
+          }
+          case "24": {
+            return this.statDataSections.MythicalBeasts.wm;
+          }
+          case "25": {
+            return this.statDataSections.Demon.wm;
+          }
+          case "26": {
+            return this.statDataSections.God.wm;
+          }
+        }
+      }
     }
   }
 }

@@ -59,5 +59,6 @@ interface Stat {
   biq?: Number;
   dur?: Number;
   mar?: Number;
+  wm?: Number;
   rizz?: Number;
 }
