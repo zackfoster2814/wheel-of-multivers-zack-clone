@@ -608,7 +608,7 @@ export const speacialGearSections = [
   - Mỗi khi nhận 1 "Holy" Power, nhận thêm +1 Strength và +1 Durability.
   Gear này không thể bị chịu hiệu ứng từ bất cứ thứ gì ngoại trừ các Char Dev liên quan.`,
     type: "Alliance",
-    weight: 1,
+    weight: 0,
     color: "#48D1CC",
   },
   {
@@ -619,7 +619,7 @@ export const speacialGearSections = [
   - Mỗi khi nhận 1 "Arcana" Power, nhận thêm +1 IQ và +1 BIQ.
   Gear này không thể bị chịu hiệu ứng từ bất cứ thứ gì ngoại trừ các Char Dev liên quan.`,
     type: "Alliance",
-    weight: 1,
+    weight: 0,
     color: "#9932CC",
   },
   {

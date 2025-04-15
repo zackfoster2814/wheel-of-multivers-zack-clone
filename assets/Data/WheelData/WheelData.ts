@@ -6,239 +6,239 @@ export const raceSections = [
     subRace: "001",
     trait: "000",
     weight: 5,
-    color: "#FF0000",
+    color: "#CC4C4C",
     bloodEffect: "001",
-  }, // Đỏ
+  },
   {
     id: "02",
     name: "Gnome",
     subRace: "000",
     trait: "000",
     weight: 5,
-    color: "#FFA500",
+    color: "#E6A857",
     bloodEffect: "002",
-  }, // Cam
+  },
   {
     id: "03",
     name: "Human",
     subRace: "002",
     trait: "001",
     weight: 5,
-    color: "#FFFF00",
+    color: "#E6E68A",
     bloodEffect: "003",
-  }, // Vàng
+  },
   {
     id: "04",
     name: "Dwarf",
     subRace: "003",
     trait: "000",
     weight: 5,
-    color: "#008000",
+    color: "#5FAF5F",
     bloodEffect: "004",
-  }, // Xanh lá
+  },
   {
     id: "05",
     name: "Merfolk",
     subRace: "004",
     trait: "000 ",
     weight: 4,
-    color: "#00FFFF",
+    color: "#80D4D4",
     bloodEffect: "005",
-  }, // Xanh dương nhạt
+  },
   {
     id: "06",
     name: "Skeleton",
     subRace: "005",
     trait: "002",
     weight: 4,
-    color: "#800080",
+    color: "#A066A0",
     bloodEffect: "000",
-  }, // Tím
+  },
   {
     id: "07",
     name: "Troll",
     subRace: "006",
     trait: "000",
     weight: 5,
-    color: "#FFC0CB",
+    color: "#E6A6B5",
     bloodEffect: "006",
-  }, // Hồng
+  },
   {
     id: "08",
     name: "Reptile",
     subRace: "007",
     trait: "000",
     weight: 5,
-    color: "#A52A2A",
+    color: "#A9746E",
     bloodEffect: "007",
-  }, // Nâu
+  },
   {
     id: "09",
     name: "Orc",
     subRace: "000",
     trait: "003",
     weight: 4.5,
-    color: "#0000FF",
+    color: "#6A8DFF",
     bloodEffect: "008",
-  }, // Xanh dương
+  },
   {
     id: "10",
     name: "Dryad",
     subRace: "000",
     trait: "004",
     weight: 4,
-    color: "#2E8B57",
+    color: "#5C9E85",
     bloodEffect: "009",
-  }, // Xanh lục đậm
+  },
   {
     id: "11",
     name: "Elf",
     subRace: "008",
     trait: "005",
     weight: 4,
-    color: "#4682B4",
+    color: "#7DAAC4",
     bloodEffect: "010",
-  }, // Xanh thép
+  },
   {
     id: "12",
     name: "Spirit",
     subRace: "009",
     trait: "000",
     weight: 3.5,
-    color: "#9400D3",
+    color: "#9B6BCD",
     bloodEffect: "000",
-  }, // Tím đậm
+  },
   {
     id: "13",
     name: "Werebeast",
     subRace: "010",
     trait: "006",
     weight: 3.5,
-    color: "#FF69B4",
+    color: "#D98CBF",
     bloodEffect: "011",
-  }, // Hồng đậm
+  },
   {
     id: "14",
     name: "Vampire",
     subRace: "011",
     trait: "007",
     weight: 3.5,
-    color: "#C71585",
+    color: "#B95E8E",
     bloodEffect: "012",
-  }, // Hồng mận
+  },
   {
     id: "15",
     name: "Hybrid",
     subRace: "012",
     trait: "000",
     weight: 3,
-    color: "#8B4513",
+    color: "#A17855",
     bloodEffect: "013",
-  }, // Nâu đất
+  },
   {
     id: "16",
     name: "Cyborg",
     subRace: "013",
     trait: "000",
     weight: 4,
-    color: "#708090",
+    color: "#8895A0",
     bloodEffect: "000",
-  }, // Xám xanh
+  },
   {
     id: "17",
     name: "Giant",
     subRace: "000",
     trait: "000",
     weight: 4,
-    color: "#B22222",
+    color: "#A04B4B",
     bloodEffect: "014",
-  }, // Đỏ nâu
+  },
   {
     id: "18",
     name: "Dragon",
     subRace: "014",
     trait: "000",
     weight: 4,
-    color: "#FF4500",
+    color: "#CC5733",
     bloodEffect: "015",
-  }, // Cam đỏ
+  },
   {
     id: "19",
     name: "Moon-touched",
     subRace: "000",
     trait: "008",
     weight: 3.5,
-    color: "#FFD700",
+    color: "#F2D675",
     bloodEffect: "016",
-  }, // Vàng kim
+  },
   {
     id: "20",
     name: "Angel",
     subRace: "000",
     trait: "009",
     weight: 3.5,
-    color: "#E6E6FA",
+    color: "#F2F0FA",
     bloodEffect: "017",
-  }, // Tím nhạt
+  },
   {
     id: "21",
     name: "Demi-God",
     subRace: "000",
     trait: "010",
     weight: 2.5,
-    color: "#D2691E",
+    color: "#A86F44",
     bloodEffect: "018",
-  }, // Nâu sẫm
+  },
   {
     id: "22",
     name: "Primordial Being",
     subRace: "015",
     trait: "000",
     weight: 3,
-    color: "#DC143C",
+    color: "#C84D5F",
     bloodEffect: "000",
-  }, // Đỏ tươi
+  },
   {
     id: "23",
     name: "Reincarnator",
     subRace: "999",
     trait: "999",
     weight: 3.5,
-    color: "#ADFF2F",
+    color: "#AEDD7A",
     bloodEffect: "019",
-  }, // Xanh lá sáng
+  },
   {
     id: "24",
     name: "Mythical Beasts",
     subRace: "016",
     trait: "011",
     weight: 3,
-    color: "#6495ED",
+    color: "#87B9E2",
     bloodEffect: "020",
-  }, // Xanh dương sáng
+  },
   {
     id: "25",
     name: "Demon",
     subRace: "017",
     trait: "012",
     weight: 2.5,
-    color: "#4B0082",
+    color: "#6F4C9B",
     bloodEffect: "012",
-  }, // Chàm
+  },
   {
     id: "26",
     name: "God",
     subRace: "018",
     trait: "013",
     weight: 2.5,
-    color: "#FFFFFF",
+    color: "#F8F8F8",
     bloodEffect: "022",
-  }, // Trắng
+  },
 ];
 
 export const allianceSections = [
-  { id: "ALL001", name: "Sun", weight: 1, color: "#4B0082" }, // Chàm
-  { id: "ALL002", name: "Moon", weight: 1, color: "#FFFFFF" }, // Trắng
+  { id: "ALL001", name: "Sun", weight: 1, color: "#FFD580" },
+  { id: "ALL002", name: "Moon", weight: 1, color: "#DDEEFF" },
 ];
 
 export const elfSelections = [

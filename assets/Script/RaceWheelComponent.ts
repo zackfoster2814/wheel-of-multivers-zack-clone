@@ -146,6 +146,9 @@ export class RaceWheelComponent extends Component {
 
   private sections = [];
   private wheelNow: number = 0;
+  private normalGearNumber: number = 0;
+  private speacialGearNumber: number = 0;
+  private powerNumber: number = 0;
 
   private race: string;
   private subrace: string;
@@ -315,9 +318,10 @@ export class RaceWheelComponent extends Component {
       this.sections = this.normalWeaponSections;
     } else if (this.wheelNow === 12002) {
       this.sections = this.uniqueWeaponSections;
-    } else if (this.wheelNow === 12003) {
-      // this.sections = this.uniqueWeaponSections;
     }
+    // else if (this.wheelNow === 12003) {
+    //   // this.sections = this.uniqueWeaponSections;
+    // }
 
     // Gear
     else if (this.wheelNow === 13) {
@@ -887,51 +891,90 @@ export class RaceWheelComponent extends Component {
             this.drawWheel();
             break;
           case 13: // Gear
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
             if (resultId === "GCS001") {
-              this.wheelNow = 14;
+              this.wheelNow = 14; // Không roll gear
             } else if (resultId === "GCS002") {
+              this.normalGearNumber = 1;
               this.wheelNow = 13001;
             } else if (resultId === "GCS003") {
+              this.normalGearNumber = 2;
               this.wheelNow = 13001;
             } else if (resultId === "GCS004") {
+              this.normalGearNumber = 3;
               this.wheelNow = 13001;
             } else if (resultId === "GCS005") {
+              this.speacialGearNumber = 1;
               this.wheelNow = 13002;
             } else if (resultId === "GCS006") {
-              this.wheelNow = 13002;
+              this.normalGearNumber = 1;
+              this.speacialGearNumber = 1;
+              this.wheelNow = 13001; // Bắt đầu bằng normal gear
             } else if (resultId === "GCS007") {
+              this.speacialGearNumber = 2;
               this.wheelNow = 13002;
             }
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
-          case 13001:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            this.alliance = resultName;
-            this.wheelNow = 14;
+
+          case 13001: // Đang xử lý normal gear
+            if (this.normalGearNumber > 1) {
+              this.normalGearNumber--;
+              this.wheelNow = 13001;
+            } else if (this.speacialGearNumber > 0) {
+              this.wheelNow = 13002; // Chuyển sang special nếu còn
+            } else {
+              this.wheelNow = 14; // Kết thúc
+            }
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
-          case 13002:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
-            this.wheelNow = 14;
+
+          case 13002: // Đang xử lý special gear
+            if (this.speacialGearNumber > 1) {
+              this.speacialGearNumber--;
+              this.wheelNow = 13002;
+            } else {
+              this.wheelNow = 14; // Kết thúc
+            }
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
           case 14:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
-            this.wheelNow = 15;
+            // Xử lý theo resultId để xác định số lần roll power
+            if (resultId === "PCS001") {
+              this.powerNumber = 0;
+            } else if (resultId === "PCS002") {
+              this.powerNumber = 1;
+            } else if (resultId === "PCS003") {
+              this.powerNumber = 2;
+            } else if (resultId === "PCS004") {
+              this.powerNumber = 3;
+            } else if (resultId === "PCS005") {
+              this.powerNumber = 4;
+            }
+
+            if (this.powerNumber > 0) {
+              this.wheelNow = 15; // Chuyển sang case 15 để roll power
+            } else {
+              this.resetWheel(); // Không cần roll
+            }
+
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
+
           case 15:
-            // this.resultAlliance.string = `<color=#FF4500>${resultName}</color>`;
-            // this.alliance = resultName;
-            this.resetWheel();
+            // Roll power cho đến khi hết số lượt
+            this.powerNumber--;
+            if (this.powerNumber > 0) {
+              this.wheelNow = 15; // Tiếp tục roll power
+            } else {
+              this.resetWheel(); // Kết thúc
+            }
+
+            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+            this.drawWheel();
             break;
           default:
             break;
@@ -976,10 +1019,14 @@ export class RaceWheelComponent extends Component {
     if (this.wheel) {
       this.wheel.eulerAngles = new Vec3(0, 0, 0);
     }
+    this.rizzler = false;
     this.wheelNow = 0;
     this.drawWheel();
     if (this.resultName) {
       this.resultName.string = "";
+    }
+    if (this.resultRaceName) {
+      this.resultRaceName.string = "";
     }
     if (this.resultAlliance) {
       this.resultAlliance.string = "";
@@ -991,6 +1038,31 @@ export class RaceWheelComponent extends Component {
 
     if (this.resultRizz) {
       this.resultRizz.string = "";
+    }
+
+    if (this.resultStr) {
+      this.resultStr.string = "";
+    }
+    if (this.resultSpd) {
+      this.resultSpd.string = "";
+    }
+    if (this.resultIq) {
+      this.resultIq.string = "";
+    }
+    if (this.resultBiq) {
+      this.resultBiq.string = "";
+    }
+    if (this.resultDur) {
+      this.resultDur.string = "";
+    }
+    if (this.resultMar) {
+      this.resultMar.string = "";
+    }
+    if (this.resultWM) {
+      this.resultWM.string = "";
+    }
+    if (this.nameInput) {
+      this.nameInput.string = "";
     }
   }
 
