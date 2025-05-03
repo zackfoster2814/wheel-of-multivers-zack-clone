@@ -987,13 +987,14 @@ export class RaceWheelComponent extends Component {
   }
 
   saveCharacter(
+    id: string,
     name: string,
     race: string,
     alliance: string,
     subrace: any,
     rizz?: number
   ) {
-    const character = { name, race, alliance, subrace, rizz };
+    const character = { id, name, race, alliance, subrace, rizz };
 
     console.log("Saved Character:", character);
 
