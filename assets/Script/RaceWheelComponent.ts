@@ -189,7 +189,10 @@ export class RaceWheelComponent extends Component {
     }
     // Bone Lineage
     else if (this.wheelNow === 10006) {
-      this.sections = this.raceSections;
+      const excludedIds = ["06", "12", "16", "23"];
+      this.sections = this.raceSections.filter(
+        (race) => excludedIds.indexOf(race.id) === -1
+      );
     }
 
     // Troll type
@@ -232,6 +235,11 @@ export class RaceWheelComponent extends Component {
       this.sections = this.cyberFusionSelections;
     }
 
+    // Cyborg Goblin Horde
+    else if (this.wheelNow === 100161) {
+      this.sections = this.cyborgGoblinHordeSelections;
+    }
+
     // Dragon type
     else if (this.wheelNow === 10018) {
       this.sections = this.dragonSelections;
@@ -240,6 +248,15 @@ export class RaceWheelComponent extends Component {
     // Angel Ranks
     else if (this.wheelNow === 10020) {
       this.sections = this.angelRanksSelections;
+    }
+
+    // Demi-god gift
+    else if (this.wheelNow === 10021) {
+      this.sections = this.demiGodGiftsSelections;
+    } else if (this.wheelNow === 100211) {
+      this.sections = this.greekGodGiftsSelections;
+    } else if (this.wheelNow === 100212) {
+      this.sections = this.ancientGodGiftsSelections;
     }
 
     // Primordial Being element type
@@ -261,10 +278,18 @@ export class RaceWheelComponent extends Component {
     else if (this.wheelNow === 10025) {
       this.sections = this.demonSinsSelections;
     }
+    // Tsuki blessing
+    else if (this.wheelNow === 100251) {
+      this.sections = this.tsukiBlessingSelections;
+    }
 
     // God name
     else if (this.wheelNow === 10026) {
       this.sections = this.godsSelections;
+    }
+    // god following
+    else if (this.wheelNow === 100261) {
+      this.sections = this.followerCountsSelections;
     }
 
     // ---- End Sub race wheel ----
@@ -488,7 +513,7 @@ export class RaceWheelComponent extends Component {
               this.wheel.eulerAngles = new Vec3(0, 0, 0);
               this.drawWheel();
             }
-            // Bone Lineage Wheel
+            // Bone Lineage Wheel - Skeleton
             else if (this.character.raceId === "06") {
               this.wheelNow = 10006;
               this.wheel.eulerAngles = new Vec3(0, 0, 0);
@@ -552,6 +577,12 @@ export class RaceWheelComponent extends Component {
             // Angle Wheel
             else if (this.character.raceId === "20") {
               this.wheelNow = 10020;
+              this.wheel.eulerAngles = new Vec3(0, 0, 0);
+              this.drawWheel();
+            }
+            // Demi-god Wheel
+            else if (this.character.raceId === "21") {
+              this.wheelNow = 10021;
               this.wheel.eulerAngles = new Vec3(0, 0, 0);
               this.drawWheel();
             }
@@ -635,7 +666,7 @@ export class RaceWheelComponent extends Component {
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
             break;
-          case 10006:
+          case 10006: // skeleton
             this.character.subraceId = resultId;
             this.character.subraceName = resultName;
             this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
@@ -700,6 +731,18 @@ export class RaceWheelComponent extends Component {
             this.character.subraceId = resultId;
             this.character.subraceName = resultName;
             this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
+            if (this.character.subraceId === "CFS002") {
+              this.wheelNow = 100161;
+            } else {
+              this.wheelNow = 2;
+            }
+            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+            this.drawWheel();
+            break;
+          case 100161:
+            this.character.subraceId = resultId;
+            this.character.subraceName = resultName;
+            this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
             this.wheelNow = 2;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.drawWheel();
@@ -716,6 +759,34 @@ export class RaceWheelComponent extends Component {
             this.character.subraceId = resultId;
             this.character.subraceName = resultName;
             this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
+            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+            this.wheelNow = 2;
+            this.drawWheel();
+            break;
+          case 10021: // Demi-god Gif
+            // this.character.subraceId = resultId;
+            // this.character.subraceName = resultName;
+            // this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
+            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+            if (resultId === "DGS001") {
+              this.wheelNow = 100211;
+            } else if (resultId === "DGS002") {
+              this.wheelNow = 100212;
+            }
+            this.drawWheel();
+            break;
+          case 100211: // greek god
+            // this.character.subraceId = resultId;
+            // this.character.subraceName = resultName;
+            // this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
+            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+            this.wheelNow = 2;
+            this.drawWheel();
+            break;
+          case 100212: // Acient God
+            // this.character.subraceId = resultId;
+            // this.character.subraceName = resultName;
+            // this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.wheelNow = 2;
             this.drawWheel();
@@ -749,6 +820,11 @@ export class RaceWheelComponent extends Component {
             this.character.subraceName = resultName;
             this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
+            this.wheelNow = 100251;
+            this.drawWheel();
+            break;
+          case 100251:
+            this.wheel.eulerAngles = new Vec3(0, 0, 0);
             this.wheelNow = 2;
             this.drawWheel();
             break;
@@ -757,7 +833,12 @@ export class RaceWheelComponent extends Component {
             this.character.subraceName = resultName;
             this.resultSubrace.string = `<color=#FF4500>${this.character.subraceName}</color>`;
             this.wheel.eulerAngles = new Vec3(0, 0, 0);
-            this.wheelNow = 2;
+            this.wheelNow = 100261;
+            this.drawWheel();
+            break;
+          case 100261:
+            this.wheel.eulerAngles = new Vec3(0, 0, 0);
+            this.wheelNow = 100262;
             this.drawWheel();
             break;
           case 2:
